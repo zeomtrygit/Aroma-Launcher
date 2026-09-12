@@ -1,0 +1,3514 @@
+         w __fini_wut_socket
+         w __init_wut_socket
+         w __syscall_tls_create
+         w __syscall_tls_delete
+         w __syscall_tls_get
+         w __syscall_tls_set
+02000000 T __rpx_start
+02000038 t init_wut
+02000060 T __init
+02000084 00000024 T std::terminate()
+020000a8 00000024 T std::unexpected()
+020000cc 00000034 W __gnu_cxx::__throw_concurrence_lock_error()
+02000100 00000034 W __gnu_cxx::__throw_concurrence_unlock_error()
+02000134 00000034 W __gnu_cxx::__throw_concurrence_broadcast_error()
+02000168 00000058 T std::__throw_logic_error(char const*)
+020001c0 00000058 T std::__throw_length_error(char const*)
+02000218 00000058 T std::__throw_out_of_range(char const*)
+02000270 00000010 T std::__throw_out_of_range_fmt(char const*, ...)
+02000280 000001e8 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_cold(char*, unsigned int, char const*, unsigned int, unsigned int)
+02000468 00000058 T __cxa_call_terminate
+020004c0 0000002c T abort
+020004ec 000000d8 t _GLOBAL__sub_D_WIIU_SWKBD_Initialize
+020005e4 00000014 t _GLOBAL__sub_D__ZN9__gnu_cxx9__freeresEv
+020005f8 00000040 t _GLOBAL__sub_D__ZN17__eh_globals_init7_S_initE
+02000638 0000003c T exit
+02000674 000033f8 T main
+02003b2c 000000b0 t _GLOBAL__sub_I_WIIU_SWKBD_Initialize
+02003bdc 00000030 t _GLOBAL__sub_I_MixSoundBuffer
+02003c0c 00000258 t _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
+02003e64 00000040 t _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE
+02003ea4 0000000c t register_fini
+02003eb0 t __do_global_dtors_aux
+02003f7c t frame_dummy
+02003fa0 000000a4 t refreshFastWorkBufferPointers()
+02004044 00000038 t itemsOnPage(unsigned int, int)
+0200407c 00000280 t respawnWaterBubble(WaterBubble&, bool)
+020042fc 000002b0 t drawBackgroundVerticalSpan(OSScreenID, int, int, int, unsigned int)
+020045ac 00000180 t browserGeometryFor(OSScreenID, bool)
+0200472c 000000a8 t changePageAnimated(BrowserMode, BrowserState&, unsigned int, int, long long)
+020047d4 0000014c t animationProgress(long long, long long, unsigned int)
+02004930 0000005c t canDraw()
+0200499c 0000006c t releaseForegroundBuffers(void*)
+02004a28 0000004c t confirmationButtonAt(int, int)
+02004a74 000000cc t detectOSScreenWorkBufferIndex(OSScreenID, void*, unsigned int) [clone .part.0]
+02004b60 0000006c t presentScreens() [clone .part.0]
+02004bec 0000005c t pauseBackgroundMusic()
+02004c48 0000005c t resumeBackgroundMusic()
+02004ca4 00000220 t drawScaledIcon(OSScreenID, IconImage const&, int, int, int, unsigned int) [clone .part.0]
+02004ec4 00000188 t roundedSpanForRow(int, int, int, int, int, int, int&, int&) [clone .constprop.0]
+0200504c 000002d8 t initializeAnimatedBackground() [clone .part.0]
+02005324 000000e8 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::rfind(char const*, unsigned int) const [clone .isra.0]
+0200540c 00000020 t __tcf_ZZL14builtInRPXIconvE4icon
+0200542c 00000020 t __tcf_ZZL14builtInELFIconvE4icon
+0200544c 00000138 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [clone .isra.0]
+02005584 000000b4 t AppEntry::operator=(AppEntry&&) [clone .isra.0]
+02005638 00000114 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0]
+0200574c 0000023c t trimCopy(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+02005988 00000024 t __tcf_ZZL13extractXmlTagRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_E11CDATA_CLOSE
+020059ac 00000024 t __tcf_ZZL13extractXmlTagRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_E10CDATA_OPEN
+020059d0 000001f8 t acquireForegroundBuffers(void*) [clone .part.0]
+02005c18 0000001c t acquireForegroundBuffers(void*)
+02005c34 000001f0 t horatioSafeText(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+02005e24 000002a0 t replaceAll(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .part.0]
+020060c4 00000200 t currentSelectionVisualSlot(BrowserMode, int, int, long long)
+020062d4 000002e0 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .isra.0]
+020065b4 00000138 t horatioTextWidth(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)
+020066ec 00000148 t moveSelectionAnimated(BrowserMode, BrowserState&, unsigned int, int, long long)
+02006834 00000074 t normalizeBrowserState(BrowserState&, unsigned int)
+020068a8 00000138 t toLowerCopy(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+020069e0 00000188 t endsWithExtension(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+02006b68 00000250 t collapseWhitespaceCopy(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+02006db8 0000020c t sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#3}::operator()(AppEntry const&, AppEntry const&) const [clone .isra.0]
+02006fc4 0000020c t sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#1}::operator()(AppEntry const&, AppEntry const&) const [clone .isra.0]
+020071d0 000003b4 t drawHoratioTextAA(OSScreenID, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, unsigned int, unsigned int) [clone .isra.0]
+02007584 00000080 t drawHoratioShadowed(OSScreenID, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, unsigned int) [clone .constprop.0]
+02007604 00000184 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::assign(char const*) [clone .isra.0]
+02007788 000004cc t drawHorizontalSpan(OSScreenID, int, int, int, unsigned int)
+02007c54 00000180 t drawFilledEllipse(OSScreenID, int, int, int, int, unsigned int) [clone .part.0]
+02007dd4 00000400 t drawPageArrow(OSScreenID, int, int, int, bool)
+020081d4 00000180 t drawRoundedRect(OSScreenID, int, int, int, int, int, unsigned int)
+02008354 000008c8 t drawStaticBackground(OSScreenID)
+02008c1c 00000254 t drawRoundedOutline(OSScreenID, int, int, int, int, int, int, unsigned int)
+02008e70 0000068c t drawIconPlaceholder(OSScreenID, int, int, int, unsigned int)
+020094fc 0000095c t extractXmlTag(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+02009e58 0000009c W bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+02009ef4 000000c0 W AppEntry::~AppEntry()
+02009ef4 000000c0 W AppEntry::~AppEntry()
+02009fb4 0000001c W std::_Vector_base<unsigned int, std::allocator<unsigned int> >::~_Vector_base()
+02009fb4 0000001c W std::_Vector_base<unsigned int, std::allocator<unsigned int> >::~_Vector_base()
+02009fd0 000000bc W void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<true>(char const*, unsigned int)
+0200a08c 000004d0 t ellipsizeHoratio(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int)
+0200a55c 000006b4 t drawNoAppsConfirmationForScreen(OSScreenID, bool, int)
+0200ac10 00000654 t drawModalForScreen(OSScreenID, bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0200b264 0000001c W std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base()
+0200b264 0000001c W std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base()
+0200b280 0000009c W std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+0200b280 0000009c W std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+0200b31c 00000108 W std::vector<AppEntry, std::allocator<AppEntry> >::~vector()
+0200b31c 00000108 W std::vector<AppEntry, std::allocator<AppEntry> >::~vector()
+0200b424 000001f0 W std::vector<unsigned int, std::allocator<unsigned int> >::_M_default_append(unsigned int)
+0200b614 00000104 t decodeBuiltInFormatIcon(unsigned char const*, unsigned int) [clone .constprop.0]
+0200b718 000001d0 t displayIconForApp(AppEntry const&)
+0200b8e8 000006dc t drawConfirmationForScreen(OSScreenID, bool, AppEntry const&, int)
+0200bfc4 000006bc t drawPageCards(OSScreenID, bool, BrowserMode, std::vector<AppEntry, std::allocator<AppEntry> > const&, int, int, int, int, BrowserGeometry const&) [clone .isra.0]
+0200c680 00000d04 t drawBrowserForScreen(OSScreenID, bool, BrowserMode, std::vector<AppEntry, std::allocator<AppEntry> > const&, BrowserState const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0200d394 000000f4 t showStatusNow(BrowserMode, std::vector<AppEntry, std::allocator<AppEntry> > const&, BrowserState const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0200d498 00000074 W std::_UninitDestroyGuard<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, void>::~_UninitDestroyGuard()
+0200d498 00000074 W std::_UninitDestroyGuard<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, void>::~_UninitDestroyGuard()
+0200d50c 00000290 W AppEntry::AppEntry(AppEntry&&)
+0200d50c 00000290 W AppEntry::AppEntry(AppEntry&&)
+0200d79c 000001e8 t AppEntry& std::vector<AppEntry, std::allocator<AppEntry> >::emplace_back<AppEntry>(AppEntry&&) [clone .isra.0]
+0200d984 000025e0 t scanDirectory(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<AppEntry, std::allocator<AppEntry> >&, std::vector<AppEntry, std::allocator<AppEntry> >&, std::vector<AppEntry, std::allocator<AppEntry> >&, bool)
+0200ff64 000008f0 t void std::__insertion_sort<__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#1}>(__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, __gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#1})
+02010854 00000808 t void std::__insertion_sort<__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#3}>(__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, __gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#3})
+0201105c 00000060 W void std::swap<AppEntry>(AppEntry&, AppEntry&)
+0201105c 00000060 W void std::swap<AppEntry>(AppEntry&, AppEntry&) requires ((!std::__is_tuple_like<AppEntry>::value)&&(is_move_constructible_v<AppEntry>))&&(is_move_assignable_v<AppEntry>)
+020110bc 00000d50 t void std::__introsort_loop<__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, int, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#1}>(__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, __gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, int, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#1}) [clone .isra.0]
+02011e0c 00000d50 t void std::__introsort_loop<__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, int, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#3}>(__gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, __gnu_cxx::__normal_iterator<AppEntry*, std::vector<AppEntry, std::allocator<AppEntry> > >, int, sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)::{lambda(AppEntry const&, AppEntry const&)#3}) [clone .isra.0]
+02012b5c 00000898 t sortAndDeduplicateList(std::vector<AppEntry, std::allocator<AppEntry> >&)
+020133f4 000002dc t rescanAppLists(std::vector<AppEntry, std::allocator<AppEntry> >&, std::vector<AppEntry, std::allocator<AppEntry> >&, std::vector<AppEntry, std::allocator<AppEntry> >&)
+020136d0 0000002c T RPXLoader_GetStatusStr
+020136fc 00000008 T RPXLoader_DeInitLibrary
+02013704 00000150 T RPXLoader_GetVersion
+02013884 00000524 T RPXLoader_InitLibrary
+02013dd8 00000040 T RPXLoader_LaunchHomebrew
+02013e18 00000008 T WUHBUtils_DeInitLibrary
+02013e20 00000154 T WUHBUtils_GetVersion
+02013fa4 000004a0 T WUHBUtils_InitLibrary
+02014474 00000080 T WUHBUtils_MountBundle
+020144f4 00000080 T WUHBUtils_UnmountBundle
+02014574 00000080 T WUHBUtils_FileOpen
+020145f4 00000080 T WUHBUtils_FileRead
+02014674 00000084 T WUHBUtils_FileClose
+020146f8 00000080 T WUHBUtils_GetRPXInfo
+02014778 00000230 T WUHBUtils_ReadWholeFile
+020149a8 00000110 t Mix_DoEffects
+02014ab8 000000b0 t _Mix_channel_done_playing
+02014b68 000004f8 t mix_channels
+02015060 000000ec T add_chunk_decoder
+0201514c 000000a0 T Mix_Playing
+020151ec 00000094 t Mix_HaltChannel_locked
+02015280 00000104 T _Mix_UnregisterAllEffects_locked
+02015384 000001a0 T Mix_CloseAudio
+02015524 00000214 T Mix_OpenAudioDevice
+02015738 0000000c T Mix_OpenAudio
+02015744 0000000c T Mix_LockAudio
+02015750 0000000c T Mix_UnlockAudio
+0201575c 00000070 t music_internal_halt
+020157cc 0000008c t music_internal_playing
+02015858 000000ec t add_music_decoder
+02015944 00000450 t open_music_type.part.0
+02015d94 0000000c T meta_tags_init
+02015da0 0000005c T meta_tags_clear
+02015dfc 00000098 T meta_tags_set
+02015e94 00000024 T meta_tags_get
+02015eb8 00000170 T music_pcm_getaudio
+02016028 0000025c T music_mixer
+02016284 00000120 T load_music_type
+020163a4 0000014c T open_music
+020164f0 000001dc T detect_music_type
+020166cc 00000264 T Mix_LoadMUSType_RW
+02016930 0000000c T Mix_LoadMUS_RW
+0201693c 00000100 T Mix_FreeMusic
+02016a3c 000002b8 T Mix_FadeInMusicPos
+02016cf4 00000010 T Mix_PlayMusic
+02016d04 000000b8 T Mix_VolumeMusic
+02016dbc 00000054 T Mix_HaltMusic
+02016e10 0000006c T Mix_PauseMusic
+02016e7c 0000006c T Mix_ResumeMusic
+02016ee8 000000dc T Mix_SetMusicCMD
+02016fc4 00000100 T close_music
+020170c4 0000000c T Mix_GetTimidityCfg
+020170d0 000000c8 t MODPLUG_Load
+02017198 0000001c t MODPLUG_Unload
+020171b4 00000120 t MODPLUG_Open
+020172d4 0000001c t MODPLUG_SetVolume
+020172f0 00000008 t MODPLUG_GetVolume
+020172f8 00000040 t MODPLUG_Play
+02017338 00000034 t MODPLUG_Jump
+0201736c 00000050 t MODPLUG_Seek
+020173bc 00000070 t MODPLUG_Tell
+0201742c 0000005c t MODPLUG_Duration
+02017488 00000070 t MODPLUG_Delete
+020174f8 000001d4 T MODPLUG_CreateFromRW
+020176cc 00000008 t MODPLUG_Stop
+020176d4 00000008 t MODPLUG_GetMetaTag
+020176dc 00000010 t MODPLUG_GetAudio
+020176ec 00000120 t MODPLUG_GetSome
+0201780c 00000110 t MPG123_Load
+0201791c 0000001c t MPG123_Unload
+02017938 00000004 t rwops_cleanup
+0201793c 00000008 t MPG123_SetVolume
+02017944 00000008 t MPG123_GetVolume
+0201794c 00000078 t MPG123_Duration
+020179c4 00000010 t MPG123_Close
+020179d4 000000b8 t MPG123_Delete
+02017a8c 00000008 t MPG123_Stop
+02017a94 00000008 t MPG123_GetMetaTag
+02017a9c 0000004c t MPG123_Open
+02017ae8 00000010 t MPG123_GetAudio
+02017af8 00000004 t rwops_seek
+02017afc 0000000c t rwops_read
+02017b08 000000f0 t MPG123_Seek
+02017bf8 000000fc t MPG123_Play
+02017cf4 00000108 t MPG123_Tell
+02017dfc 000002d4 t MPG123_GetSome
+020180d0 0000048c t MPG123_CreateFromRW
+0201855c 00000080 t bit_reverse
+020185dc 00000028 t uint32_compare
+02018604 00000028 t point_compare
+0201862c 00000180 t imdct_step3_iter0_loop
+020187ac 00000198 t imdct_step3_inner_r_loop
+02018944 00000278 t vorbis_finish_frame
+02018bbc 00000008 t OGG_SetVolume
+02018bc4 00000008 t OGG_GetVolume
+02018bcc 00000070 t OGG_Tell
+02018c3c 00000058 t OGG_Duration
+02018c94 00000038 t setup_temp_free
+02018ccc 00000070 t get8
+02018d3c 00000044 t setup_temp_malloc
+02018d80 0000005c t setup_malloc
+02018ddc 00000060 t float32_unpack
+02018e3c 00000008 t OGG_Stop
+02018e44 00000008 t OGG_GetMetaTag
+02018e4c 00000010 t OGG_GetAudio
+02018e5c 00000138 t OGG_UpdateSection
+02018f94 000000f8 t ilog
+0201908c 00000070 t OGG_LoopStart
+020190fc 00000070 t OGG_LoopEnd
+0201916c 00000070 t OGG_LoopLength
+020191dc 0000021c t set_ov_error.isra.0
+020193f8 000000bc t set_file_offset.isra.0
+020194b4 0000017c t get_seek_page_info
+02019630 0000051c t vorbis_deinit
+02019b4c 000000b8 t OGG_Delete
+02019c04 00000160 t get32
+02019d64 000003ac t vorbis_find_page
+0201a110 00000344 t start_page_no_capturepattern
+0201a454 00000158 t start_page
+0201a5ac 000000dc t next_segment
+0201a688 000000b0 t get8_packet_raw
+0201a738 00000240 t codebook_decode_scalar_raw
+0201a978 00000198 t codebook_decode_start
+0201ab10 00000090 t get32_packet
+0201aba0 0000011c t get_bits
+0201acbc 00000368 t codebook_decode_deinterleave_repeat
+0201b024 00002918 t vorbis_decode_packet_rest.constprop.0
+0201d93c 0000008c t start_packet
+0201d9c8 00000680 t init_blocksize
+0201e048 000001e4 t maybe_start_packet
+0201e22c 000002f0 t vorbis_decode_initial
+0201e51c 000000b0 t vorbis_decode_packet
+0201e5cc 0000009c t vorbis_pump_first_frame
+0201e668 00002290 t start_decoder
+020208f8 000001d8 T stb_vorbis_stream_length_in_samples
+02020ad0 000008f0 T stb_vorbis_seek_frame
+020213c0 00000148 T stb_vorbis_get_frame_float
+02021508 00000140 t OGG_Seek
+02021648 0000014c t OGG_Play
+02021794 00000174 T stb_vorbis_open_rwops_section
+02021908 00000510 t OGG_CreateFromRW
+02021e18 000001d0 T stb_vorbis_get_samples_float_interleaved
+02021fe8 0000027c t OGG_GetSome
+02022264 00000008 t TIMIDITY_GetVolume
+0202226c 0000005c t TIMIDITY_Delete
+020222c8 00000004 t TIMIDITY_Close
+020222cc 00000008 t TIMIDITY_Stop
+020222d4 0000004c t TIMIDITY_Duration
+02022320 0000004c t TIMIDITY_Tell
+0202236c 0000008c t TIMIDITY_Seek
+020223f8 00000010 t TIMIDITY_GetAudio
+02022408 00000008 t TIMIDITY_IsPlaying
+02022410 00000044 t TIMIDITY_Play
+02022454 0000000c t TIMIDITY_SetVolume
+02022460 0000007c t TIMIDITY_Open
+020224dc 0000018c t TIMIDITY_GetSome
+02022668 000001bc T TIMIDITY_CreateFromRW
+02022824 00000008 t WAV_SetVolume
+0202282c 00000008 t WAV_GetVolume
+02022834 00000080 t WAV_Duration
+020228b4 00000090 t WAV_Delete
+02022944 00000008 t WAV_Stop
+0202294c 00000008 t WAV_GetMetaTag
+02022954 00000080 t WAV_Tell
+020229d4 00000100 t WAV_Seek
+02022ad4 000000a0 t WAV_Play
+02022b74 00000010 t WAV_GetAudio
+02022b84 00000308 t WAV_GetSome
+02022e8c 00000014 t fetch_pcm
+02022ea0 00000118 t fetch_pcm24le
+02022fb8 000000dc t fetch_float64be
+02023094 00000118 t fetch_pcm24be
+020231ac 000000f4 t fetch_float64le
+020232a0 000000d4 t ParseID3
+02023374 000000d8 t read_meta_field.constprop.0
+0202344c 00001088 t WAV_CreateFromRW
+020244d4 00000108 t fetch_alaw
+020245dc 00000118 t fetch_ulaw
+020246f4 00000038 T _Mix_InitEffects
+0202472c 00000004 T _Mix_DeinitEffects
+02024730 00000044 T _Mix_IsLoopTag
+02024774 0000024c T _Mix_ParseTime
+020249c0 00000088 t reset_midi
+02024a48 0000022c t recompute_freq
+02024c74 00000150 t recompute_amp
+02024dc4 000000d0 t adjust_volume
+02024e94 000000dc t do_compute_data
+02024f70 00000198 t compute_data
+02025108 00000390 t start_note
+02025498 00000108 t note_off
+020255a0 000000a8 T Timidity_Start
+02025648 0000000c T Timidity_Stop
+02025654 00000008 T Timidity_IsActive
+0202565c 000002f0 T Timidity_Seek
+0202594c 0000003c T Timidity_GetSongLength
+02025988 0000002c T Timidity_GetSongTime
+020259b4 000007f8 T Timidity_PlaySome
+020261ac 00000140 T Timidity_SetVolume
+020262ec 000000a0 t Timidity_FreeSong.part.0
+0202638c 000009d8 t read_config_file
+02026d64 000003f0 T Timidity_LoadSong
+02027154 0000000c T Timidity_FreeSong
+02027160 0000012c T Timidity_Exit
+0202728c 000000c0 t init_alloc_banks
+0202734c 00000090 t init_with_config
+020273dc 0000007c T Timidity_Init
+02027458 000000f0 t get_id3v2_len
+02027548 00000038 t get_ape_len
+02027580 000000a0 t is_id3v2
+02027620 000000ac t is_apetag
+020276cc 000000cc t parse_id3v1_ansi_string
+02027798 000002f8 t id3v2_decode_string
+02027a90 000000c8 t is_musicmatch.constprop.0
+02027b58 000001c4 t get_lyrics3v1_len
+02027d1c 0000072c t get_musicmatch_len
+02028448 000001a0 t probe_mmtag.constprop.0
+020285e8 00000704 t parse_ape
+02028cec 00000a90 t parse_id3v2
+0202977c 000000b8 T MP3_RWinit
+02029834 00000068 T MP3_RWread
+0202989c 0000010c T MP3_RWseek
+020299a8 00000bec T mp3_read_tags
+0202a594 000000d4 T read_id3v2_from_mem
+0202a668 000000ac T _Eff_PositionDeinit
+0202a714 000001cc T timi_openfile
+0202a8e0 0000009c T timi_add_pathlist
+0202a97c 0000006c T timi_free_pathlist
+0202a9e8 00000094 t free_instrument
+0202aa7c 00000b18 t load_instrument.constprop.0
+0202b594 00000234 t fill_bank
+0202b7c8 000000a8 T _timi_load_missing_instruments
+0202b870 000000c0 T _timi_free_instruments
+0202b930 00000068 T _timi_set_default_instrument
+0202b998 00000114 T _timi_recompute_envelope
+0202baac 000001a8 T _timi_apply_envelope_to_amp
+0202bc54 0000019c t update_signal
+0202bdf0 00000854 T _timi_mix_voice
+0202c644 00000050 T timi_s32tos8
+0202c694 0000005c T timi_s32tou8
+0202c6f0 00000050 T timi_s32tos16
+0202c740 0000005c T timi_s32tou16
+0202c79c 00000054 T timi_s32tos16x
+0202c7f0 00000060 T timi_s32tou16x
+0202c850 000000d8 T timi_s32tof32
+0202c928 00000068 T timi_s32tos32
+0202c990 0000006c T timi_s32tos32x
+0202c9fc 00000848 t read_track
+0202d244 00000914 T _timi_read_midi_file
+0202db58 000002a0 t update_vibrato
+0202ddf8 00000ad0 T _timi_resample_voice
+0202e8c8 00000410 T _timi_pre_resample
+0202ecd8 00000044 T SDL_InitMainThread
+0202ed1c 000002f8 T SDL_QuitSubSystem
+0202f014 000003a0 t SDL_InitSubSystem.part.0
+0202f3b4 00000024 T SDL_InitSubSystem
+0202f3d8 00000024 T SDL_Init
+0202f3fc 00000090 T SDL_WasInit
+0202f48c 0000000c T SDL_GetPlatform
+0202f498 00000180 T SDL_SetError
+0202f618 00000048 T SDL_GetError
+0202f660 00000028 T SDL_ClearError
+0202f688 00000084 T SDL_Error
+0202f70c 00000210 T SDL_SetHintWithPriority
+0202f91c 00000008 T SDL_SetHint
+0202f924 000000cc T SDL_GetHint
+0202f9f0 0000005c T SDL_GetStringBoolean
+0202fa4c 00000064 T SDL_GetHintBoolean
+0202fab0 000000f0 T SDL_DelHintCallback
+0202fba0 000001e4 T SDL_AddHintCallback
+0202fd84 00000104 t SDL_ParseLogPriority
+0202fe88 0000006c t SDL_LogOutput
+0202ff04 000001d8 t SDL_ParseLogCategoryPriority
+020300dc 00000038 T SDL_LogInit
+02030114 000000f4 T SDL_LogGetPriority
+02030208 00000218 T SDL_LogMessageV
+02030420 00000090 T SDL_Log
+020304b0 00000088 T SDL_LogDebug
+02030538 00000088 T SDL_LogInfo
+020305c0 00000088 T SDL_LogWarn
+02030648 00000088 T SDL_LogError
+020306d0 00000088 T SDL_LogCritical
+02030758 00000004 T SDL_AtomicCAS
+0203076c 00000004 T SDL_AtomicCASPtr
+02030780 00000004 T SDL_AtomicSet
+02030794 00000004 T SDL_AtomicSetPtr
+020307a8 00000004 T SDL_AtomicAdd
+020307bc 00000050 T SDL_AtomicGet
+0203081c 000000a4 T SDL_AtomicLock
+020308d0 0000000c T SDL_AtomicUnlock
+020308ec 00000004 t SDL_AudioThreadInit_Default
+020308f0 00000008 t SDL_AudioGetDeviceBuf_Default
+020308f8 00000008 t SDL_AudioCaptureFromDevice_Default
+02030900 00000004 t SDL_AudioDeinitialize_Default
+02030904 00000008 t SDL_AudioOpenDevice_Default
+0203090c 000000bc t free_device_list
+020309c8 00000200 t add_audio_device
+02030bc8 00000008 t SDL_BufferQueueFillCallback
+02030bd0 00000074 t SDL_BufferQueueDrainCallback
+02030c44 00000378 t SDL_RunAudio
+02030fbc 00000118 t close_audio_device
+020310d4 000000c8 t SDL_AudioQuit.part.0
+0203119c 00000004 t SDL_AudioFreeDeviceHandle_Default
+020311a0 0000005c t SDL_AudioLockDevice_Default
+020311fc 00000004 t SDL_AudioThreadDeinit_Default
+02031200 00000004 t SDL_AudioWaitDevice_Default
+02031204 00000004 t SDL_AudioPlayDevice_Default
+02031208 00000004 t SDL_AudioFlushCapture_Default
+0203120c 00000004 t SDL_AudioCloseDevice_Default
+02031210 0000005c t SDL_AudioUnlockDevice_Default
+0203126c 00000ce0 t open_audio_device
+02031f4c 000000bc T SDL_AddAudioDevice
+02032008 000000dc t SDL_AudioDetectDevices_Default
+020320e4 000000e4 T SDL_OpenedAudioDeviceDisconnected
+020321c8 000002c0 t SDL_CaptureAudio
+02032488 00000460 T SDL_AudioInit
+020328e8 00000008 T SDL_OpenAudioDevice
+020328f0 000000b8 T SDL_PauseAudioDevice
+020329a8 00000044 T SDL_LockAudioDevice
+020329ec 00000044 T SDL_UnlockAudioDevice
+02032a30 00000058 T SDL_CloseAudioDevice
+02032a88 00000014 T SDL_AudioQuit
+02032a9c 00000068 T SDL_CalculateAudioSpec
+02032b04 000000bc t SDL_ConvertMonoToStereo
+02032bc0 000000d0 t SDL_ConvertMonoTo21
+02032c90 000000dc t SDL_ConvertMonoToQuad
+02032d6c 00000084 t SDL_ConvertMonoTo41
+02032df0 00000088 t SDL_ConvertMonoTo51
+02032e78 0000008c t SDL_ConvertMonoTo61
+02032f04 00000090 t SDL_ConvertMonoTo71
+02032f94 000000cc t SDL_ConvertStereoToMono
+02033060 000000e8 t SDL_ConvertStereoTo21
+02033148 0000009c t SDL_ConvertStereoToQuad
+020331e4 000000a0 t SDL_ConvertStereoTo41
+02033284 000000a4 t SDL_ConvertStereoTo51
+02033328 000000a8 t SDL_ConvertStereoTo61
+020333d0 000000ac t SDL_ConvertStereoTo71
+0203347c 0000009c t SDL_Convert21ToMono
+02033518 000000b0 t SDL_Convert21ToStereo
+020335c8 000000dc t SDL_Convert21ToQuad
+020336a4 000000cc t SDL_Convert21To41
+02033770 000000d0 t SDL_Convert21To51
+02033840 000000d4 t SDL_Convert21To61
+02033914 000000d8 t SDL_Convert21To71
+020339ec 00000088 t SDL_ConvertQuadToMono
+02033a74 000000ac t SDL_ConvertQuadToStereo
+02033b20 000000b8 t SDL_ConvertQuadTo21
+02033bd8 000000a8 t SDL_ConvertQuadTo41
+02033c80 000000ac t SDL_ConvertQuadTo51
+02033d2c 000000e0 t SDL_ConvertQuadTo61
+02033e0c 000000b4 t SDL_ConvertQuadTo71
+02033ec0 000000b0 t SDL_Convert41ToMono
+02033f70 000000dc t SDL_Convert41ToStereo
+0203404c 000000d4 t SDL_Convert41To21
+02034120 000000cc t SDL_Convert41ToQuad
+020341ec 000000e0 t SDL_Convert41To51
+020342cc 00000114 t SDL_Convert41To61
+020343e0 000000e8 t SDL_Convert41To71
+020344c8 000000b4 t SDL_Convert51ToMono
+0203457c 000000ec t SDL_Convert51ToStereo
+02034668 000000e0 t SDL_Convert51To21
+02034748 000000e4 t SDL_Convert51ToQuad
+0203482c 000000d0 t SDL_Convert51To41
+020348fc 0000010c t SDL_Convert51To61
+02034a08 000000e4 t SDL_Convert51To71
+02034aec 000000cc t SDL_Convert61ToMono
+02034bb8 00000100 t SDL_Convert61ToStereo
+02034cb8 000000f4 t SDL_Convert61To21
+02034dac 00000108 t SDL_Convert61ToQuad
+02034eb4 000000fc t SDL_Convert61To41
+02034fb0 00000100 t SDL_Convert61To51
+020350b0 000000fc t SDL_Convert61To71
+020351ac 000000b0 t SDL_Convert71ToMono
+0203525c 000000f8 t SDL_Convert71ToStereo
+02035354 000000ec t SDL_Convert71To21
+02035440 000000f0 t SDL_Convert71ToQuad
+02035530 000000dc t SDL_Convert71To41
+0203560c 000000d8 t SDL_Convert71To51
+020356e4 000000dc t SDL_Convert71To61
+020357c0 00000418 t SDL_ResampleAudio
+02035bd8 0000009c t SDL_SupportedAudioFormat
+02035c74 00000014 t SDL_ResetAudioStreamResampler
+02035c88 000002a4 t SDL_Convert_Byteswap
+02035f2c 00000008 t SDL_CleanupAudioStreamResampler
+02035f34 000001d8 t SDL_ResampleCVT
+0203610c 0000000c t SDL_ResampleCVT_c8
+02036118 0000000c t SDL_ResampleCVT_c6
+02036124 0000000c t SDL_ResampleCVT_c4
+02036130 0000000c t SDL_ResampleCVT_c2
+0203613c 0000000c t SDL_ResampleCVT_c1
+02036148 000000a8 t SDL_ResampleAudioStream
+020361f0 00000368 t SDL_AudioStreamPutInternal
+02036558 00000a74 T SDL_BuildAudioCVT
+02036fcc 00000224 T SDL_AudioStreamPut
+020371f0 00000160 T SDL_AudioStreamFlush
+02037350 0000007c T SDL_AudioStreamGet
+020373cc 00000010 T SDL_AudioStreamAvailable
+020373dc 00000084 T SDL_AudioStreamClear
+02037460 00000070 T SDL_FreeAudioStream
+020374d0 00000354 T SDL_NewAudioStream
+02037824 00000138 t SDL_Convert_S8_to_F32_Scalar
+0203795c 0000012c t SDL_Convert_U8_to_F32_Scalar
+02037a88 0000013c t SDL_Convert_S16_to_F32_Scalar
+02037bc4 0000016c t SDL_Convert_U16_to_F32_Scalar
+02037d30 00000148 t SDL_Convert_S32_to_F32_Scalar
+02037e78 000000ec t SDL_Convert_F32_to_S8_Scalar
+02037f64 000000e8 t SDL_Convert_F32_to_U8_Scalar
+0203804c 000000ec t SDL_Convert_F32_to_S16_Scalar
+02038138 00000130 t SDL_Convert_F32_to_U16_Scalar
+02038268 000000d4 t SDL_Convert_F32_to_S32_Scalar
+0203833c 000000cc T SDL_ChooseAudioConverters
+02038408 000005d0 T SDL_MixAudioFormat
+020389d8 00000088 t SDL_EventLoggingChanged
+02038a60 000000e8 t SDL_CutEvent
+02038b48 000015d0 t SDL_LogEvent
+0203a118 00000048 t SDL_AutoUpdateSensorsChanged
+0203a160 00000548 t SDL_PeepEventsInternal
+0203a6a8 0000005c t SDL_AutoUpdateJoysticksChanged
+0203a704 00000204 T SDL_StopEventLoop
+0203a908 00000008 T SDL_PeepEvents
+0203a910 00000098 T SDL_FlushEvents
+0203a9a8 00000008 T SDL_FlushEvent
+0203a9b0 00000224 T SDL_PushEvent
+0203abd4 000000ac T SDL_AddEventWatch
+0203ac80 00000160 T SDL_DelEventWatch
+0203ade0 000000a8 T SDL_FilterEvents
+0203ae88 000001e4 T SDL_EventState
+0203b06c 000000c0 T SDL_StartEventLoop
+0203b12c 00000038 t SDL_PollSentinelChanged
+0203b164 00000070 T SDL_SendAppEvent
+0203b1d4 00000084 T SDL_SendSysWMEvent
+0203b258 00000058 T SDL_SendKeymapChangedEvent
+0203b2b0 000000cc T SDL_EventsInit
+0203b37c 00000080 T SDL_EventsQuit
+0203b3fc 000001a0 t SDL_AddDollarGesture_one
+0203b59c 00000124 t dollarDifference
+0203b6c0 000000e8 t SDL_AddDollarGesture
+0203b7a8 000003c4 t dollarNormalize.isra.0
+0203bb6c 00000038 T SDL_GestureQuit
+0203bba4 000000c8 T SDL_GestureAddTouch
+0203bc6c 00000168 T SDL_GestureDelTouch
+0203bdd4 0000086c T SDL_GestureProcessEvent
+0203c640 0000036c t SDL_SendKeyboardKeyInternal
+0203c9ac 00000208 T SDL_SetKeymap
+0203cbb4 00000038 T SDL_KeyboardInit
+0203cbec 0000000c T SDL_GetKeyboardFocus
+0203cbf8 000001c0 T SDL_SetKeyboardFocus
+0203cdb8 00000014 T SDL_SendKeyboardKey
+0203cdcc 0000011c T SDL_SendKeyboardText
+0203cee8 00000004 T SDL_KeyboardQuit
+0203ceec 00000038 t SDL_MouseRelativeCursorVisibleChanged
+0203cf24 00000038 t SDL_MouseRelativeWarpMotionChanged
+0203cf5c 00000038 t SDL_TouchMouseEventsChanged
+0203cf94 00000038 t SDL_MouseRelativeSystemScaleChanged
+0203cfcc 00000068 t SDL_MouseTouchEventsChanged
+0203d034 0000006c t SDL_MouseRelativeSpeedScaleChanged
+0203d0a0 0000006c t SDL_MouseNormalSpeedScaleChanged
+0203d10c 00000054 t SDL_MouseDoubleClickRadiusChanged
+0203d160 00000054 t SDL_MouseDoubleClickTimeChanged
+0203d1b4 000000fc t GetScaledMouseDelta
+0203d2b0 00000a38 t SDL_PrivateSendMouseMotion
+0203dce8 00000140 T SDL_MousePreInit
+0203de28 0000000c T SDL_GetMouse
+0203de34 0000000c T SDL_GetMouseFocus
+0203de40 000000cc T SDL_GetMouseState
+0203df0c 000000c4 T SDL_PerformWarpMouseInWindow
+0203dfd0 00000008 T SDL_WarpMouseInWindow
+0203dfd8 00000230 T SDL_UpdateMouseCapture
+0203e208 0000005c t SDL_MouseAutoCaptureChanged
+0203e264 00000090 T SDL_CaptureMouse
+0203e2f4 00000164 T SDL_CreateColorCursor
+0203e458 000000d8 T SDL_SetCursor
+0203e530 00000124 T SDL_SetDefaultCursor
+0203e654 000000a4 T SDL_MousePostInit
+0203e6f8 00000088 T SDL_SetMouseFocus
+0203e780 000001ec T SDL_SetRelativeMouseMode
+0203e96c 000001b0 t SDL_UpdateMouseFocus.isra.0
+0203eb1c 00000680 t SDL_PrivateSendMouseButton
+0203f19c 00000008 T SDL_SendMouseButton
+0203f1a4 000000b0 T SDL_SendMouseMotion
+0203f254 00000128 T SDL_FreeCursor
+0203f37c 00000210 T SDL_MouseQuit
+0203f58c 00000064 t SDL_HandleSIG
+0203f5f0 000000a0 T SDL_QuitInit
+0203f690 0000007c T SDL_QuitQuit
+0203f70c 00000014 T SDL_SendQuit
+0203f720 00000008 T SDL_TouchInit
+0203f728 000000dc T SDL_GetTouch
+0203f804 00000158 t SDL_DelTouch.part.0
+0203f95c 000001c4 T SDL_AddTouch
+0203fb20 000006c8 T SDL_SendTouch
+020401e8 000003a0 T SDL_SendTouchMotion
+02040588 00000090 T SDL_TouchQuit
+02040618 0000005c t RemovePendingSizeChangedAndResizedEvents
+02040674 00000040 t RemovePendingExposedEvents
+020406b4 00000040 t RemovePendingMoveEvents
+020406f4 00000590 T SDL_SendWindowEvent
+02040c84 000000b4 t stdio_size
+02040d38 00000014 t mem_size
+02040d4c 000000a4 t mem_seek
+02040df0 00000030 t mem_writeconst
+02040e20 000000d0 t stdio_seek
+02040ef0 0000009c t mem_read
+02040f8c 00000090 t stdio_close
+0204101c 00000034 t mem_close
+02041050 00000084 t stdio_read
+020410d4 00000084 t stdio_write
+02041158 00000190 T SDL_RWFromFile
+020412e8 00000110 T SDL_RWFromConstMem
+020413f8 00000210 T SDL_LoadFile_RW
+02041608 00000040 T SDL_LoadFile
+02041648 0000000c T SDL_RWsize
+02041654 0000000c T SDL_RWseek
+02041660 00000018 T SDL_RWtell
+02041678 0000000c T SDL_RWread
+02041684 0000000c T SDL_RWwrite
+02041690 0000000c T SDL_RWclose
+0204169c 00000040 T SDL_ReadBE16
+020416dc 00000044 T SDL_ReadLE32
+02041720 00000040 T SDL_ReadBE32
+02041760 0000003c T SDL_WriteLE16
+0204179c 0000003c T SDL_WriteLE32
+020417d8 0000002c T SDL_HapticInit
+02041804 00000080 T SDL_HapticDestroyEffect
+02041884 00000144 T SDL_HapticClose
+020419c8 00000048 T SDL_HapticQuit
+02041a10 00000218 t SDL_PrivateMatchControllerMappingForGUID
+02041c28 000001d8 t SDL_PrivateAppendToMappingString.part.0.constprop.0
+02041e00 00000114 t SDL_PrivateGameControllerButton.isra.0
+02041f14 000000b8 T SDL_GetGameControllerTypeFromString
+02041fcc 000000bc T SDL_GameControllerGetAxisFromString
+02042088 000003c4 t SDL_PrivateGameControllerParseElement
+0204244c 00000344 t SDL_PrivateLoadButtonMapping
+02042790 00000434 t SDL_PrivateAddMappingForGUID
+02042bc4 000002e0 t SDL_PrivateGameControllerAddMapping
+02042ea4 0000045c t SDL_CreateMappingForHIDAPIController
+02043300 00000084 t SDL_CreateMappingForRAWINPUTController
+02043384 00000098 t SDL_CreateMappingForWGIController
+0204341c 00000210 t SDL_PrivateGetControllerMappingForGUID
+0204362c 00000554 t SDL_PrivateGetControllerMapping.part.0
+02043b80 0000026c T SDL_GameControllerAddMappingsFromRW
+02043dec 00000198 T SDL_GameControllerInitMappings
+02043f84 000000d0 T SDL_GameControllerInit
+02044054 00000094 T SDL_IsGameController
+020440e8 000002b0 T SDL_GameControllerGetAxis
+02044398 00000220 T SDL_GameControllerGetButton
+020445b8 00000968 t SDL_GameControllerEventWatcher
+02044f20 000000e8 T SDL_GameControllerClose
+02045008 0000005c T SDL_GameControllerQuit
+02045064 00000094 T SDL_GameControllerQuitMappings
+020450f8 00000038 t SDL_JoystickAllowBackgroundEventsChanged
+02045130 000000dc t SDL_GetDriverAndJoystickIndex
+0204520c 00000260 t UpdateEventsForDeviceRemoval
+0204546c 00000164 t SDL_LoadVIDPIDListFromHint
+020455d0 00000060 T SDL_LockJoysticks
+02045630 0000009c T SDL_UnlockJoysticks
+020456cc 00000004 T SDL_AssertJoysticksLocked
+020456d0 00000090 T SDL_NumJoysticks
+02045760 00000010 T SDL_GetNextJoystickInstanceID
+02045770 0000002c T SDL_PrivateJoystickValid
+0204579c 000000b0 T SDL_PrivateJoystickGetAutoGamepadMapping
+0204584c 00000118 T SDL_JoystickGetAxis
+02045964 00000110 T SDL_JoystickGetHat
+02045a74 00000110 T SDL_JoystickGetButton
+02045b84 000001c8 T SDL_JoystickRumble
+02045d4c 0000017c T SDL_JoystickRumbleTriggers
+02045ec8 00000200 T SDL_JoystickClose
+020460c8 00000204 T SDL_PrivateJoystickAxis
+020462cc 00000104 T SDL_PrivateJoystickHat
+020463d0 00000184 T SDL_PrivateJoystickButton
+02046554 00000128 T SDL_JoystickEventState
+0204667c 0000010c T SDL_GetJoystickGUIDInfo
+02046788 000000ec T SDL_CreateJoystickGUIDForName
+02046874 0000000c T SDL_SetJoystickGUIDVersion
+02046880 0000000c T SDL_SetJoystickGUIDCRC
+0204688c 0000029c T SDL_GetJoystickGameControllerTypeFromVIDPID
+02046b28 000000c0 T SDL_GetJoystickGameControllerTypeFromGUID
+02046be8 00000098 T SDL_JoystickGUIDUsesVersion
+02046c80 0000003c T SDL_IsJoystickXboxOneElite
+02046cbc 0000015c T SDL_IsJoystickXboxSeriesX
+02046e18 00000020 T SDL_IsJoystickDualSenseEdge
+02046e38 00000020 T SDL_IsJoystickNintendoSwitchJoyConPair
+02046e58 00000030 T SDL_IsJoystickSteamController
+02046e88 00000014 T SDL_IsJoystickWGI
+02046e9c 00000014 T SDL_IsJoystickHIDAPI
+02046eb0 00000014 T SDL_IsJoystickRAWINPUT
+02046ec4 00000014 T SDL_IsJoystickVirtual
+02046ed8 00000138 T SDL_JoystickGetDeviceGUID
+02047010 000001c4 T SDL_JoystickGetDeviceIndexFromInstanceID
+020471d4 0000007c T SDL_GetJoystickInstanceVirtualGamepadInfo
+02047250 00000160 T SDL_JoystickNameForIndex
+020473b0 000000ec T SDL_JoystickName
+0204749c 000002d0 t SDL_SetJoystickIDForPlayerIndex.isra.0
+0204776c 000001a0 T SDL_PrivateJoystickAdded
+0204790c 00000140 T SDL_JoystickGetGUID
+02047a4c 00000030 T SDL_JoystickGetGUIDFromString
+02047a7c 000003d0 T SDL_PrivateJoystickTouchpad
+02047e4c 00000184 T SDL_PrivateJoystickForceRecentering
+02047fd0 00000174 T SDL_PrivateJoystickRemoved
+02048144 00000138 T SDL_LoadVIDPIDListFromHints
+0204827c 0000005c t SDL_VIDPIDExcludedHintChanged
+020482d8 0000005c t SDL_VIDPIDIncludedHintChanged
+02048334 000000a4 T SDL_LoadVIDPIDList
+020483d8 000000a8 T SDL_FreeVIDPIDList
+02048480 00000184 T SDL_JoystickQuit
+02048604 0000017c T SDL_JoystickInit
+02048780 000000ac t SDL_FreeSteamVirtualGamepadInfo
+0204882c 00000154 t AddVirtualGamepadInfo
+02048980 00000030 T SDL_SteamVirtualGamepadEnabled
+020489b0 000003f4 T SDL_UpdateSteamVirtualGamepadInfo
+02048da4 0000005c T SDL_InitSteamVirtualGamepadInfo
+02048e00 0000006c T SDL_GetSteamVirtualGamepadInfo
+02048e6c 0000004c T SDL_QuitSteamVirtualGamepadInfo
+02048eb8 0000025c T GuessControllerType
+02049114 00000068 T SDL_SensorInit
+0204917c 000000f8 T SDL_SensorClose
+02049274 000000a4 T SDL_SensorQuit
+02049318 0000006c T SDL_crc16
+02049384 00000020 T SDL_getenv
+020493a4 000000fc t getlocale.constprop.0
+020494a0 00000144 T SDL_iconv_open
+020495e4 00000aa4 T SDL_iconv
+0204a088 00000208 T SDL_iconv_string
+0204a290 00000004 t real_free
+0204a294 00000004 t real_realloc
+0204a298 00000004 t real_calloc
+0204a29c 00000004 t real_malloc
+0204a2a0 00000054 T SDL_GetOriginalMemoryFunctions
+0204a2f4 00000068 T SDL_malloc
+0204a35c 00000078 T SDL_calloc
+0204a3d4 000000a0 T SDL_realloc
+0204a474 00000048 T SDL_free
+0204a4bc 0000000c T SDL_qsort
+0204a4c8 00000004 T SDL_atan2
+0204a4cc 00000004 T SDL_ceil
+0204a4d0 00000004 T SDL_cos
+0204a4d4 00000004 T SDL_exp
+0204a4d8 00000008 T SDL_fabs
+0204a4e0 00000004 T SDL_floor
+0204a4e4 00000004 T SDL_truncf
+0204a4e8 00000004 T SDL_log
+0204a4ec 00000004 T SDL_pow
+0204a4f0 00000004 T SDL_scalbn
+0204a4f4 00000004 T SDL_sin
+0204a4f8 00000004 T SDL_sqrt
+0204a4fc 00000004 T SDL_sqrtf
+0204a500 00000010 T SDL_abs
+0204a510 00000014 T SDL_isdigit
+0204a524 00000004 T SDL_memcpy
+0204a528 00000004 T SDL_memset
+0204a52c 00000004 T SDL_memmove
+0204a530 00000004 T SDL_memcmp
+0204a534 00000004 T SDL_strlen
+0204a538 00000004 T SDL_strlcpy
+0204a53c 00000124 T SDL_utf8strlcpy
+0204a660 00000004 T SDL_strlcat
+0204a664 00000064 T SDL_strdup
+0204a6c8 00000004 T SDL_strchr
+0204a6cc 00000004 T SDL_strrchr
+0204a6d0 00000004 T SDL_strstr
+0204a6d4 00000004 T SDL_itoa
+0204a6d8 00000004 T SDL_atoi
+0204a6dc 00000004 T SDL_atof
+0204a6e0 00000004 T SDL_strtol
+0204a6e4 00000004 T SDL_strtoul
+0204a6e8 00000004 T SDL_strtoll
+0204a6ec 00000004 T SDL_strtoull
+0204a6f0 00000004 T SDL_strcmp
+0204a6f4 00000004 T SDL_strncmp
+0204a6f8 00000004 T SDL_strcasecmp
+0204a6fc 00000004 T SDL_strncasecmp
+0204a700 00000080 T SDL_sscanf
+0204a780 000000a4 T SDL_snprintf
+0204a824 00000018 T SDL_vsnprintf
+0204a83c 00000130 T SDL_vasprintf
+0204a96c 00000080 T SDL_asprintf
+0204a9ec 00000004 T SDL_strtokr
+0204a9f0 0000004c t SDL_FreeErrBuf
+0204aa3c 00000004 T SDL_InitTLSData
+0204aa40 00000030 T SDL_TLSCreate
+0204aa70 0000006c T SDL_TLSGet
+0204aadc 000001c0 T SDL_TLSSet
+0204ac9c 000000b0 T SDL_TLSCleanup
+0204ad4c 00000038 T SDL_Generic_InitTLSData
+0204ad84 00000084 T SDL_Generic_GetTLSData
+0204ae08 00000100 T SDL_Generic_SetTLSData
+0204af08 00000218 T SDL_GetErrBuf
+0204b130 000000cc T SDL_RunThread
+0204b1fc 00000118 T SDL_CreateThreadWithStackSize
+0204b314 00000004 T SDL_CreateThreadInternal
+0204b318 00000004 T SDL_SetThreadPriority
+0204b31c 00000068 T SDL_WaitThread
+0204b384 000002b4 t SDL_TimerThread
+0204b638 00000114 T SDL_TimerQuit
+0204b74c 000000e0 T SDL_TimerInit
+0204b82c 00000024 T SDL_GetTicks
+0204b850 00000190 T SDL_IntersectRect
+0204b9e0 00000240 T SDL_EnclosePoints
+0204bc20 000000a8 t SDL_CalculatePitch
+0204bcc8 00000114 T SDL_SetColorKey
+0204bddc 000000e8 T SDL_LowerBlit
+0204bec4 00000074 T SDL_LockSurface
+0204bf38 00000034 T SDL_UnlockSurface
+0204bf6c 00000144 T SDL_FreeSurface
+0204c0b0 00000340 T SDL_CreateRGBSurfaceWithFormat
+0204c3f0 000000c0 T SDL_CreateRGBSurface
+0204c4b0 000009cc T SDL_ConvertSurface
+0204ce7c 00000094 T SDL_ConvertSurfaceFormat
+0204cf10 00000074 t SDL_GetNumDisplayModesForDisplay
+0204cf84 000002e8 t SDL_GetClosestDisplayModeForDisplay
+0204d26c 00000220 t SDL_SetDisplayModeForDisplay
+0204d48c 0000007c t cmpmodes
+0204d508 0000000c T SDL_GetVideoDevice
+0204d514 0000013c T SDL_AddVideoDisplay
+0204d650 0000009c T SDL_AddBasicVideoDisplay
+0204d6ec 000000b0 T SDL_GetIndexOfDisplay
+0204d79c 00000170 T SDL_GetDisplayBounds
+0204d90c 0000016c t GetRectDisplayIndex
+0204da78 0000017c T SDL_AddDisplayMode
+0204dbf4 000000e8 T SDL_ResetDisplayModes
+0204dcdc 00000220 T SDL_GetWindowDisplayIndex
+0204defc 00000240 T SDL_GetWindowDisplayMode
+0204e13c 000000b8 T SDL_ToggleDragAndDropSupport
+0204e1f4 00000024 T SDL_HasWindows
+0204e218 00000080 T SDL_GetWindowID
+0204e298 00000040 T SDL_GetWindowFromID
+0204e2d8 00000080 T SDL_GetWindowFlags
+0204e358 000001c0 T SDL_SetWindowData
+0204e518 00000144 T SDL_GetWindowData
+0204e65c 0000006c T SDL_GetWindowSize
+0204e6c8 000000c0 T SDL_GetWindowSizeInPixels
+0204e788 00000100 T SDL_DestroyWindowSurface
+0204e888 00000184 T SDL_UpdateWindowGrab
+0204ea0c 000000a4 T SDL_GetWindowMouseRect
+0204eab0 00000098 T SDL_OnWindowResized
+0204eb48 00000498 t SDL_UpdateFullscreenMode
+0204efe0 000000e0 T SDL_HideWindow
+0204f0c0 000000d8 T SDL_MinimizeWindow
+0204f198 00000008 T SDL_OnWindowHidden
+0204f1a0 00000018 T SDL_OnWindowShown
+0204f1b8 00000074 T SDL_OnWindowMoved
+0204f22c 0000001c T SDL_OnWindowMinimized
+0204f248 00000018 T SDL_OnWindowRestored
+0204f260 00000024 T SDL_OnWindowEnter
+0204f284 00000004 T SDL_OnWindowLeave
+0204f288 000000b8 T SDL_OnWindowFocusGained
+0204f340 00000124 T SDL_OnWindowFocusLost
+0204f464 00000050 T SDL_GL_UnloadLibrary
+0204f4b4 000000f8 T SDL_GL_ResetAttributes
+0204f5ac 000001fc T SDL_GL_MakeCurrent
+0204f7a8 000000cc T SDL_StartTextInput
+0204f874 0000000c T SDL_GetMessageBoxCount
+0204f880 00000050 T SDL_Vulkan_UnloadLibrary
+0204f8d0 00000280 t SDL_DestroyWindow.part.0
+0204fb50 000001a4 t SDL_VideoQuit.part.0
+0204fcf4 00000014 T SDL_VideoQuit
+0204fd08 000003e0 T SDL_VideoInit
+020500e8 00000010 t DUMMYAUDIO_OpenDevice
+020500f8 00000034 t DUMMYAUDIO_Init
+0205012c 00000068 t DUMMYAUDIO_CaptureFromDevice
+02050194 0000000c t DISKAUDIO_GetDeviceBuf
+020501a0 00000004 t DISKAUDIO_FlushCapture
+020501a4 0000007c t DISKAUDIO_Init
+02050220 00000048 t DISKAUDIO_DetectDevices
+02050268 0000004c t DISKAUDIO_CloseDevice
+020502b4 0000000c t DISKAUDIO_WaitDevice
+020502c0 000000d8 t DISKAUDIO_CaptureFromDevice
+02050398 00000064 t DISKAUDIO_PlayDevice
+020503fc 00000204 t DISKAUDIO_OpenDevice
+02050600 00000008 t VIRTUAL_JoystickInit
+02050608 00000004 t VIRTUAL_JoystickDetect
+0205060c 00000008 t VIRTUAL_JoystickGetDevicePath
+02050614 00000008 t VIRTUAL_JoystickGetDeviceSteamVirtualGamepadSlot
+0205061c 00000508 t VIRTUAL_JoystickGetGamepadMapping
+02050b24 00000044 t VIRTUAL_JoystickClose
+02050b68 0000006c t VIRTUAL_JoystickGetCapabilities
+02050bd4 00000044 t VIRTUAL_JoystickGetCount
+02050c18 00000008 t VIRTUAL_JoystickSetSensorsEnabled
+02050c20 0000010c t VIRTUAL_FreeHWData
+02050d2c 0000004c t VIRTUAL_JoystickQuit
+02050d78 00000108 t VIRTUAL_JoystickUpdate
+02050e80 000000cc t VIRTUAL_JoystickSetLED
+02050f4c 00000008 t VIRTUAL_JoystickGetDevicePlayerIndex
+02050f54 000000b4 t VIRTUAL_JoystickSendEffect
+02051008 000000b4 t VIRTUAL_JoystickRumbleTriggers
+020510bc 000000b4 t VIRTUAL_JoystickRumble
+02051170 000000d4 t VIRTUAL_JoystickGetDeviceInstanceID
+02051244 000000d0 t VIRTUAL_JoystickGetDeviceName
+02051314 000000f4 t VIRTUAL_JoystickSetDevicePlayerIndex
+02051408 00000118 t VIRTUAL_JoystickOpen
+02051520 0000011c t VIRTUAL_JoystickGetDeviceGUID
+0205163c 00000004 t DUMMY_VideoQuit
+02051640 00000004 t DUMMY_DeleteDevice
+02051644 0000008c t DUMMY_VideoInit
+020516d0 000000d8 t DUMMY_CreateDevice
+020517a8 00000008 t OFFSCREEN_SetDisplayMode
+020517b0 00000004 t OFFSCREEN_VideoQuit
+020517b4 000000c8 t OFFSCREEN_CreateDevice
+0205187c 00000004 t OFFSCREEN_DeleteDevice
+02051880 00000088 t OFFSCREEN_VideoInit
+02051908 0000008c T OFFSCREEN_CreateWindow
+02051994 00000048 T OFFSCREEN_DestroyWindow
+020519dc 00000004 t _WIIUAUDIO_ThreadCleanup
+020519e0 00000018 t WIIUAUDIO_GetDeviceBuf
+020519f8 0000005c t WIIUAUDIO_Init
+02051a54 0000003c t WIIUAUDIO_ThreadInit
+02051ac0 00000030 t _WIIUAUDIO_ThreadDeallocator
+02051af0 000000bc t WIIUAUDIO_CloseDevice
+02051bec 00000260 t _WIIUAUDIO_framecallback
+02051e7c 00000090 t WIIUAUDIO_WaitDevice
+02051f2c 0000018c t WIIUAUDIO_PlayDevice
+020520c8 000005b0 t _WIIUAUDIO_OpenDeviceFunction
+020527a8 00000178 t WIIUAUDIO_OpenDevice
+020529a0 000000b4 t WIIU_RemoveDevice
+02052a54 00000054 t WIIU_JoystickGetCount
+02052aa8 0000011c t WIIU_JoystickGetDeviceName
+02052bc4 00000008 t WIIU_JoystickGetDevicePath
+02052bcc 00000008 t WIIU_JoystickGetDeviceSteamVirtualGamepadSlot
+02052bd4 00000020 t WIIU_JoystickGetDevicePlayerIndex
+02052bf4 00000004 t WIIU_JoystickSetDevicePlayerIndex
+02052bf8 00000024 t WIIU_JoystickGetDeviceInstanceID
+02052c1c 00000008 t WIIU_JoystickGetCapabilities
+02052c24 00000004 t WIIU_JoystickClose
+02052c28 00000004 t WIIU_JoystickQuit
+02052c2c 00000008 t WIIU_JoystickGetGamepadMapping
+02052c34 00000008 t WIIU_JoystickSetSensorsEnabled
+02052c3c 00000008 t WIIU_JoystickSendEffect
+02052c44 00000008 t WIIU_JoystickSetLED
+02052c4c 00000008 t WIIU_JoystickRumble
+02052c54 00000164 t WIIU_JoystickOpen
+02052dc8 0000015c t WIIU_JoystickGetDeviceGUID
+02052f24 00000008 t WIIU_JoystickRumbleTriggers
+02052f2c 00000418 t WIIU_JoystickDetect
+02053364 0000005c t WIIU_JoystickInit
+020533f0 00000d70 t WIIU_JoystickUpdate
+020541a0 00000004 T SDL_SYS_InitTLSData
+020541a4 00000004 T SDL_SYS_GetTLSData
+020541a8 00000004 T SDL_SYS_SetTLSData
+020541ac 00000060 T SDL_CreateMutex
+0205421c 0000000c T SDL_DestroyMutex
+02054228 00000034 T SDL_LockMutex
+0205426c 00000034 T SDL_UnlockMutex
+020542b0 0000002c t SDL_SemWaitTimeoutCallback
+020542fc 00000084 T SDL_CreateSemaphore
+020543b0 0000000c T SDL_DestroySemaphore
+020543bc 00000108 T SDL_SemWaitTimeout
+02054554 00000028 T SDL_SemWait
+0205458c 0000003c T SDL_SemPost
+020545e8 00000004 t thread_cleanup
+020545ec 00000030 t thread_deallocator
+0205461c 00000108 T SDL_SYS_CreateThread
+02054784 00000030 T SDL_SYS_SetupThread
+020547d4 00000004 T SDL_ThreadID
+020547e8 0000000c T SDL_SYS_WaitThread
+02054804 00000060 T SDL_SYS_SetThreadPriority
+02054884 00000048 T SDL_TicksInit
+020548dc 000000a0 T SDL_GetTicks64
+0205499c 00000048 T SDL_Delay
+02054a04 00000140 t (anonymous namespace)::detail::parse_locale(std::unique_ptr<char, (anonymous namespace)::detail::SDL_Deleter<char> > const&) [clone .constprop.0]
+02054b44 0000066c T WIIU_SWKBD_Initialize
+02055210 00000050 T WIIU_SWKBD_Finalize
+02055260 0000025c T WIIU_SWKBD_Calc
+020554bc 00000008 T WIIU_SWKBD_HasScreenKeyboardSupport
+020554c4 00000770 T WIIU_SWKBD_ShowScreenKeyboard
+02055c64 00000014 T WIIU_SWKBD_HideScreenKeyboard
+02055c78 00000054 T WIIU_SWKBD_IsScreenKeyboardShown
+02055ccc 00000088 T SDL_WiiUSetSWKBDVPAD
+02055d54 000000a8 T SDL_WiiUSetSWKBDKPAD
+02055dfc 00000004 t WIIU_SetWindowSize
+02055e00 00000008 t WIIU_SetDisplayMode
+02055e08 00000134 t WIIU_CreateDevice
+02055f3c 00000034 t WIIU_DeleteDevice
+02055f70 00000110 t WIIU_PumpEvents
+020560b0 0000000c t WIIU_GetDisplayModes
+020560bc 00000034 t WIIU_CreateSDLWindow
+020560f0 00000024 t WiiU_SaveCallback
+02056124 00000170 t WIIU_ForegroundAcquired
+020562e4 000002c4 t WIIU_VideoInit
+02056658 000000cc t WIIU_ForegroundReleased.part.0.isra.0
+02056754 00000128 t WIIU_VideoQuit
+020568dc 00000044 t WIIU_ForegroundReleased
+02056920 00000004 t WIIU_DestroyWindow
+02056924 00000008 T SDL_SYS_HapticInit
+0205692c 00000004 T SDL_SYS_HapticClose
+02056930 00000004 T SDL_SYS_HapticQuit
+02056934 00000010 T SDL_SYS_HapticDestroyEffect
+02056944 00000008 t SDL_DUMMY_SensorInit
+0205694c 00000004 t SDL_DUMMY_SensorDetect
+02056950 00000008 t SDL_DUMMY_SensorGetDeviceName
+02056958 00000008 t SDL_DUMMY_SensorGetDeviceType
+02056960 00000008 t SDL_DUMMY_SensorGetDeviceNonPortableType
+02056968 00000004 t SDL_DUMMY_SensorUpdate
+0205696c 00000008 t SDL_DUMMY_SensorOpen
+02056974 00000008 t SDL_DUMMY_SensorGetDeviceInstanceID
+0205697c 00000008 t SDL_DUMMY_SensorGetCount
+02056984 00000004 t SDL_DUMMY_SensorClose
+02056988 00000004 t SDL_DUMMY_SensorQuit
+0205698c 0000010c T SDL_NewDataQueue
+02056a98 0000008c T SDL_FreeDataQueue
+02056b24 0000014c T SDL_ClearDataQueue
+02056c70 00000258 T SDL_WriteToDataQueue
+02056ec8 00000140 T SDL_ReadFromDataQueue
+02057008 00000068 T SDL_CountDataQueue
+02057070 0000015c T SDL_GUIDFromString
+020571cc 00000044 T SDL_powerof2
+02057210 00000070 t SDL_GetCPUFeatures
+02057280 00000024 T SDL_HasAltiVec
+020572a4 00000024 T SDL_HasMMX
+020572c8 00000024 T SDL_Has3DNow
+020572ec 00000024 T SDL_HasSSE
+02057310 00000024 T SDL_HasSSE2
+02057334 00000024 T SDL_HasARMSIMD
+02057358 000000b8 T SDL_SIMDAlloc
+02057410 00000010 T SDL_SIMDFree
+02057420 000000f4 T SDL_SendDisplayEvent
+02057514 00000098 t FlushRenderCommands
+020575ac 000000b4 t AllocateRenderCommand
+02057660 00000144 t QueueCmdSetViewport
+020577a4 00000108 t QueueCmdSetClipRect
+020578ac 000001a0 t GetWindowViewportValues
+02057a4c 000003b0 t SDL_SetRenderTarget.part.0
+02057dfc 00000148 t SDL_DestroyTexture.part.0
+02057f44 0000000c T SDL_GetRenderer
+02057f50 0000013c T SDL_GetRendererOutputSize
+0205808c 00000654 t UpdateLogicalSize.constprop.0
+020586e0 00000a20 t SDL_RendererEventWatch
+02059100 00000140 T SDL_DestroyRendererWithoutFreeing
+02059240 00000054 T SDL_SW_DestroyYUVTexture
+02059294 0000013c T WIIU_SDL_CreateWindowTex
+020593d0 00000058 T WIIU_TextureInUse
+02059438 00000048 T WIIU_TextureWaitDone
+020594a0 00000478 T WIIU_SDL_CreateTexture
+02059988 0000015c T WIIU_SDL_DestroyTexture
+02059b04 00000100 t copy_opaque_16
+02059c04 00000134 t uncopy_opaque_16
+02059d38 000000d4 t copy_transl_565
+02059e0c 000000d4 t copy_transl_555
+02059ee0 00000124 t uncopy_transl_16
+0205a004 000000c0 t copy_32
+0205a0c4 00000118 t uncopy_32
+0205a1dc 00000008 t getpix_8
+0205a1e4 00000008 t getpix_16
+0205a1ec 00000020 t getpix_24
+0205a20c 00000008 t getpix_32
+0205a214 00000aa8 t SDL_RLEAlphaBlit
+0205acbc 00002534 t SDL_RLEBlit
+0205d1f0 00000324 T SDL_UnRLESurface
+0205d514 000010c0 T SDL_RLESurface
+0205e5d4 00000254 t SDL_FillRect1
+0205e828 00000248 t SDL_FillRect2
+0205ea70 00000084 t SDL_FillRect3
+0205eaf4 000000dc t SDL_FillRect4
+0205ebd0 000002a8 T SDL_FillRects
+0205ee78 00000060 T SDL_FillRect
+0205eed8 00000060 t SDL_DitherColors.part.0
+0205ef38 00000264 T SDL_PixelFormatEnumToMasks
+0205f19c 00000510 T SDL_MasksToPixelFormatEnum
+0205f6ac 00000244 T SDL_InitFormat
+0205f8f0 00000160 T SDL_AllocFormat
+0205fa50 0000012c T SDL_FreeFormat
+0205fb7c 000000e8 T SDL_AllocPalette
+0205fc64 00000140 T SDL_SetPixelFormatPalette
+0205fda4 00000064 T SDL_FreePalette
+0205fe08 000000a0 T SDL_FindColor
+0205fea8 0000011c t Map1to1
+0205ffc4 00000068 t MapNto1.isra.0
+0206002c 00000108 T SDL_DetectPalette
+02060134 0000004c T SDL_AllocBlitMap
+02060180 00000098 T SDL_InvalidateAllBlitMap
+02060218 00000068 T SDL_InvalidateMap
+02060280 00000564 T SDL_MapSurface
+020607e4 00000074 T SDL_FreeBlitMap
+02060858 00000004 T DUMMY_PumpEvents
+0206085c 000000e4 T SDL_DUMMY_CreateWindowFramebuffer
+02060940 000000d8 T SDL_DUMMY_UpdateWindowFramebuffer
+02060a18 00000030 T SDL_DUMMY_DestroyWindowFramebuffer
+02060a48 00000004 T OFFSCREEN_PumpEvents
+02060a4c 000000e4 T SDL_OFFSCREEN_CreateWindowFramebuffer
+02060b30 000000d8 T SDL_OFFSCREEN_UpdateWindowFramebuffer
+02060c08 00000030 T SDL_OFFSCREEN_DestroyWindowFramebuffer
+02060c38 00000130 T WIIU_GfxHeap_MEM1Init
+02060db8 00000064 T WIIU_GfxHeap_MEM1Destroy
+02060e4c 000000f0 T WIIU_GfxHeap_ForegroundInit
+02060f7c 00000060 T WIIU_GfxHeap_ForegroundDestroy
+0206100c 00000030 T WIIU_GfxHeap_ForegroundAlloc
+0206104c 0000001c T WIIU_GfxHeap_ForegroundFree
+02061078 00000048 T WIIU_GfxHeap_GX2RAlloc
+020610d0 00000034 T WIIU_GfxHeap_GX2RFree
+02061114 00000004 t SDL_WIIUKeyboard_AttachCallback
+02061118 00000084 t SDL_WIIUKeyboard_KeyCallback
+0206119c 00000004 t SDL_WIIUKeyboard_DetachCallback
+020611a0 0000017c T SDL_WIIU_PumpKeyboardEvents
+0206131c 00000068 T SDL_WIIU_InitKeyboard
+02061394 0000004c T SDL_WIIU_QuitKeyboard
+020613f0 00000070 T SDL_ListAdd
+02061460 0000003c T SDL_ListRemove
+0206149c 0000033c t SDL_SoftBlit
+020617d8 0000052c T SDL_CalculateBlit
+02061d04 00000958 t BlitBtoNAlpha
+0206265c 00000990 t BlitBtoNAlphaKey
+02062fec 000001d4 t Blit1bto1
+020631c0 00000140 t Blit1bto2
+02063300 0000016c t Blit1bto3
+0206346c 00000140 t Blit1bto4
+020635ac 00000200 t Blit1bto1Key
+020637ac 00000164 t Blit1bto2Key
+02063910 00000164 t Blit1bto4Key
+02063a74 000001d4 t Blit2bto1
+02063c48 00000140 t Blit2bto2
+02063d88 0000016c t Blit2bto3
+02063ef4 00000140 t Blit2bto4
+02064034 00000200 t Blit2bto1Key
+02064234 00000164 t Blit2bto2Key
+02064398 00000164 t Blit2bto4Key
+020644fc 000001e0 t Blit4bto1
+020646dc 00000148 t Blit4bto2
+02064824 00000174 t Blit4bto3
+02064998 00000148 t Blit4bto4
+02064ae0 0000020c t Blit4bto1Key
+02064cec 0000016c t Blit4bto2Key
+02064e58 0000016c t Blit4bto4Key
+02064fc4 000002bc t Blit4bto3Key
+02065280 000002b4 t Blit2bto3Key
+02065534 000002b4 t Blit1bto3Key
+020657e8 00000174 T SDL_CalculateBlit0
+0206595c 0000049c t Blit1to1
+02065df8 000004b0 t Blit1to2
+020662a8 0000015c t Blit1to3
+02066404 000004c8 t Blit1to4
+020668cc 00000758 t Blit1to1Key
+02067024 000003ec t Blit1to2Key
+02067410 0000016c t Blit1to3Key
+0206757c 000003ec t Blit1to4Key
+02067968 00000fc0 t Blit1toNAlpha
+02068928 00000fac t Blit1toNAlphaKey
+020698d4 000000c0 T SDL_CalculateBlit1
+02069994 00000974 t BlitNto1SurfaceAlpha
+0206a308 00000aa4 t BlitNto1PixelAlpha
+0206adac 00000ce4 t BlitNto1SurfaceAlphaKey
+0206ba90 000003cc t BlitRGBtoRGBSurfaceAlpha
+0206be5c 000003c4 t BlitRGBtoRGBPixelAlpha
+0206c220 000003c0 t BlitRGBtoBGRPixelAlpha
+0206c5e0 000002a8 t Blit16to16SurfaceAlpha128
+0206c888 00000234 t Blit565to565SurfaceAlpha
+0206cabc 00000234 t Blit555to555SurfaceAlpha
+0206ccf0 0000032c t BlitARGBto565PixelAlpha
+0206d01c 0000032c t BlitARGBto555PixelAlpha
+0206d348 000014ec t BlitNtoNSurfaceAlpha
+0206e834 00001544 t BlitNtoNSurfaceAlphaKey
+0206fd78 00001b54 t BlitNtoNPixelAlpha
+020718cc 00000310 T SDL_CalculateBlitA
+02071bdc 00000270 t Blit_RGB888_index8
+02071e4c 00000270 t Blit_RGB101010_index8
+020720bc 00000148 t Blit_RGB888_RGB555
+02072204 00000148 t Blit_RGB888_RGB565
+0207234c 00000194 t Blit_RGB565_32
+020724e0 0000000c t Blit_RGB565_ARGB8888
+020724ec 0000000c t Blit_RGB565_ABGR8888
+020724f8 0000000c t Blit_RGB565_RGBA8888
+02072504 0000000c t Blit_RGB565_BGRA8888
+02072510 0000044c t Blit_RGB555_ARGB1555
+0207295c 000014c8 t BlitNto1
+02073e24 000008ec t Blit4to4MaskAlpha
+02074710 000002c8 t get_permutation
+020749d8 00001538 t BlitNtoN
+02075f10 000005a4 t BlitNtoNCopyAlpha
+020764b4 00001730 t BlitNto1Key
+02077be4 000003bc t Blit2to2Key
+02077fa0 00001be0 t BlitNtoNKey
+02079b80 00001a2c t BlitNtoNKeyCopyAlpha
+0207b5ac 000007b8 t Blit2101010toN
+0207bd64 00000aa0 t BlitNto2101010
+0207c804 00000328 t Blit_3or4_to_3or4__same_rgb
+0207cb2c 00000458 t Blit_3or4_to_3or4__inversed_rgb
+0207cf84 0000051c T SDL_CalculateBlitN
+0207d4a0 00000170 t SDL_Blit_RGB888_RGB888_Scale
+0207d610 00000158 t SDL_Blit_RGB888_RGB888_Blend
+0207d768 00000264 t SDL_Blit_RGB888_RGB888_Blend_Scale
+0207d9cc 000000e4 t SDL_Blit_RGB888_RGB888_Modulate
+0207dab0 000001f8 t SDL_Blit_RGB888_RGB888_Modulate_Scale
+0207dca8 000002b8 t SDL_Blit_RGB888_RGB888_Modulate_Blend
+0207df60 000003bc t SDL_Blit_RGB888_RGB888_Modulate_Blend_Scale
+0207e31c 0000018c t SDL_Blit_RGB888_BGR888_Scale
+0207e4a8 00000158 t SDL_Blit_RGB888_BGR888_Blend
+0207e600 00000264 t SDL_Blit_RGB888_BGR888_Blend_Scale
+0207e864 000000e4 t SDL_Blit_RGB888_BGR888_Modulate
+0207e948 000001f4 t SDL_Blit_RGB888_BGR888_Modulate_Scale
+0207eb3c 000002b8 t SDL_Blit_RGB888_BGR888_Modulate_Blend
+0207edf4 000003bc t SDL_Blit_RGB888_BGR888_Modulate_Blend_Scale
+0207f1b0 00000174 t SDL_Blit_RGB888_ARGB8888_Scale
+0207f324 00000168 t SDL_Blit_RGB888_ARGB8888_Blend
+0207f48c 00000268 t SDL_Blit_RGB888_ARGB8888_Blend_Scale
+0207f6f4 000000fc t SDL_Blit_RGB888_ARGB8888_Modulate
+0207f7f0 00000218 t SDL_Blit_RGB888_ARGB8888_Modulate_Scale
+0207fa08 000002dc t SDL_Blit_RGB888_ARGB8888_Modulate_Blend
+0207fce4 000003e0 t SDL_Blit_RGB888_ARGB8888_Modulate_Blend_Scale
+020800c4 00000004 t SDL_Blit_BGR888_RGB888_Scale
+020800c8 00000158 t SDL_Blit_BGR888_RGB888_Blend
+02080220 00000264 t SDL_Blit_BGR888_RGB888_Blend_Scale
+02080484 000000e4 t SDL_Blit_BGR888_RGB888_Modulate
+02080568 000001f4 t SDL_Blit_BGR888_RGB888_Modulate_Scale
+0208075c 000002b8 t SDL_Blit_BGR888_RGB888_Modulate_Blend
+02080a14 000003bc t SDL_Blit_BGR888_RGB888_Modulate_Blend_Scale
+02080dd0 00000004 t SDL_Blit_BGR888_BGR888_Scale
+02080dd4 00000158 t SDL_Blit_BGR888_BGR888_Blend
+02080f2c 00000264 t SDL_Blit_BGR888_BGR888_Blend_Scale
+02081190 000000e4 t SDL_Blit_BGR888_BGR888_Modulate
+02081274 000001f8 t SDL_Blit_BGR888_BGR888_Modulate_Scale
+0208146c 000002b8 t SDL_Blit_BGR888_BGR888_Modulate_Blend
+02081724 000003bc t SDL_Blit_BGR888_BGR888_Modulate_Blend_Scale
+02081ae0 00000188 t SDL_Blit_BGR888_ARGB8888_Scale
+02081c68 00000168 t SDL_Blit_BGR888_ARGB8888_Blend
+02081dd0 00000268 t SDL_Blit_BGR888_ARGB8888_Blend_Scale
+02082038 000000fc t SDL_Blit_BGR888_ARGB8888_Modulate
+02082134 00000218 t SDL_Blit_BGR888_ARGB8888_Modulate_Scale
+0208234c 000002dc t SDL_Blit_BGR888_ARGB8888_Modulate_Blend
+02082628 000003d8 t SDL_Blit_BGR888_ARGB8888_Modulate_Blend_Scale
+02082a00 00000174 t SDL_Blit_ARGB8888_RGB888_Scale
+02082b74 00000248 t SDL_Blit_ARGB8888_RGB888_Blend
+02082dbc 00000354 t SDL_Blit_ARGB8888_RGB888_Blend_Scale
+02083110 00000004 t SDL_Blit_ARGB8888_RGB888_Modulate
+02083114 00000004 t SDL_Blit_ARGB8888_RGB888_Modulate_Scale
+02083118 000002d0 t SDL_Blit_ARGB8888_RGB888_Modulate_Blend
+020833e8 000003d0 t SDL_Blit_ARGB8888_RGB888_Modulate_Blend_Scale
+020837b8 00000004 t SDL_Blit_ARGB8888_BGR888_Scale
+020837bc 00000248 t SDL_Blit_ARGB8888_BGR888_Blend
+02083a04 00000344 t SDL_Blit_ARGB8888_BGR888_Blend_Scale
+02083d48 00000004 t SDL_Blit_ARGB8888_BGR888_Modulate
+02083d4c 00000004 t SDL_Blit_ARGB8888_BGR888_Modulate_Scale
+02083d50 000002d0 t SDL_Blit_ARGB8888_BGR888_Modulate_Blend
+02084020 000003d0 t SDL_Blit_ARGB8888_BGR888_Modulate_Blend_Scale
+020843f0 00000004 t SDL_Blit_ARGB8888_ARGB8888_Scale
+020843f4 0000027c t SDL_Blit_ARGB8888_ARGB8888_Blend
+02084670 00000374 t SDL_Blit_ARGB8888_ARGB8888_Blend_Scale
+020849e4 00000120 t SDL_Blit_ARGB8888_ARGB8888_Modulate
+02084b04 00000228 t SDL_Blit_ARGB8888_ARGB8888_Modulate_Scale
+02084d2c 000002fc t SDL_Blit_ARGB8888_ARGB8888_Modulate_Blend
+02085028 000003f8 t SDL_Blit_ARGB8888_ARGB8888_Modulate_Blend_Scale
+02085420 00000174 t SDL_Blit_RGBA8888_RGB888_Scale
+02085594 00000248 t SDL_Blit_RGBA8888_RGB888_Blend
+020857dc 00000354 t SDL_Blit_RGBA8888_RGB888_Blend_Scale
+02085b30 000000e4 t SDL_Blit_RGBA8888_RGB888_Modulate
+02085c14 000001f8 t SDL_Blit_RGBA8888_RGB888_Modulate_Scale
+02085e0c 000002d0 t SDL_Blit_RGBA8888_RGB888_Modulate_Blend
+020860dc 000003d0 t SDL_Blit_RGBA8888_RGB888_Modulate_Blend_Scale
+020864ac 0000018c t SDL_Blit_RGBA8888_BGR888_Scale
+02086638 00000248 t SDL_Blit_RGBA8888_BGR888_Blend
+02086880 00000344 t SDL_Blit_RGBA8888_BGR888_Blend_Scale
+02086bc4 000000e4 t SDL_Blit_RGBA8888_BGR888_Modulate
+02086ca8 000001f4 t SDL_Blit_RGBA8888_BGR888_Modulate_Scale
+02086e9c 000002d0 t SDL_Blit_RGBA8888_BGR888_Modulate_Blend
+0208716c 000003d0 t SDL_Blit_RGBA8888_BGR888_Modulate_Blend_Scale
+0208753c 00000174 t SDL_Blit_RGBA8888_ARGB8888_Scale
+020876b0 0000027c t SDL_Blit_RGBA8888_ARGB8888_Blend
+0208792c 00000374 t SDL_Blit_RGBA8888_ARGB8888_Blend_Scale
+02087ca0 00000120 t SDL_Blit_RGBA8888_ARGB8888_Modulate
+02087dc0 00000228 t SDL_Blit_RGBA8888_ARGB8888_Modulate_Scale
+02087fe8 000002fc t SDL_Blit_RGBA8888_ARGB8888_Modulate_Blend
+020882e4 000003f8 t SDL_Blit_RGBA8888_ARGB8888_Modulate_Blend_Scale
+020886dc 00000004 t SDL_Blit_ABGR8888_RGB888_Scale
+020886e0 00000248 t SDL_Blit_ABGR8888_RGB888_Blend
+02088928 00000354 t SDL_Blit_ABGR8888_RGB888_Blend_Scale
+02088c7c 00000004 t SDL_Blit_ABGR8888_RGB888_Modulate
+02088c80 00000004 t SDL_Blit_ABGR8888_RGB888_Modulate_Scale
+02088c84 000002d0 t SDL_Blit_ABGR8888_RGB888_Modulate_Blend
+02088f54 000003d0 t SDL_Blit_ABGR8888_RGB888_Modulate_Blend_Scale
+02089324 00000004 t SDL_Blit_ABGR8888_BGR888_Scale
+02089328 00000248 t SDL_Blit_ABGR8888_BGR888_Blend
+02089570 00000344 t SDL_Blit_ABGR8888_BGR888_Blend_Scale
+020898b4 00000004 t SDL_Blit_ABGR8888_BGR888_Modulate
+020898b8 00000004 t SDL_Blit_ABGR8888_BGR888_Modulate_Scale
+020898bc 000002d0 t SDL_Blit_ABGR8888_BGR888_Modulate_Blend
+02089b8c 000003d0 t SDL_Blit_ABGR8888_BGR888_Modulate_Blend_Scale
+02089f5c 00000174 t SDL_Blit_ABGR8888_ARGB8888_Scale
+0208a0d0 0000027c t SDL_Blit_ABGR8888_ARGB8888_Blend
+0208a34c 00000374 t SDL_Blit_ABGR8888_ARGB8888_Blend_Scale
+0208a6c0 00000120 t SDL_Blit_ABGR8888_ARGB8888_Modulate
+0208a7e0 00000228 t SDL_Blit_ABGR8888_ARGB8888_Modulate_Scale
+0208aa08 000002fc t SDL_Blit_ABGR8888_ARGB8888_Modulate_Blend
+0208ad04 000003f8 t SDL_Blit_ABGR8888_ARGB8888_Modulate_Blend_Scale
+0208b0fc 00000004 t SDL_Blit_BGRA8888_RGB888_Scale
+0208b100 00000248 t SDL_Blit_BGRA8888_RGB888_Blend
+0208b348 00000354 t SDL_Blit_BGRA8888_RGB888_Blend_Scale
+0208b69c 000000e4 t SDL_Blit_BGRA8888_RGB888_Modulate
+0208b780 000001f4 t SDL_Blit_BGRA8888_RGB888_Modulate_Scale
+0208b974 000002d0 t SDL_Blit_BGRA8888_RGB888_Modulate_Blend
+0208bc44 000003d0 t SDL_Blit_BGRA8888_RGB888_Modulate_Blend_Scale
+0208c014 00000004 t SDL_Blit_BGRA8888_BGR888_Scale
+0208c018 00000248 t SDL_Blit_BGRA8888_BGR888_Blend
+0208c260 00000344 t SDL_Blit_BGRA8888_BGR888_Blend_Scale
+0208c5a4 000000e4 t SDL_Blit_BGRA8888_BGR888_Modulate
+0208c688 000001f8 t SDL_Blit_BGRA8888_BGR888_Modulate_Scale
+0208c880 000002d0 t SDL_Blit_BGRA8888_BGR888_Modulate_Blend
+0208cb50 000003d0 t SDL_Blit_BGRA8888_BGR888_Modulate_Blend_Scale
+0208cf20 00000170 t SDL_Blit_BGRA8888_ARGB8888_Scale
+0208d090 0000027c t SDL_Blit_BGRA8888_ARGB8888_Blend
+0208d30c 00000374 t SDL_Blit_BGRA8888_ARGB8888_Blend_Scale
+0208d680 00000120 t SDL_Blit_BGRA8888_ARGB8888_Modulate
+0208d7a0 00000228 t SDL_Blit_BGRA8888_ARGB8888_Modulate_Scale
+0208d9c8 000002fc t SDL_Blit_BGRA8888_ARGB8888_Modulate_Blend
+0208dcc4 000003f8 t SDL_Blit_BGRA8888_ARGB8888_Modulate_Blend_Scale
+0208e0bc 00000244 T SDL_BlitCopy
+0208e300 00000f74 T SDL_Blit_Slow
+0208f274 0000073c T SDL_SaveBMP_RW
+0208f9b0 00000120 T ModPlug::UpdateSettings(bool)
+0208fad0 000000c4 T ModPlug_Load
+0208fb94 0000005c T ModPlug_Unload
+0208fbf0 0000002c T ModPlug_Read
+0208fc1c 0000000c T ModPlug_GetName
+0208fc28 0000002c T ModPlug_GetLength
+0208fc54 00000008 T ModPlug_SetMasterVolume
+0208fc5c 00000004 T ModPlug_SeekOrder
+0208fc60 000000ec T ModPlug_Seek
+0208fd4c 00000010 T ModPlug_GetSettings
+0208fd5c 00000034 T ModPlug_SetSettings
+0208fd90 00000038 T _muldiv(long, long, long)
+0208fdc8 00000040 T _muldivr(long, long, long)
+0208fe08 000000f4 T CSoundFile::InitPlayer(bool)
+0208fefc 00000100 T CSoundFile::FadeSong(unsigned int)
+0208fffc 00000074 T CSoundFile::GlobalFadeSong(unsigned int)
+02090070 000002b0 T CSoundFile::ProcessRow()
+02090320 00001a24 T CSoundFile::ReadNote()
+02091d44 00000464 T CSoundFile::Read(void*, unsigned int)
+020921a8 00000100 T CSoundFile::CSoundFile()
+020921a8 00000100 T CSoundFile::CSoundFile()
+020922a8 0000016c T CSoundFile::Destroy()
+02092414 00000004 T CSoundFile::~CSoundFile()
+02092414 00000004 T CSoundFile::~CSoundFile()
+02092418 00000088 T CSoundFile::AllocatePattern(unsigned int, unsigned int)
+020924a0 0000000c T CSoundFile::FreePattern(void*)
+020924ac 00000038 T CSoundFile::AllocateSample(unsigned int)
+020924e4 00000150 T CSoundFile::ResetMidiCfg()
+02092634 000008e4 T CSoundFile::Create(unsigned char const*, unsigned int)
+02092f18 0000009c T CSoundFile::SetWaveConfig(unsigned int, unsigned int, unsigned int, bool)
+02092fb4 00000028 T CSoundFile::SetMixConfig(unsigned int, unsigned int)
+02092fdc 00000058 T CSoundFile::SetResamplingMode(unsigned int)
+02093034 00000070 T CSoundFile::SetMasterVolume(unsigned int, bool)
+020930a4 00000044 T CSoundFile::GetMaxPosition() const
+020930e8 000002b4 T CSoundFile::SetCurrentPos(unsigned int)
+0209339c 00000180 T CSoundFile::SetCurrentOrder(unsigned int)
+0209351c 000003f4 T CSoundFile::AdjustSampleLoop(_MODINSTRUMENT*)
+02093910 00000b74 T CSoundFile::ReadSample(_MODINSTRUMENT*, unsigned int, char const*, unsigned int)
+02094484 000000a8 T CSoundFile::TransposeToFrequency(int, int)
+0209452c 00000064 T CSoundFile::FrequencyToTranspose(unsigned int)
+02094590 000000c8 T CSoundFile::FrequencyToTranspose(_MODINSTRUMENT*)
+02094658 0000018c T CSoundFile::SetPatternName(unsigned int, char const*)
+020947e4 000001d4 T CSoundFile::DetectUnusedSamples(bool*)
+020949b8 000000c0 T CSoundFile::DestroySample(unsigned int)
+02094a78 0000068c t CSoundFile::InstrumentChange(_MODCHANNEL*, unsigned int, bool, bool, bool) [clone .part.0]
+02095104 00000114 t CSoundFile::ExtendedChannelEffect(_MODCHANNEL*, unsigned int) [clone .part.0]
+02095218 00000a78 T CSoundFile::GetLength(bool, bool)
+02095c90 00000130 T CSoundFile::GetNNAChannel(unsigned int) const
+02095dc0 000000e8 T CSoundFile::FinePortamentoUp(_MODCHANNEL*, unsigned int)
+02095ea8 000000f0 T CSoundFile::FinePortamentoDown(_MODCHANNEL*, unsigned int)
+02095f98 000000e8 T CSoundFile::ExtraFinePortamentoUp(_MODCHANNEL*, unsigned int)
+02096080 000000f0 T CSoundFile::ExtraFinePortamentoDown(_MODCHANNEL*, unsigned int)
+02096170 00000174 T CSoundFile::TonePortamento(_MODCHANNEL*, unsigned int)
+020962e4 00000174 T CSoundFile::VolumeSlide(_MODCHANNEL*, unsigned int)
+02096458 00000118 T CSoundFile::PanningSlide(_MODCHANNEL*, unsigned int)
+02096570 000000f0 T CSoundFile::ChannelVolSlide(_MODCHANNEL*, unsigned int)
+02096660 00000344 T CSoundFile::ProcessMidiMacro(unsigned int, char const*, unsigned int)
+020969a4 00000114 T CSoundFile::DoFreqSlide(_MODCHANNEL*, int)
+02096ab8 00000074 T CSoundFile::PortamentoUp(_MODCHANNEL*, unsigned int)
+02096b2c 00000070 T CSoundFile::PortamentoDown(_MODCHANNEL*, unsigned int)
+02096b9c 0000014c T CSoundFile::KeyOff(unsigned int)
+02096ce8 00000488 T CSoundFile::CheckNNA(unsigned int, unsigned int, int, bool)
+02097170 0000005c T CSoundFile::SetTempo(unsigned int)
+020971cc 000000e0 T CSoundFile::PatternLoop(_MODCHANNEL*, unsigned int)
+020972ac 000000fc T CSoundFile::GlobalVolSlide(unsigned int)
+020973a8 00000138 T CSoundFile::IsSongFinished(unsigned int, unsigned int) const
+020974e0 00000174 T CSoundFile::SetSpeed(unsigned int)
+02097654 00000268 T CSoundFile::IsValidBackwardJump(unsigned int, unsigned int, unsigned int, unsigned int) const
+020978bc 000001fc T CSoundFile::GetPeriodFromNote(unsigned int, int, unsigned int) const
+02097ab8 00000824 T CSoundFile::NoteChange(unsigned int, int, bool, bool)
+020982dc 000003b0 T CSoundFile::RetrigNote(unsigned int, unsigned int)
+0209868c 0000032c T CSoundFile::ExtendedMODCommands(unsigned int, unsigned int)
+020989b8 00000420 T CSoundFile::ExtendedS3MCommands(unsigned int, unsigned int)
+02098dd8 00001188 T CSoundFile::ProcessEffects()
+02099f60 00000154 T CSoundFile::GetNoteFromPeriod(unsigned int) const
+0209a0b4 000000d4 T CSoundFile::GetFreqFromPeriod(unsigned int, unsigned int, int) const
+0209a188 000000dc T CSoundFile::CutOffToFrequency(unsigned int, int) const
+0209a264 0000017c T CSoundFile::SetupChannelFilter(_MODCHANNEL*, bool, int) const
+0209a3e0 000004e8 T CSoundFile::InitializeDSP(bool)
+0209a8c8 00000638 T CSoundFile::ProcessStereoDSP(int)
+0209af00 00000054 T CSoundFile::SetReverbParameters(unsigned int, unsigned int)
+0209af54 0000005c T CSoundFile::SetXBassParameters(unsigned int, unsigned int)
+0209afb0 00000060 T CSoundFile::SetSurroundParameters(unsigned int, unsigned int)
+0209b010 00000090 T CSoundFile::SetWaveConfigEx(bool, bool, bool, bool, bool, bool, bool)
+0209b0a0 000000bc T Mono8BitMix(_MODCHANNEL*, int*, int*)
+0209b15c 000000bc T Mono16BitMix(_MODCHANNEL*, int*, int*)
+0209b218 000000d8 T Mono8BitLinearMix(_MODCHANNEL*, int*, int*)
+0209b2f0 000000d8 T Mono16BitLinearMix(_MODCHANNEL*, int*, int*)
+0209b3c8 0000015c T Mono8BitSplineMix(_MODCHANNEL*, int*, int*)
+0209b524 00000150 T Mono16BitSplineMix(_MODCHANNEL*, int*, int*)
+0209b674 000001f4 T Mono8BitFirFilterMix(_MODCHANNEL*, int*, int*)
+0209b868 000001e8 T Mono16BitFirFilterMix(_MODCHANNEL*, int*, int*)
+0209ba50 000000f4 T Mono8BitRampMix(_MODCHANNEL*, int*, int*)
+0209bb44 000000f4 T Mono16BitRampMix(_MODCHANNEL*, int*, int*)
+0209bc38 00000110 T Mono8BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209bd48 00000110 T Mono16BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209be58 00000194 T Mono8BitSplineRampMix(_MODCHANNEL*, int*, int*)
+0209bfec 00000180 T Mono16BitSplineRampMix(_MODCHANNEL*, int*, int*)
+0209c16c 0000022c T Mono8BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+0209c398 00000220 T Mono16BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+0209c5b8 000000b4 T FastMono8BitMix(_MODCHANNEL*, int*, int*)
+0209c66c 000000b4 T FastMono16BitMix(_MODCHANNEL*, int*, int*)
+0209c720 000000d0 T FastMono8BitLinearMix(_MODCHANNEL*, int*, int*)
+0209c7f0 000000d0 T FastMono16BitLinearMix(_MODCHANNEL*, int*, int*)
+0209c8c0 000000d0 T FastMono8BitRampMix(_MODCHANNEL*, int*, int*)
+0209c990 000000d0 T FastMono16BitRampMix(_MODCHANNEL*, int*, int*)
+0209ca60 000000ec T FastMono8BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209cb4c 000000ec T FastMono16BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209cc38 000000d0 T Stereo8BitMix(_MODCHANNEL*, int*, int*)
+0209cd08 000000c4 T Stereo16BitMix(_MODCHANNEL*, int*, int*)
+0209cdcc 0000010c T Stereo8BitLinearMix(_MODCHANNEL*, int*, int*)
+0209ced8 00000100 T Stereo16BitLinearMix(_MODCHANNEL*, int*, int*)
+0209cfd8 000001ac T Stereo8BitSplineMix(_MODCHANNEL*, int*, int*)
+0209d184 00000190 T Stereo16BitSplineMix(_MODCHANNEL*, int*, int*)
+0209d314 000002a4 T Stereo8BitFirFilterMix(_MODCHANNEL*, int*, int*)
+0209d5b8 00000288 T Stereo16BitFirFilterMix(_MODCHANNEL*, int*, int*)
+0209d840 00000108 T Stereo8BitRampMix(_MODCHANNEL*, int*, int*)
+0209d948 000000fc T Stereo16BitRampMix(_MODCHANNEL*, int*, int*)
+0209da44 00000144 T Stereo8BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209db88 00000140 T Stereo16BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209dcc8 000001f4 T Stereo8BitSplineRampMix(_MODCHANNEL*, int*, int*)
+0209debc 000001d0 T Stereo16BitSplineRampMix(_MODCHANNEL*, int*, int*)
+0209e08c 000002e4 T Stereo8BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+0209e370 000002b8 T Stereo16BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+0209e628 00000118 T FilterMono8BitMix(_MODCHANNEL*, int*, int*)
+0209e740 00000118 T FilterMono16BitMix(_MODCHANNEL*, int*, int*)
+0209e858 0000013c T FilterMono8BitLinearMix(_MODCHANNEL*, int*, int*)
+0209e994 00000134 T FilterMono16BitLinearMix(_MODCHANNEL*, int*, int*)
+0209eac8 000001a8 T FilterMono8BitSplineMix(_MODCHANNEL*, int*, int*)
+0209ec70 000001a4 T FilterMono16BitSplineMix(_MODCHANNEL*, int*, int*)
+0209ee14 00000248 T FilterMono8BitFirFilterMix(_MODCHANNEL*, int*, int*)
+0209f05c 00000244 T FilterMono16BitFirFilterMix(_MODCHANNEL*, int*, int*)
+0209f2a0 00000150 T FilterMono8BitRampMix(_MODCHANNEL*, int*, int*)
+0209f3f0 00000150 T FilterMono16BitRampMix(_MODCHANNEL*, int*, int*)
+0209f540 00000174 T FilterMono8BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209f6b4 00000174 T FilterMono16BitLinearRampMix(_MODCHANNEL*, int*, int*)
+0209f828 000001e0 T FilterMono8BitSplineRampMix(_MODCHANNEL*, int*, int*)
+0209fa08 000001d4 T FilterMono16BitSplineRampMix(_MODCHANNEL*, int*, int*)
+0209fbdc 00000280 T FilterMono8BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+0209fe5c 00000274 T FilterMono16BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+020a00d0 00000180 T FilterStereo8BitMix(_MODCHANNEL*, int*, int*)
+020a0250 00000174 T FilterStereo16BitMix(_MODCHANNEL*, int*, int*)
+020a03c4 000001ac T FilterStereo8BitLinearMix(_MODCHANNEL*, int*, int*)
+020a0570 000001a0 T FilterStereo16BitLinearMix(_MODCHANNEL*, int*, int*)
+020a0710 00000264 T FilterStereo8BitSplineMix(_MODCHANNEL*, int*, int*)
+020a0974 00000240 T FilterStereo16BitSplineMix(_MODCHANNEL*, int*, int*)
+020a0bb4 0000033c T FilterStereo8BitFirFilterMix(_MODCHANNEL*, int*, int*)
+020a0ef0 00000300 T FilterStereo16BitFirFilterMix(_MODCHANNEL*, int*, int*)
+020a11f0 000001b0 T FilterStereo8BitRampMix(_MODCHANNEL*, int*, int*)
+020a13a0 000001ac T FilterStereo16BitRampMix(_MODCHANNEL*, int*, int*)
+020a154c 000001dc T FilterStereo8BitLinearRampMix(_MODCHANNEL*, int*, int*)
+020a1728 000001d0 T FilterStereo16BitLinearRampMix(_MODCHANNEL*, int*, int*)
+020a18f8 000002a4 T FilterStereo8BitSplineRampMix(_MODCHANNEL*, int*, int*)
+020a1b9c 00000280 T FilterStereo16BitSplineRampMix(_MODCHANNEL*, int*, int*)
+020a1e1c 00000364 T FilterStereo8BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+020a2180 00000338 T FilterStereo16BitFirFilterRampMix(_MODCHANNEL*, int*, int*)
+020a24b8 00000344 T CzCUBICSPLINE::CzCUBICSPLINE()
+020a24b8 00000344 T CzCUBICSPLINE::CzCUBICSPLINE()
+020a27fc 000002ac T CzWINDOWEDFIR::CzWINDOWEDFIR()
+020a27fc 000002ac T CzWINDOWEDFIR::CzWINDOWEDFIR()
+020a2aa8 000000b8 T X86_Convert32To8(void*, int*, unsigned int, int*, int*)
+020a2b60 0000008c T X86_Convert32To16(void*, int*, unsigned int, int*, int*)
+020a2bec 000000c4 T X86_Convert32To24(void*, int*, unsigned int, int*, int*)
+020a2cb0 0000008c T X86_Convert32To32(void*, int*, unsigned int, int*, int*)
+020a2d3c 00000004 T X86_InterleaveFrontRear(int*, int*, unsigned int)
+020a2d40 00000088 T X86_MonoFromStereo(int*, unsigned int)
+020a2dc8 00000088 T X86_StereoFill(int*, unsigned int, int*, int*)
+020a2e50 0000008c T X86_EndChannelOfs(_MODCHANNEL*, int*, unsigned int)
+020a2edc 0000089c T CSoundFile::CreateStereoMix(int)
+020a3778 00000018 t swap_subblock(MMCMPSUBBLOCK*)
+020a3790 00000084 t MMCMPBITBUFFER::GetBits(unsigned int) [clone .part.0]
+020a3814 00000090 T _PPBITBUFFER::GetBits(unsigned int)
+020a38a4 00000504 T PP20_Unpack(unsigned char const**, unsigned int*)
+020a3da8 00000a08 T MMCMP_Unpack(unsigned char const**, unsigned int*)
+020a47b0 000019e0 T CSoundFile::ReadXM(unsigned char const*, unsigned int)
+020a6190 00000614 T CSoundFile::ReadWav(unsigned char const*, unsigned int)
+020a67a4 00000090 t get_fci(char const*, int*)
+020a6834 000005d4 T CSoundFile::ReadUMX(unsigned char const*, unsigned int)
+020a6e08 0000080c T CSoundFile::ReadUlt(unsigned char const*, unsigned int)
+020a7614 0000063c T CSoundFile::ReadSTM(unsigned char const*, unsigned int)
+020a7c50 00000128 T CSoundFile::S3MConvert(_MODCOMMAND*, bool) const
+020a7d78 00000b54 T CSoundFile::ReadS3M(unsigned char const*, unsigned int)
+020a88cc 00000684 T CSoundFile::ReadPTM(unsigned char const*, unsigned int)
+020a8f50 00000760 T CSoundFile::ReadOKT(unsigned char const*, unsigned int)
+020a96b0 000005c8 T CSoundFile::ReadMTM(unsigned char const*, unsigned int)
+020a9c78 000001ac T CSoundFile::ConvertModCommand(_MODCOMMAND*) const
+020a9e24 00000da8 T CSoundFile::ReadMod(unsigned char const*, unsigned int)
+020aabcc 0000034c t MedConvert(_MODCOMMAND*, tagMMD0SONGHEADER const*)
+020aaf18 00000e30 T CSoundFile::ReadMed(unsigned char const*, unsigned int)
+020abd48 0000023c T ConvertMDLCommand(_MODCOMMAND*, unsigned int, unsigned int)
+020abf84 00000314 T UnpackMDLTrack(_MODCOMMAND*, unsigned int, unsigned int, unsigned int, unsigned char const*, unsigned int)
+020ac298 00000f58 T CSoundFile::ReadMDL(unsigned char const*, unsigned int)
+020ad1f0 00000064 T MDLReadBits(unsigned int&, unsigned int&, unsigned char*&, signed char)
+020ad254 0000069c T CSoundFile::ITInstrToMPT(void const*, _INSTRUMENTHEADER*, unsigned int)
+020ad8f0 00000078 T ITReadBits(unsigned int&, unsigned int&, unsigned char*&, signed char)
+020ad968 000002a8 T ITUnpack8Bit(signed char*, unsigned int, unsigned char*, unsigned int, bool)
+020adc10 000002cc T ITUnpack16Bit(signed char*, unsigned int, unsigned char*, unsigned int, bool)
+020adedc 00000254 T CSoundFile::LoadMixPlugins(void const*, unsigned int)
+020ae130 00001328 T CSoundFile::ReadIT(unsigned char const*, unsigned int)
+020af458 000007cc T CSoundFile::ReadFAR(unsigned char const*, unsigned int)
+020afc24 000005f8 T CSoundFile::ReadDSM(unsigned char const*, unsigned int)
+020b021c 00000e84 T CSoundFile::ReadDMF(unsigned char const*, unsigned int)
+020b10a0 00000244 T DMFNewNode(DMF_HTREE*)
+020b12e4 000001e8 T DMFUnpack(unsigned char*, unsigned char*, unsigned char*, unsigned int)
+020b14cc 00000b44 T CSoundFile::ReadDBM(unsigned char const*, unsigned int)
+020b2010 000009f0 T CSoundFile::ReadAMS2(unsigned char const*, unsigned int)
+020b2a00 000008bc T CSoundFile::ReadAMS(unsigned char const*, unsigned int)
+020b32bc 00000284 T AMSUnpack(char const*, unsigned int, char*, unsigned int, char)
+020b3540 000002b4 T AMF_Unpack(_MODCOMMAND*, unsigned char const*, unsigned int, unsigned int)
+020b37f4 00000b20 T CSoundFile::ReadAMF(unsigned char const*, unsigned int)
+020b4314 00000694 T CSoundFile::Read669(unsigned char const*, unsigned int)
+020b49a8 00000158 t ConvertMT2Command(CSoundFile*, _MODCOMMAND*, _MT2COMMAND const*)
+020b4b00 00000fb4 T CSoundFile::ReadMT2(unsigned char const*, unsigned int)
+020b5ab4 00000024 T swap_PSMCHUNK(_PSMCHUNK*)
+020b5ad8 00000024 T swap_PSMPATTERN(_PSMPATTERN*)
+020b5afc 00000040 T swap_PSMSAMPLE(_PSMSAMPLE*)
+020b5b3c 00000980 T CSoundFile::ReadPSM(unsigned char const*, unsigned int)
+020b64bc 00000108 t abc_brokenrithm(char const*, int*, int*, int*, int)
+020b65c4 000000a4 t abc_pattracktime(_ABCHANDLE*, unsigned int)
+020b6668 00000158 t abc_globalslide(_ABCHANDLE*, unsigned int, int)
+020b67c0 000000a8 t abc_skip_word(char*)
+020b6868 00000178 t abc_parse_decorations(_ABCHANDLE*, _ABCTRACK*, char const*)
+020b69e0 0000022c t abc_MIDI_gchord(char const*, _ABCHANDLE*)
+020b6c0c 00000130 t abc_beat_vol(_ABCHANDLE*, int, int)
+020b6d3c 000000a4 t abc_MIDI_beatstring(_ABCHANDLE*, char const*)
+020b6de0 00000298 t abc_substitute(_ABCHANDLE*, char*, char*)
+020b7078 0000038c t abc_dumptracks(_ABCHANDLE*, char const*)
+020b7404 00000088 t abc_message(char const*, char const*)
+020b748c 0000031c t ABC_Key(char const*)
+020b77a8 0000028c t abc_addchordname(char const*, int, int const*)
+020b7a34 000002cc t abc_setup_chordnames()
+020b7d00 00000220 t abc_extractkeyvalue(char*, unsigned int, char*, unsigned int, char const*) [clone .constprop.0]
+020b7f20 00000170 t abc_new_umacro(_ABCHANDLE*, char const*)
+020b8090 00000238 t abc_partpat_to_orderlist(unsigned char (*) [2], char const*, _ABCHANDLE*, unsigned char**, int) [clone .isra.0]
+020b82c8 000003f0 t abc_synchronise_tracks(_ABCHANDLE*)
+020b86b8 00000868 t ABC_ReadPatterns(_MODCOMMAND**, unsigned short*, _ABCHANDLE*, int, int)
+020b8f20 000000d0 t ABC_CleanupMacros(_ABCHANDLE*)
+020b8ff0 000001a0 t abc_fgetbytes(MMFILE*, char*, unsigned int) [clone .part.0]
+020b9190 00000344 t abc_gets(_ABCHANDLE*, MMFILE*)
+020b94d4 00000118 t abc_MIDI_beat(_ABCHANDLE*, char const*)
+020b95ec 000000d4 t abc_MIDI_getnumber(char const*)
+020b96c0 000000d4 t abc_MIDI_getprog(char const*)
+020b9794 000000d8 t abc_add_event(_ABCHANDLE*, _ABCTRACK*, _ABCEVENT*) [clone .isra.0]
+020b986c 00000084 t abc_add_partbreak(_ABCHANDLE*, _ABCTRACK*, unsigned int) [clone .isra.0]
+020b98f0 0000008c t abc_add_tempo_event(_ABCHANDLE*, _ABCTRACK*, unsigned int, int) [clone .isra.0]
+020b997c 00000094 t abc_add_noteoff(_ABCHANDLE*, _ABCTRACK*, unsigned int) [clone .isra.0]
+020b9a10 000002e8 t abc_add_dronenote(_ABCHANDLE*, _ABCTRACK*, unsigned int, int, int) [clone .isra.0]
+020b9cf8 00000308 t abc_add_chord(char const*, _ABCHANDLE*, _ABCTRACK*, unsigned int) [clone .isra.0]
+020ba000 00000088 t abc_add_setjumploop(_ABCHANDLE*, _ABCTRACK*, unsigned int, ABCEVENT_JUMPTYPE) [clone .isra.0]
+020ba088 000000c8 t abc_add_sync(_ABCHANDLE*, _ABCTRACK*, unsigned int) [clone .isra.0]
+020ba150 00000084 t abc_add_tocoda(_ABCHANDLE*, _ABCTRACK*, unsigned int) [clone .isra.0]
+020ba1d4 000009a4 t abc_add_noteon(_ABCHANDLE*, int, char const*, unsigned int, char*, int, ABCEVENT_X_EFFECT, int)
+020bab78 0000094c t abc_transpose(char const*)
+020bb4c4 00000348 t abc_locate_track(_ABCHANDLE*, char const*, int)
+020bb80c 00000568 t abc_add_gchord(_ABCHANDLE*, unsigned int, unsigned int)
+020bbd74 000002a0 t abc_add_drum(_ABCHANDLE*, unsigned int, unsigned int)
+020bc014 00000040 t abc_check_track(_ABCHANDLE*, _ABCTRACK*) [clone .part.0]
+020bc054 0000017c t abc_getexpr(char const*, int*)
+020bc1d0 00000114 t abc_M_field(char const*, int*, int*)
+020bc2e4 000000fc t abc_notelen(char const*, int*, int*)
+020bc3e0 00000350 t abc_extract_tempo(char const*, int)
+020bc730 0000072c t abc_set_parts(char**, char*)
+020bce5c 00000b18 t abc_song_to_parts(_ABCHANDLE*, char**, unsigned char (*) [2])
+020bd974 000014b4 t abc_MIDI_command(_ABCHANDLE*, char*, char)
+020bee28 00000260 t abc_continuated(_ABCHANDLE*, MMFILE*, char*)
+020bf088 00000294 T CSoundFile::TestABC(unsigned char const*, unsigned int)
+020bf31c 00005628 T CSoundFile::ReadABC(unsigned char const*, unsigned int)
+020c4944 00000088 t mid_message(char const*, char const*)
+020c49cc 0000072c t MID_ReadPatterns(_MODCOMMAND**, unsigned short*, _MIDHANDLE*, int, int)
+020c50f8 0000001c t mid_read_long(_MIDHANDLE*) [clone .isra.0]
+020c5114 0000009c t mid_sync_track(_MIDTRACK*, unsigned int)
+020c51b0 0000013c t mid_add_event(_MIDHANDLE*, _MIDTRACK*, _MIDEVENT*) [clone .isra.0]
+020c52ec 000003c8 t mid_locate_track(_MIDHANDLE*, int, int)
+020c56b4 00000078 t mid_add_noteoff(_MIDHANDLE*, _MIDTRACK*)
+020c572c 000000cc t mid_add_wheel(_MIDHANDLE*, _MIDTRACK*, int)
+020c57f8 00000090 T CSoundFile::TestMID(unsigned char const*, unsigned int)
+020c5888 00002454 T CSoundFile::ReadMID(unsigned char const*, unsigned int)
+020c7cdc 00000100 t pat_sawtooth(int)
+020c7ddc 00000120 t pat_setpat_attr(WaveHeader*, _MODINSTRUMENT*)
+020c7efc 000000c0 t mmreadUBYTES(unsigned char*, long, MMFILE*)
+020c7fbc 00000114 t pat_build_path(char*, int)
+020c80d0 000003fc t pat_setpat_inst(WaveHeader*, _INSTRUMENTHEADER*, int)
+020c84cc 000000ac t pat_square(int)
+020c8578 0000003c t pat_sinus(int)
+020c85b4 000001c8 t pat_read_waveheader(__sFILE*, WaveHeader*, int) [clone .constprop.0]
+020c877c 000002fc t pat_readpat(int, char*, int)
+020c8a78 00000170 t dec_pat_Decompress8Bit(short*, int, int) [clone .isra.0]
+020c8be8 000000c8 t pat_readpat_attr(int, WaveHeader*, int) [clone .constprop.0]
+020c8cb0 00000308 t PATsample(CSoundFile*, _MODINSTRUMENT*, int, int)
+020c8fb8 00000040 T pat_resetsmp
+020c8ff8 00000024 T pat_smptogm
+020c901c 0000005c T pat_gmtosmp
+020c9078 00000024 T pat_smplooped
+020c909c 00000068 T pat_gm_name
+020c9104 0000002c T pat_gm_drumnr
+020c9130 000000a8 T pat_gm_drumnote
+020c91d8 0000069c T pat_init_patnames
+020c9874 00000088 T CSoundFile::TestPAT(unsigned char const*, unsigned int)
+020c98fc 00000008 T pat_modnote
+020c9904 00000344 T PAT_Load_Instruments
+020c9c48 00000bb8 T CSoundFile::ReadPAT(unsigned char const*, unsigned int)
+020ca800 0000019c t conv_s16_to_s32
+020ca99c 00000264 t cap_fit
+020cac00 00000278 t enc_chan_fit
+020cae78 00000028 T mpg123_rates
+020caea0 0000005c T mpg123_encsize
+020caefc 00000c4c T INT123_frame_output_format
+020cbb48 000000a0 T mpg123_format_none
+020cbbe8 00000230 T mpg123_fmt_all
+020cbe18 000003f4 T mpg123_fmt2
+020cc20c 00000064 T mpg123_format
+020cc270 00000014 T INT123_invalidate_format
+020cc284 00000044 T INT123_decoder_synth_bytes
+020cc2c8 00000044 T INT123_samples_to_bytes
+020cc30c 00000048 T INT123_bytes_to_samples
+020cc354 000000a8 T INT123_outblock_bytes
+020cc3fc 00001770 T INT123_postprocess_buffer
+020cdb6c 0000000c t no_lseek64
+020cdb78 00000110 t decode_the_frame
+020cdc88 00000248 t frame_buffercheck.part.0.constprop.0
+020cded0 00000008 T mpg123_init
+020cded8 00000004 T mpg123_exit
+020cdedc 000000b0 T mpg123_parnew
+020cdf8c 00000010 T mpg123_new
+020cdf9c 00000250 T INT123_decode_update
+020ce1ec 000002e4 t get_next_frame
+020ce4d0 000001c4 t do_the_seek
+020ce694 00000358 T mpg123_decode
+020ce9ec 00000018 T mpg123_read
+020cea04 000000e0 T mpg123_getformat
+020ceae4 000001bc T mpg123_tell64
+020ceca0 00000244 T mpg123_length64
+020ceee4 0000024c T mpg123_scan
+020cf130 00000398 T mpg123_seek64
+020cf4c8 00000080 T mpg123_close
+020cf548 000000a0 T mpg123_open_handle
+020cf5e8 00000098 T mpg123_reader64
+020cf680 00000050 T mpg123_delete
+020cf6d0 0000004c T mpg123_plain_strerror
+020cf71c 00000064 T mpg123_strerror
+020cf780 00000018 T INT123_wrap_handle
+020cf798 00000014 T INT123_set_err
+020cf7ac 000001d4 t fi_shrink
+020cf980 00000038 T INT123_fi_init
+020cf9b8 000000b0 T INT123_fi_exit
+020cfa68 00000178 T INT123_fi_resize
+020cfbe0 00000158 T INT123_fi_add
+020cfd38 0000002c T INT123_fi_reset
+020cfd64 00000090 t wrap_io_cleanup
+020cfdf4 00000084 t wrap_lseek
+020cfe78 000000d0 t wrap_read
+020cff48 00000008 t internal_lseek64
+020cff50 000001c4 t internal_read64
+020d0114 000000dc t wrap_get
+020d01f0 000000a8 T INT123_wrap_destroy
+020d0298 00000004 T mpg123_tell
+020d029c 00000004 T mpg123_seek
+020d02a0 00000004 T mpg123_length
+020d02a4 0000022c T INT123_wrap_open
+020d04d0 0000009c T mpg123_replace_reader_handle
+020d056c 0000000c T INT123_init_icy
+020d0578 0000004c T INT123_clear_icy
+020d05c4 0000004c T INT123_reset_icy
+020d0610 000002a8 T INT123_synth_ntom_set_step
+020d08b8 00000118 T INT123_ntom_set_ntom
+020d09d0 00000024 T INT123_ntom_frame_outsamples
+020d09f4 000000f0 T INT123_ntom_frmouts
+020d0ae4 00000120 T INT123_ntom_ins2outs
+020d0c04 000000e0 T INT123_ntom_frameoff
+020d0ce4 00000014 T mpg123_init_string
+020d0cf8 00000060 T mpg123_free_string
+020d0d58 00000094 T mpg123_grow_string
+020d0dec 000000d4 T mpg123_move_string
+020d0ec0 0000005c T mpg123_same_string
+020d0f1c 0000000c T INT123_compat_open
+020d0f28 00000014 T INT123_safe_realloc
+020d0f3c 00000058 T INT123_strerror
+020d0f94 00000874 t decode_header
+020d1808 000000c4 t forget_head_shift
+020d18cc 000000b8 t getbits.constprop.0
+020d1984 00000018 T INT123_frame_freq
+020d199c 00001fa4 T INT123_read_frame
+020d3940 000000c4 T INT123_set_pointer
+020d3a04 00000050 T INT123_compute_bpf
+020d3a54 00000214 t frame_fixed_reset
+020d3c68 00000224 t frame_fuzzy_find.constprop.0
+020d3e8c 00000158 T INT123_frame_outbuffer
+020d3fe4 000000e4 T INT123_frame_index_setup
+020d40c8 00000214 T INT123_frame_init_par
+020d42dc 00000198 T INT123_frame_buffers
+020d4474 0000009c T INT123_frame_buffers_reset
+020d4510 00000084 T INT123_frame_fill_toc
+020d4594 00000058 T INT123_frame_reset
+020d45ec 000000d4 T INT123_frame_exit
+020d46c0 000001c8 T INT123_frame_index_find
+020d4888 000000c4 T INT123_frame_ins2outs
+020d494c 000000bc T INT123_frame_outs
+020d4a08 000000a0 T INT123_frame_expect_outsamples
+020d4aa8 000000b8 T INT123_frame_offset
+020d4b60 000000d4 T INT123_frame_gapless_init
+020d4c34 000000c4 T INT123_frame_gapless_realinit
+020d4cf8 000001e4 T INT123_frame_gapless_update
+020d4edc 00000240 T INT123_frame_set_frameseek
+020d511c 00000018 T INT123_frame_skip
+020d5134 000000e4 T INT123_frame_set_seek
+020d5218 000001a8 T INT123_do_rva
+020d53c0 000001cc t next_text
+020d558c 00000294 t promote_framename
+020d5820 00000588 t convert_utf16bom
+020d5da8 00000410 t convert_latin1
+020d61b8 0000009c t convert_utf8
+020d6254 00000230 t add_id3_text
+020d6484 00000048 T INT123_init_id3
+020d64cc 00000320 T INT123_exit_id3
+020d67ec 00000070 T INT123_reset_id3
+020d685c 0000028c T INT123_id3_to_utf8
+020d6ae8 000001c0 t store_id3_text.part.0
+020d6ca8 00002874 T INT123_parse_new_id3
+020d951c 00000070 t synth_stereo_wrap
+020d958c 00000008 T INT123_defdec
+020d9594 00000028 T INT123_decclass
+020d95bc 000003ec T INT123_set_synth_functions
+020d99a8 00000328 T INT123_frame_cpu_opt
+020d9cd0 00000074 t generic_head_read
+020d9d44 00000078 t generic_head_shift
+020d9dbc 00000050 t generic_read_frame_body
+020d9e0c 00000084 t generic_tell
+020d9e90 00000068 t feed_skip_bytes
+020d9ef8 00000008 t feed_seek_frame
+020d9f00 00000010 t bad_init
+020d9f10 00000004 t bad_close
+020d9f14 00000010 t bad_fullread
+020d9f24 00000010 t bad_head_read
+020d9f34 00000014 t bad_skip_bytes
+020d9f48 00000010 t bad_back_bytes
+020d9f58 00000014 t bad_tell
+020d9f6c 00000144 t fdread
+020da0b0 000000f0 t plain_fullread
+020da1a0 00000094 t fdseek
+020da234 000001cc t stream_skip_bytes
+020da400 0000009c t stream_back_bytes
+020da49c 00000148 t bc_give
+020da5e4 00000048 t feed_read
+020da62c 000004f8 t icy_fullread
+020dab24 000001b0 t stream_seek_frame
+020dacd4 000001f8 t buffered_forget
+020daecc 000001b0 t bc_add.part.0
+020db07c 00000290 t buffered_fullread
+020db30c 0000000c t buffered_icy_fullread
+020db318 0000000c t buffered_plain_fullread
+020db324 00000364 t stream_init
+020db688 00000010 t bad_read_frame_body
+020db698 00000010 t bad_seek_frame
+020db6a8 00000010 t bad_head_shift
+020db6b8 00000004 t bad_rewind
+020db6bc 000000bc t stream_rewind
+020db778 00000288 t bc_fill_pool.isra.0
+020dba00 00000088 t feed_init
+020dba88 000000bc t bc_reset
+020dbb44 0000007c t stream_close
+020dbbc0 00000088 t feed_back_bytes
+020dbc48 0000003c T INT123_bc_prepare
+020dbc84 00000130 T INT123_bc_cleanup
+020dbdb4 000000b4 T INT123_feed_more
+020dbe68 00000078 T INT123_open_bad
+020dbee0 000000d0 T INT123_open_stream_handle
+020dbfb0 000003b0 T INT123_make_decode_tables
+020dc360 00000c58 T INT123_make_conv16to8_table
+020dcfb8 000000c4 t getbits
+020dd07c 00002288 T INT123_do_layer1
+020df304 000000c4 t getbits
+020df3c8 00000160 T INT123_init_layer12_stuff
+020df528 0000003c T INT123_init_layer12_table
+020df564 00001cdc T INT123_do_layer2
+020e1240 00000368 t III_get_scale_factors_2
+020e15a8 00000610 t INT123_dct36
+020e1bb8 000003e8 t dct12
+020e1fa0 000000c4 t getbits
+020e2064 00001aa8 t III_dequantize_sample
+020e3b0c 0000154c t III_get_scale_factors_1.isra.0
+020e5058 00000054 T INT123_init_layer3_gainpow2
+020e50ac 00000534 T INT123_init_layer3_stuff
+020e55e0 00003654 T INT123_do_layer3
+020e8c34 000004a0 T INT123_synth_1to1_8bit
+020e90d4 000000d4 T INT123_synth_1to1_8bit_mono
+020e91a8 000000a8 T INT123_synth_1to1_8bit_m2s
+020e9250 0000015c T INT123_synth_1to1_8bit_wrap
+020e93ac 00000134 T INT123_synth_1to1_8bit_wrap_mono
+020e94e0 00000134 T INT123_synth_1to1_8bit_wrap_m2s
+020e9614 00000b08 T INT123_synth_2to1_8bit
+020ea11c 000000f8 T INT123_synth_2to1_8bit_mono
+020ea214 000000d8 T INT123_synth_2to1_8bit_m2s
+020ea2ec 000009bc T INT123_synth_4to1_8bit
+020eaca8 000000b8 T INT123_synth_4to1_8bit_mono
+020ead60 00000098 T INT123_synth_4to1_8bit_m2s
+020eadf8 00000a78 T INT123_synth_ntom_8bit
+020eb870 00000174 T INT123_synth_ntom_8bit_mono
+020eb9e4 000001b0 T INT123_synth_ntom_8bit_m2s
+020ebb94 00000460 T INT123_synth_1to1
+020ebff4 000000d4 T INT123_synth_1to1_mono
+020ec0c8 000000a8 T INT123_synth_1to1_m2s
+020ec170 000012f4 T INT123_synth_2to1
+020ed464 000000f8 T INT123_synth_2to1_mono
+020ed55c 000000d8 T INT123_synth_2to1_m2s
+020ed634 0000099c T INT123_synth_4to1
+020edfd0 000000b8 T INT123_synth_4to1_mono
+020ee088 00000098 T INT123_synth_4to1_m2s
+020ee120 000011d0 T INT123_synth_ntom
+020ef2f0 00000198 T INT123_synth_ntom_mono
+020ef488 0000016c T INT123_synth_ntom_m2s
+020ef5f4 000004a0 T INT123_synth_1to1_s32
+020efa94 000000d4 T INT123_synth_1to1_s32_mono
+020efb68 000000a8 T INT123_synth_1to1_s32_m2s
+020efc10 000013e4 T INT123_synth_2to1_s32
+020f0ff4 000000f8 T INT123_synth_2to1_s32_mono
+020f10ec 000000d8 T INT123_synth_2to1_s32_m2s
+020f11c4 00000a1c T INT123_synth_4to1_s32
+020f1be0 000000b8 T INT123_synth_4to1_s32_mono
+020f1c98 00000098 T INT123_synth_4to1_s32_m2s
+020f1d30 000012f8 T INT123_synth_ntom_s32
+020f3028 00000190 T INT123_synth_ntom_s32_mono
+020f31b8 000001b0 T INT123_synth_ntom_s32_m2s
+020f3368 00000388 T INT123_synth_1to1_real
+020f36f0 000000d4 T INT123_synth_1to1_real_mono
+020f37c4 000000a8 T INT123_synth_1to1_real_m2s
+020f386c 00000d60 T INT123_synth_2to1_real
+020f45cc 000000f8 T INT123_synth_2to1_real_mono
+020f46c4 000000d8 T INT123_synth_2to1_real_m2s
+020f479c 00000720 T INT123_synth_4to1_real
+020f4ebc 000000b8 T INT123_synth_4to1_real_mono
+020f4f74 00000098 T INT123_synth_4to1_real_m2s
+020f500c 000006c0 T INT123_synth_ntom_real
+020f56cc 0000019c T INT123_synth_ntom_real_mono
+020f5868 00000170 T INT123_synth_ntom_real_m2s
+020f59d8 0000093c T INT123_dct64
+020f6314 000000a0 T INT123_do_equalizer
+020f63b4 00000044 W __init_wut
+020f63f8 00000034 W __fini_wut
+020f642c 00000028 W __preinit_user
+020f6454 00000034 T __wut__abort
+020f64a8 00000148 T __wut__assert_func
+020f6620 00000004 T _sbrk_r
+020f6624 00000004 T __syscall_getreent
+020f6628 0000003c T __syscall_exit
+020f6664 00000004 T __syscall_gettod_r
+020f6668 00000004 T __syscall_nanosleep
+020f666c 00000010 T __syscall_abort
+020f667c 00000010 T __syscall_assert_func
+020f668c 00000014 T __init_wut_newlib
+020f66a0 00000004 T __fini_wut_newlib
+020f66a4 000000ac t __wut_thread_cleanup
+020f6750 0000010c T __wut_getreent
+020f687c 000000c4 T __wut_sbrk_r
+020f6950 00000070 T __init_wut_sbrk_heap
+020f69e0 00000078 T __fini_wut_sbrk_heap
+020f6a68 0000002c t __wut_cond_alarmcb
+020f6ab4 00000030 T __init_wut_thread
+020f6af4 0000000c T __syscall_malloc_lock
+020f6b10 0000000c T __syscall_malloc_unlock
+020f6b2c 000000ac T __syscall_lock_acquire
+020f6c18 000000ac T __syscall_lock_release
+020f6d04 0000004c T __syscall_lock_close_recursive
+020f6d50 000000ac T __syscall_lock_acquire_recursive
+020f6e3c 000000ac T __syscall_lock_release_recursive
+020f6f28 000000c4 T __syscall_cond_broadcast
+020f702c 000002cc T __syscall_cond_wait
+020f7398 00000004 T __syscall_cond_wait_recursive
+020f739c 00000008 W wut_set_thread_specific
+020f73b4 00000008 W wut_get_thread_specific
+020f73cc 00000004 T __wut_alloc_from_defaultheap
+020f73d0 00000010 T __wut_alloc_from_defaultheap_ex
+020f73e0 00000004 T __wut_free_to_defaultheap
+020f73e4 00000034 T __init_wut_defaultheap
+020f7418 00000024 t procHomeButtonDenied
+020f743c 00000024 t procSaveCallback
+020f7470 00000100 T WHBProcInit
+020f75c0 00000028 T WHBProcShutdown
+020f75f8 000000a8 T WHBProcIsRunning
+020f76f0 000001bc T __init_wut_devoptab
+020f78fc 0000008c T __fini_wut_devoptab
+020f79a8 000000a0 T __wut_fsa_dirclose
+020f7a78 000001ac T __wut_fsa_dirnext
+020f7c54 0000017c T __wut_fsa_diropen
+020f7e10 000000a0 T __wut_fsa_dirreset
+020f7ee0 000000d4 T __wut_fsa_fstat
+020f7fe4 0000009c T __wut_fsa_fsync
+020f80b0 000000e0 T __wut_fsa_mkdir
+020f81a0 000004cc T __wut_fsa_open
+020f86dc 000001bc T __wut_fsa_read
+020f88c8 00000114 T __wut_fsa_rename
+020f89ec 000000c4 T __wut_fsa_rmdir
+020f8ac0 00000188 T __wut_fsa_seek
+020f8c88 00000118 T __wut_fsa_stat
+020f8db0 00000168 T __wut_fsa_statvfs
+020f8f28 000000c8 T __wut_fsa_ftruncate
+020f9030 000000c4 T __wut_fsa_unlink
+020f9104 00000040 T __wut_fsa_hashstring
+020f9144 00000368 T __wut_fsa_fixpath
+020f94ac 0000007c T __wut_fsa_translate_stat_mode
+020f9528 00000144 T __wut_fsa_translate_stat
+020f966c 00000028 T __wut_fsa_translate_error
+020f9694 000001d4 T __wut_fsa_write
+020f9898 00000070 t nn::swkbd::allocForDynLoad(int, int, void**)
+020f9918 00000010 t nn::swkbd::freeForDynLoad(void*)
+020f9938 000005f4 T nn::swkbd::Create(nn::swkbd::CreateArg const&)
+020f9fcc 00000010 T nn::swkbd::AppearInputForm(nn::swkbd::AppearArg const&)
+020f9fdc 00000010 T nn::swkbd::CalcSubThreadFont()
+020f9fec 00000010 T nn::swkbd::CalcSubThreadPredict()
+020f9ffc 00000010 T nn::swkbd::Calc(nn::swkbd::ControllerInfo const&)
+020fa00c 0000006c T nn::swkbd::Destroy()
+020fa098 00000010 T nn::swkbd::DisappearInputForm()
+020fa0a8 00000010 T nn::swkbd::GetInputFormString()
+020fa0b8 00000010 T nn::swkbd::GetStateInputForm()
+020fa0c8 00000008 T nn::swkbd::GetWorkMemorySize(unsigned int)
+020fa0d0 00000010 T nn::swkbd::IsDecideCancelButton(bool*)
+020fa0e0 00000010 T nn::swkbd::IsDecideOkButton(bool*)
+020fa0f0 00000010 T nn::swkbd::IsNeedCalcSubThreadFont()
+020fa100 00000010 T nn::swkbd::IsNeedCalcSubThreadPredict()
+020fa110 00000124 T __wut_gettod_r
+020fa254 000000dc T __wut_nanosleep
+020fa350 0000011c T __wut_fsa_chdir
+020fa47c 000000e0 T __wut_fsa_chmod
+020fa56c 0000009c T __wut_fsa_close
+020fa638 00000004 T operator delete(void*, unsigned int)
+020fa63c 00000004 T operator delete[](void*)
+020fa640 00000098 t get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
+020fa6d8 0000013c t read_encoded_value_with_base(unsigned char, unsigned int, unsigned char const*, unsigned int*)
+020fa814 00000060 t base_of_encoded_value(unsigned char, _Unwind_Context*)
+020fa874 00000120 t parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
+020fa994 00000138 t check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
+020faacc 000008f0 T __gxx_personality_v0
+020fb3bc 00000020 T __cxxabiv1::__terminate(void (*)())
+020fb3dc 00000018 T __cxxabiv1::__unexpected(void (*)())
+020fb3f4 00000018 T std::get_terminate()
+020fb40c 00000018 T std::get_unexpected()
+020fb424 00000080 t __gxx_exception_cleanup(_Unwind_Reason_Code, _Unwind_Exception*)
+020fb4a4 00000098 T __cxa_throw
+020fb53c 0000000c W __gnu_cxx::__concurrence_lock_error::what() const
+020fb548 0000000c W __gnu_cxx::__concurrence_unlock_error::what() const
+020fb554 0000000c W __gnu_cxx::__concurrence_broadcast_error::what() const
+020fb560 0000000c W __gnu_cxx::__concurrence_wait_error::what() const
+020fb56c 00000028 t (anonymous namespace)::init()
+020fb594 00000024 t (anonymous namespace)::init_static_cond()
+020fb5b8 00000010 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+020fb5b8 00000010 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+020fb5c8 00000040 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+020fb608 00000010 W __gnu_cxx::__concurrence_wait_error::~__concurrence_wait_error()
+020fb608 00000010 W __gnu_cxx::__concurrence_wait_error::~__concurrence_wait_error()
+020fb618 00000040 W __gnu_cxx::__concurrence_wait_error::~__concurrence_wait_error()
+020fb658 00000010 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+020fb658 00000010 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+020fb668 00000040 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+020fb6a8 00000010 W __gnu_cxx::__concurrence_broadcast_error::~__concurrence_broadcast_error()
+020fb6a8 00000010 W __gnu_cxx::__concurrence_broadcast_error::~__concurrence_broadcast_error()
+020fb6b8 00000040 W __gnu_cxx::__concurrence_broadcast_error::~__concurrence_broadcast_error()
+020fb6f8 000001a8 T __cxa_guard_acquire
+020fb8a0 000000a0 T __cxa_guard_abort
+020fb940 000000ac T __cxa_guard_release
+020fb9ec 00000080 T operator new(unsigned int)
+020fba6c 00000004 T operator new[](unsigned int)
+020fba70 00000010 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+020fba70 00000010 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+020fba80 00000040 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+020fbac0 0000021c T __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+020fbcdc 00000140 T __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+020fbe1c 00000094 T __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+020fbeb0 00000004 T std::type_info::~type_info()
+020fbeb0 00000004 T std::type_info::~type_info()
+020fbeb4 00000008 T std::type_info::__is_pointer_p() const
+020fbeb4 00000008 T std::type_info::__is_function_p() const
+020fbebc 00000068 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
+020fbf24 00000018 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
+020fbf3c 00000144 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+020fc080 00000160 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int)
+020fc1e0 000000a8 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_erase(unsigned int, unsigned int)
+020fc288 000000a8 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+020fc288 000000a8 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+020fc330 000000c4 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned int)
+020fc3f4 000001d0 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int)
+020fc5c4 00000100 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned int)
+020fc6c4 00000064 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*)
+020fc728 000000cc W void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+020fc7f4 00000080 W std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::substr(unsigned int, unsigned int) const
+020fc874 0000000c T std::bad_alloc::what() const
+020fc880 00000010 T std::bad_alloc::~bad_alloc()
+020fc880 00000010 T std::bad_alloc::~bad_alloc()
+020fc890 00000040 T std::bad_alloc::~bad_alloc()
+020fc8d0 00000018 T __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+020fc8e8 00000010 T __cxxabiv1::__class_type_info::~__class_type_info()
+020fc8e8 00000010 T __cxxabiv1::__class_type_info::~__class_type_info()
+020fc8f8 00000040 T __cxxabiv1::__class_type_info::~__class_type_info()
+020fc938 00000098 T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+020fc9d0 00000134 T __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+020fcb04 000000f8 T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+020fcbfc 00000134 T __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+020fcd30 00000004 T operator delete(void*)
+020fcd34 0000012c t (anonymous namespace)::pool::free(void*) [clone .constprop.0]
+020fce60 000000f4 t (anonymous namespace)::pool::allocate(unsigned int) [clone .constprop.0]
+020fcf54 00000068 T __cxa_allocate_exception
+020fcfbc 00000030 T __cxa_free_exception
+020fcfec 000000c8 T __cxa_begin_catch
+020fd0b4 00000004 T std::exception::~exception()
+020fd0b4 00000004 T std::exception::~exception()
+020fd0b8 00000068 t eh_globals_dtor(void*)
+020fd120 00000090 T __cxa_get_globals
+020fd1b0 00000018 T std::get_new_handler()
+020fd1c8 00000008 T std::logic_error::what() const
+020fd1c8 00000008 T std::runtime_error::what() const
+020fd1d0 00000084 T std::logic_error::~logic_error()
+020fd1d0 00000084 T std::logic_error::~logic_error()
+020fd254 00000084 T std::length_error::~length_error()
+020fd254 00000084 T std::length_error::~length_error()
+020fd2d8 00000084 T std::out_of_range::~out_of_range()
+020fd2d8 00000084 T std::out_of_range::~out_of_range()
+020fd35c 00000088 T std::logic_error::~logic_error()
+020fd3e4 00000088 T std::length_error::~length_error()
+020fd46c 00000088 T std::out_of_range::~out_of_range()
+020fd4f4 00000114 T std::logic_error::logic_error(char const*)
+020fd4f4 00000114 T std::logic_error::logic_error(char const*)
+020fd608 00000038 T std::length_error::length_error(char const*)
+020fd608 00000038 T std::length_error::length_error(char const*)
+020fd640 00000038 T std::out_of_range::out_of_range(char const*)
+020fd640 00000038 T std::out_of_range::out_of_range(char const*)
+020fd678 000000dc W std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&)
+020fd754 00000004 W std::string::_Rep::_M_destroy(std::allocator<char> const&)
+020fd758 000000c0 T exp
+020fd818 000000d4 T sin
+020fd8ec 0000007c T truncf
+020fd968 00000004 T atan2
+020fd96c 00000010 T exp2f
+020fd97c 00000020 T fabsf
+020fd99c 00000150 T pow
+020fdaec 00000174 T ceil
+020fdc60 00000420 T __ieee754_rem_pio2
+020fe080 0000010c T floorf
+020fe18c 00000f48 T __kernel_rem_pio2
+020ff0d4 00000198 T scalbn
+020ff26c 00000010 T exp2
+020ff27c 000000d4 T cosf
+020ff350 0000018c T scalbnf
+020ff4dc 00000070 T sqrtf
+020ff54c 00000070 T sqrt
+020ff5bc 000000cc T __kernel_sin
+020ff688 000000d0 T cos
+020ff758 00000cf0 T __ieee754_pow
+02100448 000002f8 T __ieee754_exp
+02100740 0000000c T nanf
+0210074c 00000150 T powf
+0210089c 000000b8 T expf
+02100954 00000180 T __kernel_cosf
+02100ad4 00000280 T __ieee754_atan2
+02100d54 00000084 T log
+02100dd8 000000d8 T sinf
+02100eb0 00000028 T finitef
+02100ed8 00000188 T floor
+02101060 00000058 T sincosf
+021010b8 00000020 T finite
+021010d8 00000290 T atan
+02101368 00000320 T __ieee754_log
+02101688 00000160 T __ieee754_sqrtf
+021017e8 00000188 T __kernel_cos
+02101970 000000cc T __kernel_sinf
+02101a3c 000002d8 T __ieee754_sqrt
+02101d14 00000028 T fabs
+02101d3c 00000038 t with_errno
+02101d74 0000002c t xflow
+02101da0 0000000c T __math_uflow
+02101dac 0000000c T __math_oflow
+02101db8 00000418 T __ieee754_rem_pio2f
+021021d0 0000000c T nan
+021021dc 00000f70 T __kernel_rem_pio2f
+0210314c 00000aac T __ieee754_powf
+02103bf8 00000318 T __ieee754_expf
+02103f10 00000038 t with_errnof
+02103f48 0000001c t xflowf
+02103f64 0000000c T __math_uflowf
+02103f70 0000000c T __math_oflowf
+02103f7c 00000040 T __fixdfdi
+02103fbc 000000fc T __fixunsdfdi
+021040b8 0000009c T __floatdisf
+02104154 00000050 T __floatdidf
+021041a4 00000448 T __divdi3
+021045ec 000003e4 T __moddi3
+021049d0 000003c4 T __udivdi3
+02104d94 00000380 T __umoddi3
+02105114 00000048 T __eabi
+0210515c 000001d0 t init_dwarf_reg_size_table
+0210532c 000001b8 t uw_install_context_1
+021054e4 00000184 t read_encoded_value
+02105668 00000898 t execute_stack_op
+02105f00 0000037c t uw_update_context_1
+0210627c 00000910 t execute_cfa_program_specialized
+02106b8c 00000974 t execute_cfa_program_generic
+02107500 000004ec t uw_frame_state_for
+021079ec 000002d0 t uw_init_context_1
+02107cbc 000001cc t _Unwind_RaiseException_Phase2
+02107e88 000001f0 t _Unwind_ForcedUnwind_Phase2
+02108078 00000064 T _Unwind_SetGR
+021080dc 00000014 T _Unwind_GetIPInfo
+021080f0 00000008 T _Unwind_SetIP
+021080f8 00000008 T _Unwind_GetLanguageSpecificData
+02108100 00000008 T _Unwind_GetRegionStart
+02108108 00000008 T _Unwind_GetDataRelBase
+02108110 00000008 T _Unwind_GetTextRelBase
+02108118 00000004 t _Unwind_DebugHook
+0210811c 0000038c T _Unwind_RaiseException
+021084a8 000001dc T _Unwind_Resume
+02108684 0000001c T _Unwind_DeleteException
+021086a0 00000020 t fde_unencoded_compare
+021086c0 00000074 t fde_unencoded_extract
+02108734 00000110 t frame_downheap
+02108844 0000013c t read_encoded_value_with_base
+02108980 000002a0 t fde_radixsort
+02108c20 0000014c t __deregister_frame_info_bases.part.0
+02108d6c 0000015c t get_cie_encoding
+02108ec8 000000fc t fde_mixed_encoding_extract
+02108fc4 0000020c t classify_object_over_fdes.constprop.0
+021091d0 00000104 t fde_single_encoding_extract
+021092d4 000000cc t fde_single_encoding_compare
+021093a0 00000144 t fde_mixed_encoding_compare
+021094e4 000002ac t add_fdes.isra.0
+02109790 00000350 t linear_search_fdes
+02109ae0 000006ac t search_object
+0210a18c 00000088 T __register_frame_info
+0210a214 00000020 T __deregister_frame_info
+0210a234 00000248 T _Unwind_Find_FDE
+0210a47c 000001b8 T chdir
+0210a634 0000027c T _concatenate_path
+0210a8b0 000000b4 t __dirnext
+0210a964 00000168 T opendir
+0210aacc 000000d8 T closedir
+0210aba4 00000150 T readdir_r
+0210acf4 00000050 T readdir
+0210ad44 00000020 T __getreent
+0210ad64 00000008 t null_write
+0210ad6c 00000018 T setDefaultDevice
+0210ad84 00000108 T FindDevice
+0210ae8c 00000040 T RemoveDevice
+0210aecc 000000f4 T AddDevice
+0210afc0 00000080 T pthread_mutex_lock
+0210b040 00000080 T pthread_mutex_unlock
+0210b0c0 00000018 T pthread_cond_broadcast
+0210b0d8 00000064 T pthread_cond_wait
+0210b13c 000000fc T pthread_once
+0210b238 0000002c T pthread_key_create
+0210b264 0000001c T pthread_setspecific
+0210b280 0000001c T pthread_getspecific
+0210b29c 0000001c T pthread_key_delete
+0210b2b8 00000070 T sleep
+0210b328 00000014 T __libc_lock_acquire
+0210b33c 00000014 T __libc_lock_release
+0210b350 00000014 T __libc_lock_acquire_recursive
+0210b364 00000014 T __libc_lock_release_recursive
+0210b378 0000001c T __libc_cond_broadcast
+0210b394 0000001c T __libc_cond_wait
+0210b3b0 0000001c T __libc_cond_wait_recursive
+0210b3cc 00000014 T __libc_lock_close_recursive
+0210b3e0 00000014 T __malloc_lock
+0210b3f4 00000014 T __malloc_unlock
+0210b408 00000028 T _exit
+0210b430 00000064 T nanosleep
+0210b494 00000150 T strncat
+0210b5e4 00000054 T ftell
+0210b638 00000040 T fstat
+0210b678 00000060 T rand
+0210b6d8 00000038 T getenv
+0210b710 000000dc T sscanf
+0210b7ec 00000140 t critical_factorization
+0210b92c 00000440 t two_way_long_needle
+0210bd6c 000002c0 T strstr
+0210c02c 0000014c T memcpy
+0210c178 00000080 T strlen
+0210c1f8 000003c4 T _fread_r
+0210c5bc 00000060 T fread
+0210c61c 0000007c T itoa
+0210c698 000000a8 T open
+0210c740 000000b4 t get_arg
+0210c7f4 00002fc4 T __ssvfscanf_r
+0210f7b8 00000184 T _fopen_r
+0210f93c 00000040 T fopen
+0210f97c 00000008 T atof
+0210f984 00000084 t sulp
+0210fa08 00001900 T _strtod_l
+02111308 0000008c T _strtod_r
+02111394 00000090 T strtod
+02111424 00000038 T srandom
+0211145c 00000060 T random
+021114bc 00000030 T close
+021114ec 00000024 T isupper
+02111510 000000ac T strlcpy
+021115bc 0000008c T strcpy
+02111648 000000f0 T __utoa
+02111738 00000040 T memalign
+02111778 000002f8 t _strtoull_l.isra.0
+02111a70 00000060 T _strtoull_r
+02111ad0 00000064 T strtoull
+02111b34 00000068 T strcasecmp
+02111b9c 000000b0 T vsscanf
+02111c4c 00000174 t rshift
+02111dc0 000009f8 T __gethex
+021127b8 00000130 T snprintf
+021128e8 0000009c T printf
+02112984 00000148 T memchr
+02112acc 000000e0 T fileno
+02112bac 00000218 t _strtoul_l.isra.0
+02112dc4 00000060 T _strtoul_r
+02112e24 00000064 T strtoul
+02112e88 00000120 T _mbrtowc_r
+02112fa8 00000080 T strncasecmp
+02113028 00000154 T strchr
+0211317c 00000018 T isspace
+02113194 00000124 T memcmp
+021132b8 000001e0 T _fgets_r
+02113498 00000050 T fgets
+021134e8 00000040 T calloc
+02113528 000000c4 T signal
+021135ec 0000016c T __sccl
+02113758 00000018 T isalpha
+02113770 00000438 T _strerror_r
+02113ba8 00000038 T strerror
+02113be0 00000038 T strerror_l
+02113c18 00000028 T isblank
+02113c40 0000006c T uselocale
+02113cac 000001dc T _memalign_r
+02113e88 00000020 T __errno
+02113ea8 000001b0 T __smakebuf_r
+02114058 00000060 T lseek
+021140b8 00000304 t _strtoll_l.isra.0
+021143bc 00000060 T _strtoll_r
+0211441c 00000064 T strtoll
+02114480 0000004c T __locale_mb_cur_max
+021144cc 00000180 T memset
+0211464c 000000f8 T _calloc_r
+02114744 00000300 T __sflush_r
+02114a44 00000108 T _fflush_r
+02114b4c 000000d8 T _vsnprintf_r
+02114c24 00000060 T vsnprintf
+02114c84 00000144 T _fwrite_r
+02114dc8 00000060 T fwrite
+02114e28 00000040 T realloc
+02114e68 00000170 T strlcat
+02114fd8 00000f44 T qsort
+02115f1c 00000258 T _ftello_r
+02116174 00000030 T ftello
+021161a4 0000090c T _malloc_r
+02116ab0 00000138 T _malloc_trim_r
+02116be8 0000032c T _free_r
+02116f14 000000f4 T _sungetc_r
+02117008 00000080 T __ssrefill_r
+02117088 000000c8 T _sfread_r
+02117150 0000001c t stdio_exit_handler
+0211716c 00000088 t cleanup_stdio
+021171f4 00000188 t global_stdio_init.part.0
+0211737c 000001ac T __sfp
+02117528 0000008c T __sinit
+021175b4 0000000c T __sfp_lock_acquire
+021175c0 0000000c T __sfp_lock_release
+021175cc 0000000c T atoi
+021175d8 00000260 t _strtol_l.isra.0
+02117838 00000060 T _strtol_r
+02117898 00000064 T strtol
+021178fc 00000104 T strncpy
+02117a00 0000009c T strcmp
+02117a9c 00000010 T _fseek_r
+02117aac 00000054 T fseek
+02117b00 00000020 T toupper
+02117b20 00000058 T malloc
+02117b78 00000030 T free
+02117ba8 00000078 T strrchr
+02117c20 00000110 T _puts_r
+02117d30 00000030 T puts
+02117d60 0000013c T _findenv_r
+02117e9c 00000080 T stpcpy
+02117f1c 0000004c T _localeconv_r
+02117f68 00000074 T __sread
+02117fdc 00000008 T __seofread
+02117fe4 000000b0 T __swrite
+02118094 00000070 T __sseek
+02118104 00000008 T __sclose
+0211810c 00000254 T memmove
+02118360 00000634 T _realloc_r
+02118994 00000030 T strdup
+021189c4 0000010c T _reclaim_reent
+02118ad0 000006f8 T _fseeko_r
+021191c8 00000060 T fseeko
+02119228 000001b4 T _fclose_r
+021193dc 00000030 T fclose
+0211940c 00000074 T time
+02119480 00000034 T putchar
+021194b4 000000a4 T fprintf
+02119558 00000050 T setenv
+021195a8 00000050 T read
+021195f8 00000008 T _user_strerror
+02119600 000007bc t get_arg
+02119dbc 000039f8 T _svfprintf_r
+0211d7b4 000000a8 T __sflags
+0211d85c 00000014 T atexit
+0211d870 00000040 T stat
+0211d8b0 00000108 T __utf8_wctomb
+0211d9b8 000000c0 T strnlen
+0211da78 00000024 T islower
+0211da9c 000000c8 T strncmp
+0211db64 00000020 T tolower
+0211db84 00000054 T __match
+0211dbd8 00000528 T __hexnan
+0211e100 000000d0 T sprintf
+0211e1d0 000000c0 T __strtok_r
+0211e290 00000008 T strtok_r
+0211e298 000000b8 T feof
+0211e350 00000040 t lflush
+0211e390 000001d8 T __srefill_r
+0211e568 00000090 T frexp
+0211e5f8 00000118 T stpncpy
+0211e710 0000000c T __env_lock
+0211e71c 0000000c T __env_unlock
+0211e728 00000070 T _strdup_r
+0211e798 00000008 T iswspace
+0211e7a0 000000f4 T _Balloc
+0211e894 00000024 T _Bfree
+0211e8b8 00000174 T __multadd
+0211ea2c 00000154 T __s2b
+0211eb80 00000098 T __hi0bits
+0211ec18 0000010c T __lo0bits
+0211ed24 00000108 T __i2b
+0211ee2c 00000338 T __multiply
+0211f164 0000019c T __pow5mult
+0211f300 0000026c T __lshift
+0211f56c 000000dc T __mcmp
+0211f648 00000314 T __mdiff
+0211f95c 00000094 T __ulp
+0211f9f0 000001a4 T __b2d
+0211fb94 00000194 T __d2b
+0211fd28 000000e8 T __ratio
+0211fe10 0000011c T __copybits
+0211ff2c 000000e4 T __any_on
+02120010 000002a4 T _setenv_r
+021202b4 000000b4 T _fwalk_sglue
+02120368 000007bc t get_arg
+02120b24 00003ac4 T _vfprintf_r
+021245e8 000000e4 t __sbprintf
+021246cc 00000104 T _wcrtomb_r
+021247d0 000000e8 T __submore
+021248b8 0000010c T __ssprint_r
+021249c4 00000604 T __utf8_mbtowc
+02124fc8 00000588 T __sfvwrite_r
+02125550 00000054 T __sprint_r
+021255a4 0000014c T _putc_r
+021256f0 00000340 t quorem
+02125a30 00001720 T _dtoa_r
+02127150 00000164 T __swbuf_r
+021272b4 00000208 T __call_exitprocs
+021274bc 00000010 T _wcsrtombs_r
+021274cc 0000017c T __swsetup_r
+02127648 000000f4 T __register_exitproc
+0212773c 00000060 T iswspace_l
+0212779c 00000194 T __ssputs_r
+02127930 000001e4 T _wcsnrtombs_l
+02127b14 000000d8 T _wcsnrtombs_r
+02127bec 000000d8 T category
+02127cc4 00000024 T __assert_func
+02127ce8 00000008 T __flockfile
+02127cf0 00000008 T __funlockfile
+02127cf8 000000c8 T _fstat_r
+02127dc0 00000028 T _gettimeofday_r
+02127de8 000000b4 T __release_handle
+02127e9c 0000010c T __alloc_handle
+02127fa8 00000060 T __get_handle
+02128008 00000168 T _close_r
+02128170 00000008 T _isatty_r
+02128178 000000f4 T _lseek_r
+0212826c 0000012c T _open_r
+02128398 000000d8 T _read_r
+02128470 000000c0 T _stat_r
+02128530 000000d8 T _write_r
+02128608 00000058 T _restfpr_14_x
+0212860c 00000054 T _restfpr_15_x
+02128610 00000050 T _restfpr_16_x
+02128614 0000004c T _restfpr_17_x
+02128618 00000048 T _restfpr_18_x
+0212861c 00000044 T _restfpr_19_x
+02128620 00000040 T _restfpr_20_x
+02128624 0000003c T _restfpr_21_x
+02128628 00000038 T _restfpr_22_x
+0212862c 00000034 T _restfpr_23_x
+02128630 00000030 T _restfpr_24_x
+02128634 0000002c T _restfpr_25_x
+02128638 00000028 T _restfpr_26_x
+0212863c 00000024 T _restfpr_27_x
+02128640 00000020 T _restfpr_28_x
+02128644 0000001c T _restfpr_29_x
+02128648 00000018 T _restfpr_30_x
+0212864c 00000014 T _restfpr_31_x
+02128660 00000058 T _restgpr_14_x
+02128664 00000054 T _restgpr_15_x
+02128668 00000050 T _restgpr_16_x
+0212866c 0000004c T _restgpr_17_x
+02128670 00000048 T _restgpr_18_x
+02128674 00000044 T _restgpr_19_x
+02128678 00000040 T _restgpr_20_x
+0212867c 0000003c T _restgpr_21_x
+02128680 00000038 T _restgpr_22_x
+02128684 00000034 T _restgpr_23_x
+02128688 00000030 T _restgpr_24_x
+0212868c 0000002c T _restgpr_25_x
+02128690 00000028 T _restgpr_26_x
+02128694 00000024 T _restgpr_27_x
+02128698 00000020 T _restgpr_28_x
+0212869c 0000001c T _restgpr_29_x
+021286a0 00000018 T _restgpr_30_x
+021286a4 00000014 T _restgpr_31_x
+021286b8 t __do_global_ctors_aux
+02128708 T __fini
+10000000 D __SBSS2_END__
+10000000 D __SDATA2_START__
+10000000 D bg_music_bin
+10008000 d _SDA2_BASE_
+101b950e D bg_music_bin_end
+101b97b8 d .LC2
+101ba024 d .LC3
+101ba6bc d .LC3
+101c0a34 d .LC52
+101c0a64 d .LC54
+101c689c 00000018 d HORATIO_FONT_16
+101c68b4 00000018 d HORATIO_FONT_13
+101c68cc 00000018 d HORATIO_FONT_22
+101c68e4 00000018 d HORATIO_FONT_34
+101c68fc 00001200 d BUILTIN_RPX_ICON_4BIT
+101c7afc 00001200 d BUILTIN_ELF_ICON_4BIT
+101c8cfc 00000014 d C.167.0
+101c8d10 00000014 d C.172.1
+101c8d24 0000002c d updateSecretCombo(unsigned int, int&, long long&, long long)::sequence
+101c8d50 0000035c d HORATIO_BITMAP_13
+101c90ac 000005f0 d HORATIO_GLYPHS_13
+101c969c 0000049a d HORATIO_BITMAP_16
+101c9b38 000005f0 d HORATIO_GLYPHS_16
+101ca128 000008b7 d HORATIO_BITMAP_22
+101ca9e0 000005f0 d HORATIO_GLYPHS_22
+101cafd0 00001340 d HORATIO_BITMAP_34
+101cc310 000005f0 d HORATIO_GLYPHS_34
+101cc900 00000104 d CSWTCH.69
+101cca04 00000020 d CSWTCH.88
+101cca24 00000018 d CSWTCH.84
+101cca3c 0000001c d CSWTCH.82
+101cca58 00000010 d CSWTCH.80
+101cca68 0000000c d CSWTCH.78
+101cca74 00000014 d s_music_interfaces
+101ccb24 00000010 d range_list.2
+101ccb34 00000010 d log2_4.3
+101ccb44 00000400 d inverse_db_table
+101ccf44 00000004 d ogg_page_header
+101cd468 00000400 D _timi_bend_coarse
+101cd868 00000800 D _timi_bend_fine
+101ce068 00000400 D _timi_vol_table
+101ce468 00000200 D _timi_freq_table
+101ce810 00000024 d CSWTCH.32
+101ce834 00000024 d SDL_category_prefixes
+101ce858 0000001c d SDL_priority_prefixes
+101ce874 00000010 d bootstrap
+101ce884 00000020 d CSWTCH.91
+101ce8a4 00002804 d ResamplerFilterDifference
+101d10a8 00002804 d ResamplerFilter
+101d38ac 00000100 d channel_converters
+101d39ac 00000200 d mix8
+101d3f44 00000044 d CSWTCH.23
+101d3f88 00000800 d SDL_default_keymap
+101d47f8 00000058 d map_StringForControllerButton
+101d4850 0000001c d map_StringForControllerAxis
+101d486c 00000038 d map_StringForGameControllerType
+101d48a4 00000028 d s_ControllerMappings
+101d490c 00000010 d emptyGUID.0
+101d493c 00001908 d arrControllers
+101d62b4 000000e8 d encodings
+101d639c 00000010 d bootstrap
+101d64c0 0000007c d CSWTCH.29
+101d653c 0000007c d CSWTCH.28
+101d65b8 0000007c d CSWTCH.27
+101d6634 0000007c d CSWTCH.26
+101d66b0 00000060 d pro_button_map
+101d6710 00000060 d classic_button_map
+101d6770 00000050 d nunchuk_button_map
+101d67c0 00000040 d wiimote_button_map
+101d6800 00000060 d vpad_button_map
+101d6888 0000001c d (anonymous namespace)::detail::to_region(std::unique_ptr<char, (anonymous namespace)::detail::SDL_Deleter<char> > const&, std::unique_ptr<char, (anonymous namespace)::detail::SDL_Deleter<char> > const&)::eur_languages
+101d68a4 00000020 d (anonymous namespace)::detail::to_region(std::unique_ptr<char, (anonymous namespace)::detail::SDL_Deleter<char> > const&, std::unique_ptr<char, (anonymous namespace)::detail::SDL_Deleter<char> > const&)::eur_countries
+101d68c4 00000010 d (anonymous namespace)::detail::to_region(std::unique_ptr<char, (anonymous namespace)::detail::SDL_Deleter<char> > const&, std::unique_ptr<char, (anonymous namespace)::detail::SDL_Deleter<char> > const&)::usa_countries
+101d6920 00000010 d getpixes
+101d69d8 00000020 d CSWTCH.51
+101d69f8 00000020 d CSWTCH.50
+101d6a18 00000020 d CSWTCH.49
+101d6a38 00000020 d CSWTCH.48
+101d6a58 0000001c d __FUNCTION__.0
+101d6a74 00000016 d __FUNCTION__.1
+101d6a8c 00000014 d colorkey_blit_4b
+101d6aa0 00000014 d bitmap_blit_4b
+101d6ab4 00000014 d colorkey_blit_2b
+101d6ac8 00000014 d bitmap_blit_2b
+101d6adc 00000014 d colorkey_blit_1b
+101d6af0 00000014 d bitmap_blit_1b
+101d6be4 00000014 d one_blitkey
+101d6bf8 00000014 d one_blit
+101d6cec 00000010 d normal_blit
+101d6cfc 00000168 d normal_blit_4
+101d6e64 00000118 d normal_blit_3
+101d6f7c 00000118 d normal_blit_2
+101d7094 00000028 d normal_blit_1
+101d70bc 00000800 d RGB565_BGRA8888_LUT
+101d78bc 00000800 d RGB565_RGBA8888_LUT
+101d80bc 00000800 d RGB565_ABGR8888_LUT
+101d88bc 00000800 d RGB565_ARGB8888_LUT
+101d90bc 00000040 d PreAmpAGCTable
+101d90fc 00000040 d PreAmpTable
+101d913c 00000400 d LinearSlideDownTable
+101d953c 00000400 d LinearSlideUpTable
+101d993c 00000040 d FineLinearSlideDownTable
+101d997c 00000040 d FineLinearSlideUpTable
+101d99bc 00000100 d ft2VibratoTable
+101d9abc 00000080 d ModRandomTable
+101d9b3c 00000080 d ModSquareTable
+101d9bbc 00000080 d ModRampDownTable
+101d9c3c 00000080 d ModSinusTable
+101da0b0 00000400 d LinearSlideDownTable
+101da4b0 00000400 d LinearSlideUpTable
+101da8b0 00000040 d FineLinearSlideDownTable
+101da8f0 00000040 d FineLinearSlideUpTable
+101da930 00000c00 d XMLinearTable
+101db530 000000d0 d XMPeriodTable
+101db600 00000010 d retrigTable2
+101db610 00000010 d retrigTable1
+101db620 00000020 d S3MFineTuneTable
+101db640 00000020 d FreqS3MTable
+101db660 00000180 d ProTrackerTunedPeriods
+101db7e0 00000090 d ProTrackerPeriodTable
+101db870 00000010 d ImpulseTrackerPortaVolCmd
+101db880 00000100 d gpFastMixFunctionTable
+101db980 00000100 d gpMixFunctionTable
+101dba80 00000040 d MMCMP16BitFetch
+101dbac0 00000040 d MMCMP16BitCommands
+101dbb00 00000020 d MMCMP8BitFetch
+101dbb20 00000020 d MMCMP8BitCommands
+101dbb40 00000014 d mustype
+101dbdbc 0000003c d CSWTCH.15
+101dbdf8 0000003c d CSWTCH.14
+101dbe34 0000000a d bpmvals
+101dc578 00000018 d abc_setup_chordnames()::list_13
+101dc590 00000008 d abc_setup_chordnames()::list_5
+101dc598 00000014 d abc_setup_chordnames()::list_9sus4
+101dc5ac 00000010 d abc_setup_chordnames()::list_7sus9
+101dc5bc 00000010 d abc_setup_chordnames()::list_7sus4
+101dc5cc 00000010 d abc_setup_chordnames()::list_7sus
+101dc5dc 0000000c d abc_setup_chordnames()::list_sus9
+101dc5e8 0000000c d abc_setup_chordnames()::list_sus
+101dc5f4 00000014 d abc_setup_chordnames()::list_dim9
+101dc608 00000018 d abc_setup_chordnames()::list_11
+101dc620 00000014 d abc_setup_chordnames()::list_M9
+101dc634 00000014 d abc_setup_chordnames()::list_maj9
+101dc648 00000014 d abc_setup_chordnames()::list_m9
+101dc65c 00000014 d abc_setup_chordnames()::list_9
+101dc670 00000010 d abc_setup_chordnames()::list_dim7
+101dc680 0000000c d abc_setup_chordnames()::list_dim
+101dc68c 00000010 d abc_setup_chordnames()::list_aug7
+101dc69c 0000000c d abc_setup_chordnames()::list_plus
+101dc6a8 0000000c d abc_setup_chordnames()::list_aug
+101dc6b4 00000010 d abc_setup_chordnames()::list_m6
+101dc6c4 00000010 d abc_setup_chordnames()::list_6
+101dc6d4 00000010 d abc_setup_chordnames()::list_M7
+101dc6e4 00000010 d abc_setup_chordnames()::list_maj7
+101dc6f4 00000010 d abc_setup_chordnames()::list_m7
+101dc704 00000010 d abc_setup_chordnames()::list_7
+101dc714 0000000c d abc_setup_chordnames()::list_m
+101dc720 0000000c d abc_setup_chordnames()::list_Maj
+101dc72c 00000040 d keySigs
+101dc76c 0000003c d sig
+101dc7cc 00000027 d CSWTCH.97
+101dc7f4 00000041 d tune
+101dc838 0000000c d pat_fun
+101ddc44 00000010 d __func__.0
+101ddc54 00000010 d __func__.1
+101ddc64 0000001b d __func__.2
+101ddc80 00000030 d my_encodings
+101ddcb0 00000024 d my_rates
+101ddcd4 00000030 d CSWTCH.125
+101ddd04 00000015 d __func__.0
+101ddd1c 000000b4 d mpg123_error
+101dddd0 0000000a d __func__.0
+101ddddc 0000000b d __func__.1
+101ddde8 00000011 d __func__.2
+101dddfc 0000001b d __func__.0
+101dde18 00000008 d __func__.1
+101dde20 0000000d d __func__.2
+101dde30 0000000e d __func__.3
+101dde40 00000008 d __func__.4
+101dde48 0000001b d __func__.5
+101dde64 0000000e d __func__.6
+101dde74 0000000a d __func__.7
+101dde80 00000024 d freqs
+101ddea4 00000180 d tabsel_123
+101de024 0000000e d __func__.0
+101de034 0000001c d __func__.1
+101de050 00000014 d __func__.2
+101de064 0000001f d __func__.3
+101de084 00000012 d __func__.4
+101de098 00000016 d __func__.5
+101de0b0 00000019 d __func__.6
+101de0cc 00000017 d __func__.7
+101de0f8 00000010 d CSWTCH.42
+101de108 00000010 d __func__.0
+101de118 0000000d d __func__.1
+101de128 0000000e d __func__.2
+101de138 0000000f d __func__.3
+101de148 00000010 d __func__.4
+101de158 0000000c d __func__.5
+101de164 00000015 d __func__.6
+101de17c 00000011 d __func__.7
+101de190 00000013 d __func__.8
+101de1a4 00000010 d encoding_widths
+101de1b4 00000010 d text_converters
+101de1c4 00000019 d frame_type
+101de308 00000015 d __func__.0
+101de320 0000000d d __func__.1
+101de330 0000001b d __func__.2
+101de34c 00000100 d synth_base
+101de44c 00000054 d decname
+101de4a0 00000006 d dn_nodec
+101de4a8 0000000c d dn_sse_vintage
+101de4b4 00000011 d dn_dreidnowext_vintage
+101de4c8 0000000e d dn_dreidnow_vintage
+101de4d8 00000004 d dn_avx
+101de4dc 00000007 d dn_neon64
+101de4e4 00000005 d dn_neon
+101de4ec 00000004 d dn_arm
+101de4f0 00000007 d dn_x86_64
+101de4f8 00000004 d dn_sse
+101de4fc 00000008 d dn_altivec
+101de504 00000009 d dn_dreidnowext
+101de510 00000006 d dn_dreidnow
+101de518 00000004 d dn_mmx
+101de51c 0000000c d dn_ifuenf_dither
+101de528 00000005 d dn_ifuenf
+101de530 00000005 d dn_ivier
+101de538 00000005 d dn_idrei
+101de540 0000000f d dn_generic_dither
+101de550 00000008 d dn_generic
+101de558 00000005 d dn_autodec
+101de560 0000000c d __func__.0
+101de56c 00000007 d __func__.1
+101de574 00000007 d __func__.2
+101de57c 0000000d d __func__.3
+101de58c 00000012 d __func__.4
+101de5a0 00000011 d __func__.6
+101de5b4 0000001c d __func__.0
+101de5d0 00000404 d intwinbase
+101de9d4 00000004 d cos4
+101de9d8 00000008 d cos8
+101de9e0 00000010 d cos16
+101de9f0 00000020 d cos32
+101dea10 00000040 d cos64
+101dea50 00000008 d __func__.0
+101dea58 0000000b d __func__.1
+101dea64 0000000d d __func__.2
+101dea74 0000000b d __func__.3
+101dea80 00000011 d __func__.4
+101dea94 00000008 d __func__.0
+101dea9c 0000000c d __func__.1
+101deaa8 00000011 d __func__.2
+101deabc 00000c00 d grp_9tab
+101df6bc 00000180 d grp_5tab
+101df83c 00000060 d grp_3tab
+101df89c 00001b00 d layer12_table
+101e139c 00000310 d alloc_4
+101e16ac 000001c0 d alloc_3
+101e186c 00000140 d alloc_2
+101e19ac 000004b0 d alloc_1
+101e1e5c 00000480 d alloc_0
+101e24bc 00000016 d __func__.0
+101e24d4 00000008 d __func__.1
+101e24dc 00000012 d __func__.2
+101e24f0 00000011 d __func__.3
+101e2502 000003de d bandInfo
+101e28e0 00000200 d i_slen2
+101e2ae0 00000400 d n_slen2
+101e2ee0 0000006c d mapend
+101e2f4c 0000006c d map
+101e2fb8 00000318 d mapbuf2
+101e32d0 00000af8 d mapbuf1
+101e3dc8 00000ab0 d mapbuf0
+101e4878 00000100 d pow2_2
+101e4978 00000100 d pow1_2
+101e4a78 00000100 d pow2_1
+101e4b78 00000100 d pow1_1
+101e4c78 00000040 d tan2_2
+101e4cb8 00000040 d tan1_2
+101e4cf8 00000040 d tan2_1
+101e4d38 00000040 d tan1_1
+101e4d78 00000240 d win1
+101e4fb8 00000240 d win
+101e51f8 0000803c d ispow
+101ed234 00000010 d htc
+101ed244 00000100 d ht
+101ed344 0000003e d tab_c1
+101ed384 0000003e d tab_c0
+101ed3c4 00000800 d tab24_
+101edbc4 00000820 d tab16_
+101ee3e4 000007e0 d tab15_
+101eebc4 000007e0 d tab13_
+101ef3a4 000001e0 d tab12_
+101ef584 000001e0 d tab11_
+101ef764 00000220 d tab10_
+101ef984 00000100 d tab9_
+101efa84 00000100 d tab8_
+101efb84 00000120 d tab7_
+101efca4 00000080 d tab6_
+101efd24 00000060 d tab5_
+101efd84 00000060 d tab3_
+101efde4 00000060 d tab2_
+101efe44 00000020 d tab1_
+101efe64 00000020 d tab0_
+101eff44 00000080 d __wut_fsa_devoptab
+101effc4 00000042 d CSWTCH.24
+101f003c 00000027 V typeinfo name for __gnu_cxx::__concurrence_lock_error
+101f0064 0000000c V typeinfo for __gnu_cxx::__concurrence_lock_error
+101f0070 00000029 V typeinfo name for __gnu_cxx::__concurrence_unlock_error
+101f009c 0000000c V typeinfo for __gnu_cxx::__concurrence_unlock_error
+101f00a8 0000002c V typeinfo name for __gnu_cxx::__concurrence_broadcast_error
+101f00d4 0000000c V typeinfo for __gnu_cxx::__concurrence_broadcast_error
+101f00e0 00000027 V typeinfo name for __gnu_cxx::__concurrence_wait_error
+101f0108 0000000c V typeinfo for __gnu_cxx::__concurrence_wait_error
+101f0114 00000014 V vtable for __gnu_cxx::__concurrence_lock_error
+101f0128 00000014 V vtable for __gnu_cxx::__concurrence_unlock_error
+101f013c 00000014 V vtable for __gnu_cxx::__concurrence_broadcast_error
+101f0150 00000014 V vtable for __gnu_cxx::__concurrence_wait_error
+101f0164 00000025 V typeinfo name for __cxxabiv1::__si_class_type_info
+101f018c 0000000c V typeinfo for __cxxabiv1::__si_class_type_info
+101f0198 0000002c V vtable for __cxxabiv1::__si_class_type_info
+101f01c4 0000000d V typeinfo name for std::type_info
+101f01d4 0000000d V typeinfo name for std::bad_alloc
+101f01e4 0000000c V typeinfo for std::bad_alloc
+101f01f0 00000014 V vtable for std::bad_alloc
+101f0204 00000022 V typeinfo name for __cxxabiv1::__class_type_info
+101f0228 0000000c V typeinfo for __cxxabiv1::__class_type_info
+101f0234 0000002c V vtable for __cxxabiv1::__class_type_info
+101f0260 0000000d V typeinfo name for std::exception
+101f0270 00000020 V typeinfo name for __cxxabiv1::__forced_unwind
+101f0290 00000024 V typeinfo name for __cxxabiv1::__foreign_exception
+101f02b4 00000010 V typeinfo name for std::logic_error
+101f02c4 0000000c V typeinfo for std::logic_error
+101f02d0 00000011 V typeinfo name for std::length_error
+101f02e4 0000000c V typeinfo for std::length_error
+101f02f0 00000011 V typeinfo name for std::out_of_range
+101f0304 0000000c V typeinfo for std::out_of_range
+101f0310 00000014 V vtable for std::logic_error
+101f0324 00000014 V vtable for std::length_error
+101f0338 00000014 V vtable for std::out_of_range
+101f034c 00000080 d npio2_hw
+101f03cc 00000108 d two_over_pi
+101f04d8 00000040 d PIo2
+101f0518 00000010 d init_jk
+101f0528 00000010 d ln2LO
+101f0538 00000010 d ln2HI
+101f0548 00000010 d halF
+101f0558 00000018 d CSWTCH.7
+101f0570 00000018 d CSWTCH.6
+101f0588 00000020 d atanlo
+101f05a8 00000020 d atanhi
+101f05c8 00000004 d tiny
+101f05cc 00000004 d one
+101f05d0 00000008 d tiny
+101f05d8 00000008 d one
+101f05e0 00000080 d npio2_hw
+101f0660 00000318 d two_over_pi
+101f0978 0000002c d PIo2
+101f09a4 0000000c d init_jk
+101f09b0 00000008 d ln2LO
+101f09b8 00000008 d ln2HI
+101f09c0 00000008 d halF
+101f0d08 00000008 d terminator.0
+101f0d10 00000080 D dotab_stdnull
+101f10a4 00000022 d basefix.0
+101f1198 00000014 d fpinan.0
+101f11ac 00000014 d fpi.1
+101f11c0 00000028 d tinytens
+101f11e8 00000100 D __hexdig
+101f1740 00000010 d zeroes.0
+101f1750 00000010 d blanks.1
+101f1760 00000101 D _ctype_
+101f1864 0000000c d p05.0
+101f1870 00000028 D __mprec_bigtens
+101f1898 000000c8 D __mprec_tens
+101f1b7c 00000010 d zeroes.0
+101f1b8c 00000010 d blanks.1
+101f1b9c 0000006c D __action_table
+101f1c08 0000006c D __state_table
+101f1c74 00000100 D __chclass
+101f1d74 000037f8 d categories
+101f5cd8 d __CTOR_LIST__
+101f5ce0 D __CTOR_LIST__
+101f5cf0 D __CTOR_END__
+101f5cf0 d __CTOR_END__
+101f5cf4 d __DTOR_LIST__
+101f5cf8 D __DTOR_LIST__
+101f5d04 D __DTOR_END__
+101f5d24 D __EH_FRAME_BEGIN__
+101f5d24 d __EH_FRAME_BEGIN__
+10218b1c D __EH_FRAME_END__
+10218b1c d __FRAME_END__
+10218b20 00000004 d gTvPitchPixels
+10218b24 00000004 d gDrcPitchPixels
+10218b28 00000004 d gRandomState
+10218b2c 00000018 d extractXmlTag(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)::CDATA_CLOSE
+10218b44 00000018 d extractXmlTag(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)::CDATA_OPEN
+10218b5c 00000004 d rpxLoaderVersion
+10218b60 00000004 d wuhbUtilsVersion
+10218b64 00000004 d master_volume
+10218b68 00000004 d mix_music
+10218b6c 00000004 d music_volume
+10218b70 00000004 d music_active
+10218b74 00000070 D Mix_MusicInterface_MODPLUG
+10218be4 00000070 D Mix_MusicInterface_MPG123
+10218c54 00000006 d vorbis.1
+10218c5c 00000070 D Mix_MusicInterface_OGG
+10218ccc 00000070 D Mix_MusicInterface_TIMIDITY
+10218d3c 00000070 D Mix_MusicInterface_WAV
+10218dac 00000004 d SDL_MainIsReady
+10218db0 00000004 d SDL_log_function
+10218db4 00000004 d SDL_update_sensors
+10218db8 00000004 d SDL_update_joysticks
+10218dbc 0000002c d SDL_ignored_controllers
+10218de8 0000002c d SDL_allowed_controllers
+10218e14 0000002c d zero_centered_devices
+10218e40 00000008 d initial_zero_centered_devices
+10218e48 0000002c d wheel_devices
+10218e74 000000f4 d initial_wheel_devices
+10218f68 0000002c d throttle_devices
+10218f94 00000008 d initial_throttle_devices
+10218f9c 0000002c d rog_gamepad_mice
+10218fc8 0000001c d initial_rog_gamepad_mice
+10218fe4 0000002c d gamecube_devices
+10219010 00000008 d initial_gamecube_devices
+10219018 0000002c d flightstick_devices
+10219044 0000001c d initial_flightstick_devices
+10219060 0000002c d blacklist_devices
+1021908c 000000ec d initial_blacklist_devices
+10219178 0000002c d arcadestick_devices
+102191a4 00000080 d initial_arcadestick_devices
+10219224 00000014 d s_mem
+10219238 00000010 D DUMMYAUDIO_bootstrap
+10219248 00000010 D DISKAUDIO_bootstrap
+10219258 00000054 D SDL_VIRTUAL_JoystickDriver
+102192ac 00000010 D DUMMY_bootstrap
+102192bc 00000010 D OFFSCREEN_bootstrap
+102192cc 00000010 D WIIUAUDIO_bootstrap
+102192dc 00000060 d mono_mix
+1021933c 000000c0 d stereo_mix
+102193fc 00000054 D SDL_WIIU_JoystickDriver
+10219450 00000001 d (anonymous namespace)::detail::appear::drawWiiPointer
+10219451 00000001 d (anonymous namespace)::detail::appear::showWordSuggestions
+10219454 00000010 D WIIU_bootstrap
+10219464 0000002c D SDL_DUMMY_SensorDriver
+10219490 00000004 d SDL_SIMDAlignment
+10219494 00000004 d SDL_CPUFeatures
+10219498 00000024 D SDL_expand_byte
+102194bc 00000001 d lookup_8
+102194c0 00000002 d lookup_7
+102194c4 00000004 d lookup_6
+102194c8 00000008 d lookup_5
+102194d0 00000010 d lookup_4
+102194e0 00000020 d lookup_3
+10219500 00000040 d lookup_2
+10219540 00000080 d lookup_1
+102195c0 00000100 d lookup_0
+102196c0 00000004 d features.0
+102196c4 000009ec D SDL_GeneratedBlitFuncTable
+1021a0b0 00000038 D ModPlug::gSettings
+1021a0e8 00000030 d bad_reader
+1021a118 000000f0 d readers
+1021a208 00000014 D INT123_pnts
+1021a21c 0000002c d pretab_choice
+1021a24c 00000400 d _current_working_directory
+1021a64c 0000008c D devoptab_list
+1021a6d8 00000004 d defaultDevice
+1021a6e0 00000200 D _impure_data
+1021a8e0 00000254 D __global_locale
+1021ab34 00000408 D __malloc_av_
+1021af3c 0000000c D __sglue
+1021af48 00001000 d handles
+1021bf48 0000000c d __stderr_handle
+1021bf54 0000000c d __stdout_handle
+1021bf60 0000000c d __stdin_handle
+1021bf6c D __SDATA_START__
+1021bf6c 00000004 D CSoundFile::gnVolumeRampSamples
+1021bf70 00000004 D CSoundFile::gnAGC
+1021bf74 00000004 D CSoundFile::gnBitsPerSample
+1021bf78 00000004 D CSoundFile::gdwMixingFreq
+1021bf7c 00000004 D CSoundFile::gnChannels
+1021bf80 00000004 D CSoundFile::m_nMaxMixChannels
+1021bf84 00000004 D CSoundFile::m_nStereoSeparation
+1021bf88 00000004 D CSoundFile::m_nProLogicDelay
+1021bf8c 00000004 D CSoundFile::m_nProLogicDepth
+1021bf90 00000004 D CSoundFile::m_nReverbDelay
+1021bf94 00000004 D CSoundFile::m_nReverbDepth
+1021bf98 00000004 D CSoundFile::m_nXBassRange
+1021bf9c 00000004 D CSoundFile::m_nXBassDepth
+1021bfa0 00000008 D autovibit2xm
+1021bfa8 00000004 D __cxxabiv1::__unexpected_handler
+1021bfac 00000008 V typeinfo for std::type_info
+1021bfb4 00000008 V typeinfo for std::exception
+1021bfbc 00000008 V typeinfo for __cxxabiv1::__forced_unwind
+1021bfc4 00000008 V typeinfo for __cxxabiv1::__foreign_exception
+1021bfcc 00000004 D __cxxabiv1::__terminate_handler
+1021bfd0 00000004 D _impure_ptr
+1021bfd4 00000004 D __malloc_sbrk_base
+1021bfd8 00000004 D __malloc_trim_threshold
+1021bfdc 00000004 D environ
+1021bfe0 00000004 B music_cmd
+1021bfe4 00000004 B _Mix_effects_max_speed
+1021bfe8 00000004 B SDL_Convert_F32_to_S32
+1021bfec 00000004 B SDL_Convert_F32_to_U16
+1021bff0 00000004 B SDL_Convert_F32_to_S16
+1021bff4 00000004 B SDL_Convert_F32_to_U8
+1021bff8 00000004 B SDL_Convert_F32_to_S8
+1021bffc 00000004 B SDL_Convert_S32_to_F32
+1021c000 00000004 B SDL_Convert_U16_to_F32
+1021c004 00000004 B SDL_Convert_S16_to_F32
+1021c008 00000004 B SDL_Convert_U8_to_F32
+1021c00c 00000004 B SDL_Convert_S8_to_F32
+1021c010 00000001 B SDL_joystick_magic
+1021c014 00000004 B ModPlug::gSampleSize
+1021c018 00000004 B gnReverbSend
+1021c01c 00000004 B gbInitPlugins
+1021c020 00000004 B gnRvbLOfsVol
+1021c024 00000004 B gnRvbROfsVol
+1021c028 00000004 B gnDryLOfsVol
+1021c02c 00000004 B gnDryROfsVol
+1021c030 00000004 B CSoundFile::gpMixPluginCreateProc
+1021c034 00000004 B CSoundFile::gpSndMixHook
+1021c038 00000004 B CSoundFile::gnCPUUsage
+1021c03c 00000004 B CSoundFile::gnVUMeter
+1021c040 00000004 B CSoundFile::gdwSoundSetup
+1021c044 00000004 B CSoundFile::gdwSysInfo
+1021c048 00000001 B sfir
+1021c049 00000001 B sspline
+1021c04c 00000004 B __wut_exit
+1021c050 00000001 B __eh_globals_init::_S_init
+1021c054 00000004 B __malloc_max_total_mem
+1021c058 00000004 B __malloc_max_sbrked_mem
+1021c05c 00000004 B __malloc_top_pad
+1021c060 00000004 B __stdio_exit_handler
+1021c064 00000004 B __atexit
+1021c068 00000008 B __atexit_recursive_mutex
+1021c070 B __SBSS_END__
+1021c070 b completed.2
+1021c074 b dtor_idx.1
+1021c078 b object.0
+1021c090 00000004 b gTvFramebuffer
+1021c094 00000004 b gTvSingleFramebufferSize
+1021c098 00000004 b gTvWorkBufferIndex
+1021c09c 00000004 b gTvWorkPixels
+1021c0a0 00000004 b gDrcFramebuffer
+1021c0a4 00000004 b gDrcSingleFramebufferSize
+1021c0a8 00000004 b gDrcWorkBufferIndex
+1021c0ac 00000004 b gDrcWorkPixels
+1021c0b0 00000080 b gBackgroundOccluders
+1021c130 00000001 b gApplyingBackgroundOcclusion
+1021c134 00000004 b gBackgroundOccluderCount
+1021c138 00000001 b gClassicMode
+1021c140 00000020 b gPageAnimation
+1021c160 00000020 b gSelectionAnimation
+1021c180 00000001 b gScreenBuffersReady
+1021c181 00000001 b gAudioInitialized
+1021c184 00000004 b gBackgroundMusic
+1021c188 00000001 b gMusicPaused
+1021c18c 00000180 b gWaterBubbles
+1021c30c 00000330 b gClassicBubbles
+1021c63c 00000001 b gBackgroundInitialized
+1021c640 00000010 b builtInRPXIcon()::icon
+1021c650 00000010 b builtInELFIcon()::icon
+1021c660 00000004 b gTvFramebufferSize
+1021c664 00000004 b gDrcFramebufferSize
+1021c668 00000004 b gWaveTime
+1021c670 00000008 b guard variable for extractXmlTag(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)::CDATA_OPEN
+1021c678 00000008 b guard variable for extractXmlTag(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)::CDATA_CLOSE
+1021c680 00000008 b guard variable for builtInRPXIcon()::icon
+1021c688 00000008 b guard variable for builtInELFIcon()::icon
+1021c690 00000004 b sRL_GetPathOfSaveRedirection
+1021c694 00000004 b sRL_GetPathOfRunningExecutable
+1021c698 00000004 b sRLUnmountCurrentRunningBundle
+1021c69c 00000004 b sRLEnableContentRedirection
+1021c6a0 00000004 b sRLDisableContentRedirection
+1021c6a4 00000004 b sRLLaunchHomebrew
+1021c6a8 00000004 b sRLLaunchPreparedHomebrew
+1021c6ac 00000004 b sRLPrepareLaunchFromSD
+1021c6b0 00000004 b sRLGetVersion
+1021c6b4 00000004 b sModuleHandle
+1021c6b8 00000004 b sWUUGetRPXInfo
+1021c6bc 00000004 b sWUUFileExists
+1021c6c0 00000004 b sWUUFileClose
+1021c6c4 00000004 b sWUUFileRead
+1021c6c8 00000004 b sWUUFileOpen
+1021c6cc 00000004 b sWUUUnmountBundle
+1021c6d0 00000004 b sWUUMountBundle
+1021c6d4 00000004 b sWUUGetVersion
+1021c6d8 00000004 b sModuleHandle
+1021c6dc 00000004 b num_decoders
+1021c6e0 00000004 b chunk_decoders
+1021c6e4 00000004 b music_data
+1021c6e8 00000004 b channel_done_callback
+1021c6ec 00000004 b mix_postmix_data
+1021c6f0 00000004 b mix_postmix
+1021c6f4 00000004 b num_channels
+1021c6f8 00000004 b posteffects
+1021c6fc 00000004 b mix_channel
+1021c700 00000004 b audio_device
+1021c704 00000018 b mixer
+1021c71c 00000004 b audio_opened
+1021c720 00000004 b music_finished_hook
+1021c724 00000004 b timidity_cfg
+1021c728 00000004 b soundfont_paths
+1021c72c 00000004 b num_decoders
+1021c730 00000004 b music_decoders
+1021c734 00000004 b ms_per_step
+1021c738 00000018 B music_spec
+1021c750 00000004 b music_playing
+1021c754 00000038 b settings
+1021c78c 00000034 b modplug
+1021c7c0 0000004c b mpg123
+1021c80c 00000400 b crc_table
+1021cc0c 00000100 b def_instr_name
+1021cd0c 00000200 b master_drumset
+1021cf0c 00000200 b master_tonebank
+1021d10c 00000004 b position_channels
+1021d110 00000004 b pos_args_global
+1021d114 00000004 b pos_args_array
+1021d118 00000004 b pathlist
+1021d11c 00000010 b rpn_lsb.0
+1021d12c 00000010 b rpn_msb.1
+1021d13c 00000001 b nrpn.2
+1021d13d 00000001 b laststatus.3
+1021d13e 00000001 b lastchan.4
+1021d140 00000020 b SDL_SubsystemRefCount
+1021d160 00000004 b SDL_bInMainQuit
+1021d164 00000004 b SDL_main_thread_initialized
+1021d168 00000004 b SDL_hints
+1021d16c 00000004 b log_function_mutex
+1021d170 00000004 b SDL_log_userdata
+1021d174 00000004 b SDL_forced_priority_level
+1021d178 00000004 b SDL_forced_priority
+1021d17c 00000004 b SDL_loglevels
+1021d180 00000040 b open_devices
+1021d1c0 00000078 b current_audio
+1021d238 00000004 b converters_chosen.0
+1021d23c 00000004 b SDL_EventLoggingVerbosity
+1021d240 00000024 b SDL_EventQ
+1021d264 00000400 b SDL_disabled_events
+1021d664 00000004 b SDL_sentinel_pending
+1021d668 00000004 b SDL_event_watchers_removed
+1021d66c 00000004 b SDL_event_watchers_dispatching
+1021d670 00000004 b SDL_event_watchers_count
+1021d674 00000004 b SDL_event_watchers
+1021d678 0000000c b SDL_EventOK
+1021d684 00000004 b SDL_event_watchers_lock
+1021d688 00000004 b recordAll
+1021d68c 00000004 b SDL_numGestureTouches
+1021d690 00000004 b SDL_gestureTouch
+1021d694 00000c10 b SDL_keyboard
+1021e2a4 00000004 b track_mouse_down
+1021e2a8 000000cc b SDL_mouse
+1021e374 00000004 b send_quit_pending
+1021e378 00000008 b track_touchid
+1021e380 00000008 b track_fingerid
+1021e388 00000004 b finger_touching
+1021e38c 00000004 b SDL_touchDevices
+1021e390 00000004 b SDL_num_touch
+1021e394 00000004 b SDL_haptics
+1021e398 00000001 b gamecontroller_magic
+1021e39c 00000004 b s_pDefaultMapping
+1021e3a0 00000004 b s_pSupportedControllers
+1021e3a4 00000010 b s_zeroGUID
+1021e3b4 00000004 b SDL_gamecontrollers
+1021e3b8 00000004 b SDL_joystick_allows_background_events
+1021e3bc 00000004 b SDL_joystick_players
+1021e3c0 00000004 b SDL_joystick_player_count
+1021e3c4 00000004 b SDL_next_joystick_instance_id
+1021e3c8 00000004 b SDL_joysticks
+1021e3cc 00000004 b SDL_joysticks_quitting
+1021e3d0 00000004 b SDL_joysticks_initialized
+1021e3d4 00000004 b SDL_joysticks_locked
+1021e3d8 00000004 b SDL_joystick_lock_pending
+1021e3dc 00000004 b SDL_joystick_lock
+1021e3e0 00000004 b SDL_steam_virtual_gamepad_info_count
+1021e3e4 00000004 b SDL_steam_virtual_gamepad_info
+1021e3e8 00000004 b SDL_steam_virtual_gamepad_info_check_time
+1021e3f0 00000008 b SDL_steam_virtual_gamepad_info_file_mtime
+1021e3f8 00000004 b SDL_steam_virtual_gamepad_info_file
+1021e3fc 00000004 b SDL_updating_sensor
+1021e400 00000004 b SDL_sensors
+1021e404 00000004 b SDL_sensor_lock
+1021e408 00000080 b SDL_global_error_str.0
+1021e488 00000014 b SDL_global_error.1
+1021e49c 00000004 b tls_lock.2
+1021e4a0 00000004 b tls_being_created.3
+1021e4a4 00000004 b tls_errbuf.4
+1021e4a8 00000004 b SDL_tls_id.5
+1021e4ac 00000004 b SDL_generic_TLS
+1021e4b0 00000004 b SDL_generic_TLS_mutex
+1021e4b4 00000004 b SDL_tls_allocated
+1021e4b8 000000a8 b SDL_timer_data
+1021e560 00000004 b SDL_messagebox_count
+1021e564 00000004 b _this
+1021e568 00000004 b g_VJoys
+1021e56c 00000004 b cb_this
+1021e570 00000002 b y2_old.0
+1021e572 00000002 b x2_old.1
+1021e574 00000002 b y1_old.2
+1021e576 00000002 b x1_old.3
+1021e578 00000002 b last_touch_y.4
+1021e57a 00000002 b last_touch_x.5
+1021e57c 00000002 b last_touched.6
+1021e580 00000010 b lastKnownExts
+1021e590 00000014 b instanceMap
+1021e5a4 00000014 b deviceMap
+1021e5b8 00000004 b ticks_started
+1021e5c0 00000008 b start
+1021e5c8 00000008 b (anonymous namespace)::detail::cached_system_region
+1021e5d0 00000008 b (anonymous namespace)::detail::cached_system_language
+1021e5d8 0000000c b (anonymous namespace)::detail::wmMsgFinish
+1021e5e4 0000000c b (anonymous namespace)::detail::wmMsgStart
+1021e5f0 000003c0 b (anonymous namespace)::detail::kpad
+1021e9b0 000000ac b (anonymous namespace)::detail::vpad
+1021ea5c 00000014 b (anonymous namespace)::detail::controllerInfo
+1021ea70 00000004 b (anonymous namespace)::detail::swkbdLocale
+1021ea74 00000001 b (anonymous namespace)::detail::appear::showCopyPasteButtons
+1021ea75 00000001 b (anonymous namespace)::detail::appear::highlightInitialText
+1021ea78 00000004 b (anonymous namespace)::detail::appear::passwordMode
+1021ea7c 00000004 b (anonymous namespace)::detail::appear::hintText
+1021ea80 00000004 b (anonymous namespace)::detail::appear::initialText
+1021ea84 00000004 b (anonymous namespace)::detail::appear::okText
+1021ea88 00000004 b (anonymous namespace)::detail::appear::keyboardMode
+1021ea8c 00000004 b (anonymous namespace)::detail::appear::window
+1021ea90 000000e0 b (anonymous namespace)::detail::appear::theArg
+1021eb70 00000008 b (anonymous namespace)::detail::create::region
+1021eb78 00000004 b (anonymous namespace)::detail::create::workMemory
+1021eb7c 00000004 b (anonymous namespace)::detail::create::fsClient
+1021eb80 00000001 b (anonymous namespace)::detail::create::created
+1021eb81 00000002 b (anonymous namespace)::detail::fsLib
+1021eb84 00000004 b running
+1021eb88 00000004 b checked.0
+1021eb8c 00000001 b texture_magic
+1021eb8d 00000001 b renderer_magic
+1021eb90 00000004 b formats_lock
+1021eb94 00000004 b formats
+1021eb98 00000004 b frame_number.0
+1021eb9c 00000004 b frame_number.0
+1021eba0 00000004 b GfxHeap_Foreground
+1021eba4 00000004 b GfxHeap_MEM1
+1021eba8 00000004 b event_buffer_mutex
+1021ebac 000000a4 b event_buffer
+1021ec50 00009600 b SurroundBuffer
+10223f6c d _SDA_BASE_
+10228250 00000100 b DolbyHiFilterBuffer
+10228350 00000100 b DolbyLoFilterDelay
+10228450 00000100 b DolbyLoFilterBuffer
+10228550 00000100 b XBassDelay
+10228650 00000100 b XBassBuffer
+10228750 0000dd0c b ReverbBuffer4
+1023645c 00014310 b ReverbBuffer3
+1024a76c 0001cad0 b ReverbBuffer2
+1026723c 00025800 b ReverbBuffer
+1028ca3c 00000100 b ReverbLoFilterDelay
+1028cb3c 00000100 b ReverbLoFilterBuffer
+1028cc3c 00000004 b gRvbLPSum
+1028cc40 00000004 b gRvbLPPos
+1028cc44 00000020 b gRvbLowPass
+1028cc64 00000004 b nFilterAttn
+1028cc68 00000004 b nReverbLoDlyPos
+1028cc6c 00000004 b nReverbLoFltPos
+1028cc70 00000004 b nReverbLoFltSum
+1028cc74 00000004 b nReverbBufferPos4
+1028cc78 00000004 b nReverbSize4
+1028cc7c 00000004 b nReverbBufferPos3
+1028cc80 00000004 b nReverbSize3
+1028cc84 00000004 b nReverbBufferPos2
+1028cc88 00000004 b nReverbSize2
+1028cc8c 00000004 b nReverbBufferPos
+1028cc90 00000004 b nReverbSize
+1028cc94 00000004 b nDolbyHiFltSum
+1028cc98 00000004 b nDolbyHiFltPos
+1028cc9c 00000004 b nDolbyLoFltSum
+1028cca0 00000004 b nDolbyLoFltPos
+1028cca4 00000004 b nDolbyLoDlyPos
+1028cca8 00000004 b nDolbyDepth
+1028ccac 00000004 b nSurroundPos
+1028ccb0 00000004 b nSurroundSize
+1028ccb4 00000004 b nRightNR
+1028ccb8 00000004 b nLeftNR
+1028ccbc 00000004 b nXBassMask
+1028ccc0 00000004 b nXBassDlyPos
+1028ccc4 00000004 b nXBassBufferPos
+1028ccc8 00000004 b nXBassSum
+1028cccc 00008010 B CzWINDOWEDFIR::lut
+10294cdc 00002000 B CzCUBICSPLINE::lut
+10296cdc 00001000 B MixRearBuffer
+10297cdc 00001000 B MixReverbBuffer
+10298cdc 00002000 B MixSoundBuffer
+1029acdc 00000004 b CSoundFile::ReadABC(unsigned char const*, unsigned int)::avoid_reentry
+1029ace0 00000004 b abc_partpat_to_orderlist(unsigned char (*) [2], char const*, _ABCHANDLE*, unsigned char**, int)::ordersize
+1029ace4 00000004 b chordsnamed
+1029ace8 00000140 b chordlen
+1029ae28 00000780 b chordnotes
+1029b5a8 00000280 b chordname
+1029b828 00000004 b global_songstart
+1029b82c 00000001 b global_part
+1029b830 00000004 b global_tempo_divider
+1029b834 00000004 b global_tempo_factor
+1029b838 00000004 b global_octave_shift
+1029b83c 00000004 b global_voiceno
+1029b840 00000004 b CSoundFile::ReadMID(unsigned char const*, unsigned int)::avoid_reentry
+1029b844 00000004 b CSoundFile::ReadPAT(unsigned char const*, unsigned int)::avoid_reentry
+1029b848 00000004 b pat_readpat(int, char*, int)::opt
+1029b84c 00000004 b pat_readpat(int, char*, int)::mmpat
+1029b850 00000004 b pat_readpat(int, char*, int)::wavesize
+1029b854 00000004 b pat_readpat(int, char*, int)::readlasttime
+1029b858 00000028 b pat_gm_name::buf
+1029b880 000000bf b pat_loops
+1029b940 000000bf b pat_gm_used
+1029ba00 00000400 b timiditycfg
+1029be00 00000400 b pathforpat
+1029c200 0002fc00 b midipat
+102cbe00 00000004 b sHeapSize
+102cbe04 00000004 b sHeapMaxSize
+102cbe08 00000004 b sHeapBase
+102cbe0c 00000004 b sHeapHandle
+102cbe10 00000010 b sMallocSpinLock
+102cbe20 00000010 b sSyncSpinLock
+102cbe30 00000004 b sFromHBL
+102cbe34 00000004 b sRunning
+102cbe38 00000004 b sMainCore
+102cbe40 000003b8 B __wut_fsa_device_data
+102cc1f8 00000004 b nn::swkbd::sSetVersion
+102cc1fc 00000004 b nn::swkbd::sSetUserSoundObj
+102cc200 00000004 b nn::swkbd::sSetUserControllerEventObj
+102cc204 00000004 b nn::swkbd::sSetSelectFrom
+102cc208 00000004 b nn::swkbd::sSetReceiver
+102cc20c 00000004 b nn::swkbd::sSetInputFormString
+102cc210 00000004 b nn::swkbd::sSetEnableOkButton
+102cc214 00000004 b nn::swkbd::sSetCursorPos
+102cc218 00000004 b nn::swkbd::sSetControllerRemo
+102cc21c 00000004 b nn::swkbd::sMuteAllSound
+102cc220 00000004 b nn::swkbd::sIsSelectCursorActive
+102cc224 00000004 b nn::swkbd::sIsNeedCalcSubThreadPredict
+102cc228 00000004 b nn::swkbd::sIsNeedCalcSubThreadFont
+102cc22c 00000004 b nn::swkbd::sIsKeyboardTarget
+102cc230 00000004 b nn::swkbd::sIsDecideOkButton
+102cc234 00000004 b nn::swkbd::sIsDecideCancelButton
+102cc238 00000004 b nn::swkbd::sIsCoveredWithSubWindow
+102cc23c 00000004 b nn::swkbd::sInitLearnDic
+102cc240 00000004 b nn::swkbd::sInactivateSelectCursor
+102cc244 00000004 b nn::swkbd::sGetStateKeyboard
+102cc248 00000004 b nn::swkbd::sGetStateInputForm
+102cc24c 00000004 b nn::swkbd::sGetKeyboardCondition
+102cc250 00000004 b nn::swkbd::sGetInputFormString
+102cc254 00000004 b nn::swkbd::sGetDrawStringInfo
+102cc258 00000004 b nn::swkbd::sDrawTV
+102cc25c 00000004 b nn::swkbd::sDrawDRC
+102cc260 00000004 b nn::swkbd::sDisappearKeyboard
+102cc264 00000004 b nn::swkbd::sDisappearInputForm
+102cc268 00000004 b nn::swkbd::sDestroy
+102cc26c 00000004 b nn::swkbd::sCreate
+102cc270 00000004 b nn::swkbd::sConfirmUnfixAll
+102cc274 00000004 b nn::swkbd::sCalc
+102cc278 00000004 b nn::swkbd::sCalcSubThreadPredict
+102cc27c 00000004 b nn::swkbd::sCalcSubThreadFont
+102cc280 00000004 b nn::swkbd::sAppearKeyboard
+102cc284 00000004 b nn::swkbd::sAppearInputForm
+102cc288 00000004 b nn::swkbd::sModuleHandle
+102cc28c 00000004 b nn::swkbd::sHeapHandle
+102cc290 00000004 b (anonymous namespace)::get_static_cond()::once
+102cc294 00000008 b (anonymous namespace)::fake_cond
+102cc29c 00000004 b (anonymous namespace)::static_cond
+102cc2a0 00000004 b (anonymous namespace)::get_static_mutex()::once
+102cc2a4 0000000c b (anonymous namespace)::fake_mutex
+102cc2b0 00000004 b (anonymous namespace)::static_mutex
+102cc2b4 00000018 b (anonymous namespace)::emergency_pool
+102cc2cc 00000004 b init
+102cc2d0 00000008 b (anonymous namespace)::eh_globals
+102cc2d8 00000004 b (anonymous namespace)::__new_handler
+102cc2dc 00000010 V std::string::_Rep::_S_empty_rep_storage
+102cc2ec 00000004 b once_regsizes.0
+102cc2f0 00000070 b dwarf_reg_size_table
+102cc360 0000000c b object_mutex
+102cc36c 00000004 b seen_objects
+102cc370 00000004 b unseen_objects
+102cc374 00000400 b temp_cwd
+102cc774 00000004 b __pthread_once_cv
+102cc778 00000004 b __pthread_once_lock
+102cc77c 00000028 B __malloc_current_mallinfo
+102cc7a4 00000008 b __sfp_recursive_mutex
+102cc7b0 00000150 B __sf
+102cc900 00000008 b __env_recursive_mutex
+102cc908 00000004 b alloced.0
+102cc90c 00000004 b initial_env
+102cc910 00000190 B __atexit0
+102ccaa0 00000004 b __hndl_lock
+c0000058 T DCFlushRange
+c0000060 T DCStoreRange
+c0000068 T FSAAddClient
+c0000070 T FSAChangeDir
+c0000078 T FSAChangeMode
+c0000080 T FSACloseDir
+c0000088 T FSACloseFile
+c0000090 T FSADelClient
+c0000098 T FSAFlushFile
+c00000a0 T FSAGetDeviceInfo
+c00000a8 T FSAGetFreeSpaceSize
+c00000b0 T FSAGetStat
+c00000b8 T FSAGetStatFile
+c00000c0 T FSAInit
+c00000c8 T FSAMakeDir
+c00000d0 T FSAMount
+c00000d8 T FSAOpenDir
+c00000e0 T FSAOpenFileEx
+c00000e8 T FSAReadDir
+c00000f0 T FSAReadFile
+c00000f8 T FSARemove
+c0000100 T FSARename
+c0000108 T FSARewindDir
+c0000110 T FSASetPosFile
+c0000118 T FSATruncateFile
+c0000120 T FSAUnmount
+c0000128 T FSAWriteFile
+c0000130 T FSAddClient
+c0000138 T FSDelClient
+c0000140 T FSInit
+c0000148 T FSShutdown
+c0000150 T MCP_Close
+c0000158 T MCP_GetSysProdSettings
+c0000160 T MCP_Open
+c0000168 T MEMAllocFromExpHeapEx
+c0000170 T MEMAllocFromFrmHeapEx
+c0000178 T MEMCreateExpHeapEx
+c0000180 T MEMDestroyExpHeap
+c0000188 T MEMFreeByStateToFrmHeap
+c0000190 T MEMFreeToExpHeap
+c0000198 T MEMFreeToFrmHeap
+c00001a0 T MEMGetAllocatableSizeForExpHeapEx
+c00001a8 T MEMGetAllocatableSizeForFrmHeapEx
+c00001b0 T MEMGetBaseHeapHandle
+c00001b8 T MEMRecordStateForFrmHeap
+c00001c0 T OSAddAtomic
+c00001c8 T OSCancelAlarm
+c00001d0 T OSCompareAndSwapAtomic
+c00001d8 T OSCompareAndSwapAtomicEx
+c00001e0 T OSCreateAlarm
+c00001e8 T OSCreateThread
+c00001f0 T OSDynLoad_Acquire
+c00001f8 T OSDynLoad_FindExport
+c0000200 T OSDynLoad_GetAllocator
+c0000208 T OSDynLoad_Release
+c0000210 T OSDynLoad_SetAllocator
+c0000218 T OSEffectiveToPhysical
+c0000220 T OSEnableHomeButtonMenu
+c0000228 T OSFastCond_Init
+c0000230 T OSFastCond_Signal
+c0000238 T OSFastCond_Wait
+c0000240 T OSFastMutex_Init
+c0000248 T OSFastMutex_Lock
+c0000250 T OSFastMutex_Unlock
+c0000258 T OSFatal
+c0000260 T OSGetAlarmUserData
+c0000268 T OSGetCoreId
+c0000270 T OSGetCurrentThread
+c0000278 T OSGetSystemInfo
+c0000280 T OSGetSystemTime
+c0000288 T OSGetThreadAffinity
+c0000290 T OSGetThreadPriority
+c0000298 T OSGetThreadSpecific
+c00002a0 T OSGetTime
+c00002a8 T OSGetTitleID
+c00002b0 T OSInitCond
+c00002b8 T OSInitMutex
+c00002c0 T OSInitMutexEx
+c00002c8 T OSInitSemaphore
+c00002d0 T OSInitSpinLock
+c00002d8 T OSIsDebuggerInitialized
+c00002e0 T OSIsDebuggerPresent
+c00002e8 T OSJoinThread
+c00002f0 T OSLockMutex
+c00002f8 T OSMemoryBarrier
+c0000300 T OSReport
+c0000308 T OSResumeThread
+c0000310 T OSSavesDone_ReadyToRelease
+c0000318 T OSScreenClearBufferEx
+c0000320 T OSScreenEnableEx
+c0000328 T OSScreenFlipBuffersEx
+c0000330 T OSScreenGetBufferSizeEx
+c0000338 T OSScreenInit
+c0000340 T OSScreenPutPixelEx
+c0000348 T OSScreenSetBufferEx
+c0000350 T OSScreenShutdown
+c0000358 T OSSetAlarm
+c0000360 T OSSetAlarmUserData
+c0000368 T OSSetThreadCleanupCallback
+c0000370 T OSSetThreadDeallocator
+c0000378 T OSSetThreadName
+c0000380 T OSSetThreadPriority
+c0000388 T OSSetThreadSpecific
+c0000390 T OSSignalCond
+c0000398 T OSSignalSemaphore
+c00003a0 T OSSleepTicks
+c00003a8 T OSSwapAtomic
+c00003b0 T OSTryWaitSemaphore
+c00003b8 T OSUninterruptibleSpinLock_Acquire
+c00003c0 T OSUninterruptibleSpinLock_Release
+c00003c8 T OSUnlockMutex
+c00003d0 T OSWaitCond
+c00003d8 T OSWaitSemaphore
+c00003e0 T UCClose
+c00003e8 T UCOpen
+c00003f0 T UCReadSysConfig
+c00003f8 T __os_snprintf
+c0000400 T __rplwrap_exit
+c0000430 T GX2CalcDRCSize
+c0000438 T GX2CalcSurfaceSizeAndAlignment
+c0000440 T GX2CalcTVSize
+c0000448 T GX2DrawDone
+c0000450 T GX2Flush
+c0000458 T GX2GetRetiredTimeStamp
+c0000460 T GX2GetSwapInterval
+c0000468 T GX2GetSystemDRCScanMode
+c0000470 T GX2GetSystemTVScanMode
+c0000478 T GX2Init
+c0000480 T GX2InitColorBufferRegs
+c0000488 T GX2InitSampler
+c0000490 T GX2InitTextureRegs
+c0000498 T GX2Invalidate
+c00004a0 T GX2RCreateSurface
+c00004a8 T GX2RCreateSurfaceUserMemory
+c00004b0 T GX2RDestroySurfaceEx
+c00004b8 T GX2RSetAllocator
+c00004c0 T GX2SetDRCBuffer
+c00004c8 T GX2SetDRCEnable
+c00004d0 T GX2SetDRCScale
+c00004d8 T GX2SetSwapInterval
+c00004e0 T GX2SetTVBuffer
+c00004e8 T GX2SetTVEnable
+c00004f0 T GX2SetTVScale
+c00004f8 T GX2Shutdown
+c0000500 T GX2WaitTimeStamp
+c0000520 T KBDSetup
+c0000528 T KBDTeardown
+c0000548 T KPADInit
+c0000550 T KPADReadEx
+c0000558 T WPADEnableURCC
+c0000560 T WPADProbe
+c0000580 T ProcUIDrawDoneRelease
+c0000588 T ProcUIInForeground
+c0000590 T ProcUIInitEx
+c0000598 T ProcUIIsRunning
+c00005a0 T ProcUIProcessMessages
+c00005a8 T ProcUIRegisterCallback
+c00005b0 T ProcUIShutdown
+c00005b8 T ProcUISubProcessMessages
+c00005d8 T AXAcquireVoice
+c00005e0 T AXDeregisterAppFrameCallback
+c00005e8 T AXFreeVoice
+c00005f0 T AXGetInputSamplesPerFrame
+c00005f8 T AXGetInputSamplesPerSec
+c0000600 T AXGetVoiceLoopCount
+c0000608 T AXGetVoiceOffsets
+c0000610 T AXInitWithParams
+c0000618 T AXIsInit
+c0000620 T AXQuit
+c0000628 T AXRegisterAppFrameCallback
+c0000630 T AXSetVoiceDeviceMix
+c0000638 T AXSetVoiceEndOffset
+c0000640 T AXSetVoiceLoopOffset
+c0000648 T AXSetVoiceOffsets
+c0000650 T AXSetVoiceSrcRatio
+c0000658 T AXSetVoiceSrcType
+c0000660 T AXSetVoiceState
+c0000668 T AXSetVoiceType
+c0000670 T AXSetVoiceVe
+c0000678 T AXVoiceBegin
+c0000680 T AXVoiceEnd
+c00006a0 T SYSLaunchMenu
+c00006a8 T SYSRelaunchTitle
+c00006c0 T VPADGetTPCalibratedPoint
+c00006c8 T VPADGetTPCalibratedPointEx
+c00006d0 T VPADInit
+c00006d8 T VPADRead
+c00006f8 R MEMAllocFromDefaultHeap
+c0000700 R MEMAllocFromDefaultHeapEx
+c0000708 R MEMFreeToDefaultHeap
